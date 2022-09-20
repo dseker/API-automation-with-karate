@@ -5,13 +5,12 @@ function fn() {
     env = 'dev';
   }
   var config = {
-    env: env,
-    myVarName: 'someValue'
+    apiUrl: 'https://api.realworld.io/api/'
   }
   if (env == 'dev') {
-    // customize
-    // e.g. config.foo = 'bar';
-  } else if (env == 'e2e') {
+    config.userEmail = 'karate@test.com'
+    config.userPassword = 'Karate123'
+  } else if (env == 'qa') {
     // customize
   }
   return config;

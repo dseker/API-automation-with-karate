@@ -1,11 +1,11 @@
 Feature: Create Token
 
   Background:
-    Given url 'https://api.realworld.io/api/'
+    Given url apiUrl
 
   Scenario: Generate Token
     Given path 'users/login'
-    And request {"user": {"email": "karate@test.com","password": "Karate123"}}
+    And request {"user": {"email": "#(userEmail)","password": "#(userPassword)"}}
     When method Post
     Then status 200
     * def authToken = response.user.token

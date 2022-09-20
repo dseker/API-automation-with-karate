@@ -1,7 +1,7 @@
 Feature: Tests for Articles
 
   Background: Define URL
-    Given url 'https://api.realworld.io/api/'
+    Given url apiUrl
     * def tokenResponse = call read('classpath:helpers/CreateToken.feature')
     * def token = tokenResponse.authToken
     Given header Authorization = 'Token ' + token
