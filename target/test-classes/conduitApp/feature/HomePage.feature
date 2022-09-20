@@ -10,7 +10,10 @@ Feature: Tests for the HomePage
     * assert response.tags[0] == 'implementations'
     * match response.tags contains ['welcome', 'introduction']
     * match response.tags !contains ['trucks']
+    # Assert response is of Array type
     * match response.tags == "#array"
+    # Assert response is of String type
+    * match each response.tags == "#string"
     # This match will pass if one or more of the values is in the tags array
     * match response.tags contains any ['welcome', 'dragons', 'fish']
     # Assertion passes ONLY if the provided values are all that contains in the array, no less or more
@@ -37,6 +40,12 @@ Feature: Tests for the HomePage
     * match response.articles[*].author.username contains 'Gerome'
     # Another wildcard to loop thru all 'bio' keys and see if atleast one value contains null
     * match response..bio contains null
-    # Verify each key contains expected value
+    # Loop and Verify each key contains expected value
     * match each response..following == false
-
+    # Loop and assert each key is a boolean
+    * match each response..following == '#boolean'
+    # Loop and Verify each value is a number
+    * match each response..favoritesCount == '#number'
+    # Loop and Verify each value is either a string or null, double ## also mean its optional if the key exists or not
+    # this will basically always pass - not recommended
+    * match each response..bio == '##string'
