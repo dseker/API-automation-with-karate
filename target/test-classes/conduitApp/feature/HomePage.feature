@@ -23,6 +23,7 @@ Feature: Tests for the HomePage
     * print("First tag in the list: " + firstTag)
 
   Scenario: Get 10 articles from the page
+    * def timeValidator = read('classpath:helpers/timeValidator.js')
 #    Given param limit = 10
 #    Given param offset = 0
     Given params {limit: 10, offset: 0}
@@ -42,6 +43,9 @@ Feature: Tests for the HomePage
     * match response..bio contains null
     # Loop and Verify each key contains expected value
     * match each response..following == false
+
+    # FUZZY MATCHING RESPONSE TYPES
+
     # Loop and assert each key is a boolean
     * match each response..following == '#boolean'
     # Loop and Verify each value is a number
@@ -49,3 +53,25 @@ Feature: Tests for the HomePage
     # Loop and Verify each value is either a string or null, double ## also mean its optional if the key exists or not
     # this will basically always pass - not recommended
     * match each response..bio == '##string'
+
+    # Schema validation
+    * match each response.articles ==
+    """
+          {
+              "slug": "#string",
+              "title": "#string",
+              "description": "#string",
+              "body": "#string",
+              "tagList": "#array",
+              "createdAt": "#? timeValidator(_)",
+              "updatedAt": "#? timeValidator(_)",
+              "favorited": "#boolean",
+              "favoritesCount": "#number",
+              "author": {
+                 "username": "#string",
+                 "bio": "##string",
+                 "image": "#string",
+                 "following": "#boolean"
+              }
+          }
+    """

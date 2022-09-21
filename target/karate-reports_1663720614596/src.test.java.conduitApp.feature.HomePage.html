@@ -37,21 +37,21 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
     </a>
     <div class="nav-count">
-      <div id="nav-pass" class="bg-success">1</div>
-      <div id="nav-fail" class="bg-danger">0</div>
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
     </div>
   </div>
   <div id="nav-type">
     <div>Scenarios</div>
   </div>         
   <div id="nav-date">
-    <div>2022-09-21 02:39:28 am</div>
+    <div>2022-09-21 02:35:02 am</div>
   </div>        
 </div>
 
         <div class="nav-container">
-          <div class="nav-item passed">
-            <a href="#[2:25]"><span>[2:25]</span> <span>Get 10 articles from the page</span></a>
+          <div class="nav-item failed">
+            <a href="#[2:26]"><span>[2:26]</span> <span>Get 10 articles from the page</span></a>
           </div>
         </div>
       </div>
@@ -65,29 +65,29 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
           <span class="feature-description"></span>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[2:25]">
+          <div class="scenario-heading" id="[2:26]">
             <div class="heading-container">
               <div class="scenario-tags">
                 
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[2:25]</span>
+                Scenario: <span>[2:26]</span>
                 <span class="scenario-name">Get 10 articles from the page</span>
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>1094</span>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1061</span>
             </div>
           </div>
           <div class="step-row">
-            <div class="step-container" id="[2:25]bg">
+            <div class="step-container" id="[2:26]bg">
               <div class="step-ref bg-step">&gt;&gt;</div>
               <div class="step-cell passed">Background:</div>
             </div>
             <div class="time-cell passed"></div>
           </div>
-          <div data-parent="[2:25]bg"><div>
+          <div data-parent="[2:26]bg"><div>
   
 
   
@@ -109,36 +109,8 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.4">02:39:27.636 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.4">02:35:01.605 karate.env system property was: null 
 </div>   
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
-    <div class="step-container" id="0.26">
-      <div class="step-ref passed">26</div>
-      
-      <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>def timeValidator = read(&#39;classpath:helpers/timeValidator.js&#39;)</span>
-      </div>
-    </div>
-    <div class="time-cell passed">15</div>
-  </div>
-
-   
-  
-  
-
-  
-
-     
 
   
 
@@ -173,7 +145,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>Given</span>&nbsp;<span>params {limit: 10, offset: 0}</span>
       </div>
     </div>
-    <div class="time-cell passed">36</div>
+    <div class="time-cell passed">34</div>
   </div>
 
    
@@ -201,7 +173,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>Given</span>&nbsp;<span>path &#39;articles&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -229,7 +201,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>When</span>&nbsp;<span>method Get</span>
       </div>
     </div>
-    <div class="time-cell passed">993</div>
+    <div class="time-cell passed">994</div>
   </div>
 
    
@@ -238,7 +210,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.31">02:39:27.912 request:
+  <div class="preformatted" data-parent="0.31">02:35:01.857 request:
 1 &gt; GET https://api.realworld.io/api/articles?offset=0&amp;limit=10
 1 &gt; Host: api.realworld.io
 1 &gt; Connection: Keep-Alive
@@ -246,9 +218,9 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &gt; Accept-Encoding: gzip,deflate
 
 
-02:39:28.707 response time in milliseconds: 793
+02:35:02.660 response time in milliseconds: 801
 1 &lt; 200
-1 &lt; Date: Wed, 21 Sep 2022 00:39:28 GMT
+1 &lt; Date: Wed, 21 Sep 2022 00:35:02 GMT
 1 &lt; Content-Type: application/json; charset=utf-8
 1 &lt; Transfer-Encoding: chunked
 1 &lt; Connection: keep-alive
@@ -257,10 +229,10 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 1 &lt; Etag: W/&quot;6de-gOd7Ls2ffyes7Gn2rmqGUgJTDJw&quot;
 1 &lt; Via: 1.1 vegur
 1 &lt; CF-Cache-Status: DYNAMIC
-1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=RIFkJeG%2BZh3J9FsqeoQx4QyvNPhzY69OObmSogicvkhDwykZWftS4kJetIP4bhzMVqx0WBM7DHcjuawMsI1wQ8aysKHz6My%2BA307RgIiTy73kxHUfWI9IWzwDBReiYB93XAS&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=C0iWB9i1ghojCmlu8zqvUU%2FduZKQ5V%2FeO7IL3Zu8tDQIcWeJzml8K68%2FKmkEZ8%2BrsO01HRYEEhsZpK3BcXHKVZOVU90uC6YlBcHwzxv%2Bel%2FHDVn7q3hssqkJeK7Omv3WS4Fd&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
 1 &lt; Server: cloudflare
-1 &lt; CF-RAY: 74debe71efcbb77f-AMS
+1 &lt; CF-RAY: 74deb7f2dcc41e7d-AMS
 1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
 {&quot;articles&quot;:[{&quot;slug&quot;:&quot;Create-a-new-implementation-1&quot;,&quot;title&quot;:&quot;Create a new implementation&quot;,&quot;description&quot;:&quot;join the community by creating a new implementation&quot;,&quot;body&quot;:&quot;Share your knowledge and enpower the community by creating a new implementation&quot;,&quot;tagList&quot;:[&quot;implementations&quot;],&quot;createdAt&quot;:&quot;2021-11-24T12:11:08.212Z&quot;,&quot;updatedAt&quot;:&quot;2021-11-24T12:11:08.212Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:3941,&quot;author&quot;:{&quot;username&quot;:&quot;Gerome&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/demo-avatar.png&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Explore-implementations-1&quot;,&quot;title&quot;:&quot;Explore implementations&quot;,&quot;description&quot;:&quot;discover the implementations created by the RealWorld community&quot;,&quot;body&quot;:&quot;Over 100 implementations have been created using various languages, libraries, and frameworks.\n\nExplore them on CodebaseShow.&quot;,&quot;tagList&quot;:[&quot;codebaseShow&quot;,&quot;implementations&quot;],&quot;createdAt&quot;:&quot;2021-11-24T12:11:07.952Z&quot;,&quot;updatedAt&quot;:&quot;2021-11-24T12:11:07.952Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:2285,&quot;author&quot;:{&quot;username&quot;:&quot;Gerome&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/demo-avatar.png&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Welcome-to-RealWorld-project-1&quot;,&quot;title&quot;:&quot;Welcome to RealWorld project&quot;,&quot;description&quot;:&quot;Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more&quot;,&quot;body&quot;:&quot;See how the exact same Medium.com clone (called Conduit) is built using different frontends and backends. Yes, you can mix and match them, because they all adhere to the same API spec&quot;,&quot;tagList&quot;:[&quot;welcome&quot;,&quot;introduction&quot;],&quot;createdAt&quot;:&quot;2021-11-24T12:11:07.557Z&quot;,&quot;updatedAt&quot;:&quot;2021-11-24T12:11:07.557Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:1642,&quot;author&quot;:{&quot;username&quot;:&quot;Gerome&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/demo-avatar.png&quot;,&quot;following&quot;:false}}],&quot;articlesCount&quot;:3}
 
@@ -339,7 +311,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>match response.articles == &#39;#[3]&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">9</div>
+    <div class="time-cell passed">12</div>
   </div>
 
    
@@ -402,7 +374,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>match response == {&quot;articles&quot;: &quot;#array&quot;, &quot;articlesCount&quot;: 3}</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -437,7 +409,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <span>*</span>&nbsp;<span>match response.articles[0].createdAt contains &#39;2021&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -694,13 +666,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   <div class="step-row">
     <div class="step-container" id="0.58">
-      <div class="step-ref passed">58</div>
+      <div class="step-ref failed">58</div>
       
-      <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>match each response.articles ==</span>
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>match response.articles ==</span>
       </div>
     </div>
-    <div class="time-cell passed">24</div>
+    <div class="time-cell failed">1</div>
   </div>
 
    
@@ -720,12 +692,39 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
        &quot;bio&quot;: &quot;##string&quot;,
        &quot;image&quot;: &quot;#string&quot;,
        &quot;following&quot;: &quot;#boolean&quot;
-    }
-}</div>
+  }
+ }</div>
 
   
 
-     
+  <div class="preformatted" data-parent="0.58">02:35:02.697 src/test/java/conduitApp/feature/HomePage.feature:58
+* match response.articles ==
+&quot;&quot;&quot;
+{
+    &quot;slug&quot;: &quot;#string&quot;,
+    &quot;title&quot;: &quot;#string&quot;,
+    &quot;description&quot;: &quot;#string&quot;,
+    &quot;body&quot;: &quot;#string&quot;,
+    &quot;tagList&quot;: &quot;#array&quot;,
+    &quot;createdAt&quot;: &quot;#? timeValidator(_)&quot;,
+    &quot;updatedAt&quot;: &quot;#? timeValidator(_)&quot;,
+    &quot;favorited&quot;: &quot;#boolean&quot;,
+    &quot;favoritesCount&quot;: &quot;#number&quot;,
+    &quot;author&quot;: {
+       &quot;username&quot;: &quot;#string&quot;,
+       &quot;bio&quot;: &quot;##string&quot;,
+       &quot;image&quot;: &quot;#string&quot;,
+       &quot;following&quot;: &quot;#boolean&quot;
+  }
+ }
+&quot;&quot;&quot;
+match failed: EQUALS
+  $ | data types don&#39;t match (LIST:MAP)
+  [{&quot;slug&quot;:&quot;Create-a-new-implementation-1&quot;,&quot;title&quot;:&quot;Create a new implementation&quot;,&quot;description&quot;:&quot;join the community by creating a new implementation&quot;,&quot;body&quot;:&quot;Share your knowledge and enpower the community by creating a new implementation&quot;,&quot;tagList&quot;:[&quot;implementations&quot;],&quot;createdAt&quot;:&quot;2021-11-24T12:11:08.212Z&quot;,&quot;updatedAt&quot;:&quot;2021-11-24T12:11:08.212Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:3941,&quot;author&quot;:{&quot;username&quot;:&quot;Gerome&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/demo-avatar.png&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Explore-implementations-1&quot;,&quot;title&quot;:&quot;Explore implementations&quot;,&quot;description&quot;:&quot;discover the implementations created by the RealWorld community&quot;,&quot;body&quot;:&quot;Over 100 implementations have been created using various languages, libraries, and frameworks.\n\nExplore them on CodebaseShow.&quot;,&quot;tagList&quot;:[&quot;codebaseShow&quot;,&quot;implementations&quot;],&quot;createdAt&quot;:&quot;2021-11-24T12:11:07.952Z&quot;,&quot;updatedAt&quot;:&quot;2021-11-24T12:11:07.952Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:2285,&quot;author&quot;:{&quot;username&quot;:&quot;Gerome&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/demo-avatar.png&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Welcome-to-RealWorld-project-1&quot;,&quot;title&quot;:&quot;Welcome to RealWorld project&quot;,&quot;description&quot;:&quot;Exemplary fullstack Medium.com clone powered by React, Angular, Node, Django, and many more&quot;,&quot;body&quot;:&quot;See how the exact same Medium.com clone (called Conduit) is built using different frontends and backends. Yes, you can mix and match them, because they all adhere to the same API spec&quot;,&quot;tagList&quot;:[&quot;welcome&quot;,&quot;introduction&quot;],&quot;createdAt&quot;:&quot;2021-11-24T12:11:07.557Z&quot;,&quot;updatedAt&quot;:&quot;2021-11-24T12:11:07.557Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:1642,&quot;author&quot;:{&quot;username&quot;:&quot;Gerome&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/demo-avatar.png&quot;,&quot;following&quot;:false}}]
+  {&quot;slug&quot;:&quot;#string&quot;,&quot;title&quot;:&quot;#string&quot;,&quot;description&quot;:&quot;#string&quot;,&quot;body&quot;:&quot;#string&quot;,&quot;tagList&quot;:&quot;#array&quot;,&quot;createdAt&quot;:&quot;#? timeValidator(_)&quot;,&quot;updatedAt&quot;:&quot;#? timeValidator(_)&quot;,&quot;favorited&quot;:&quot;#boolean&quot;,&quot;favoritesCount&quot;:&quot;#number&quot;,&quot;author&quot;:{&quot;username&quot;:&quot;#string&quot;,&quot;bio&quot;:&quot;##string&quot;,&quot;image&quot;:&quot;#string&quot;,&quot;following&quot;:&quot;#boolean&quot;}}
+
+src/test/java/conduitApp/feature/HomePage.feature:58
+</div>   
 
   
 
