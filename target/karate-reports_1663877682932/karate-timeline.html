@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"pool-1-thread-1","id":1},{"content":"pool-1-thread-2","id":2},{"content":"pool-1-thread-3","id":3},{"content":"pool-1-thread-4","id":4},{"content":"pool-1-thread-5","id":5}];
+var items = [{"id":1,"group":1,"content":"conduitApp\/feature\/Articles[1:11]","start":1663877152088,"end":1663877153969,"title":"conduitApp\/feature\/Articles[1:11] 22:05:52.088-22:05:53.969 Create new article by read from file","className":"failed"},{"id":2,"group":2,"content":"conduitApp\/feature\/Articles[2:16]","start":1663877152088,"end":1663877153970,"title":"conduitApp\/feature\/Articles[2:16] 22:05:52.088-22:05:53.970 Login to account and create article","className":"failed"},{"id":3,"group":3,"content":"conduitApp\/feature\/Articles[3:23]","start":1663877152088,"end":1663877154378,"title":"conduitApp\/feature\/Articles[3:23] 22:05:52.088-22:05:54.378 Delete first article in the list"},{"id":4,"group":4,"content":"conduitApp\/feature\/Articles[4:33]","start":1663877152088,"end":1663877154373,"title":"conduitApp\/feature\/Articles[4:33] 22:05:52.088-22:05:54.373 Create and Delete Article"},{"id":5,"group":5,"content":"conduitApp\/feature\/HomePage[1:6]","start":1663877152088,"end":1663877153592,"title":"conduitApp\/feature\/HomePage[1:6] 22:05:52.088-22:05:53.592 Get all tags"},{"id":6,"group":5,"content":"conduitApp\/feature\/HomePage[2:25]","start":1663877153598,"end":1663877154330,"title":"conduitApp\/feature\/HomePage[2:25] 22:05:53.598-22:05:54.330 Get 10 articles from the page"},{"id":7,"group":1,"content":"conduitApp\/feature\/Signup[1:9]","start":1663877153977,"end":1663877154578,"title":"conduitApp\/feature\/Signup[1:9] 22:05:53.977-22:05:54.578 Create an already existing User"},{"id":8,"group":2,"content":"conduitApp\/feature\/Signup[2.1:46]","start":1663877153978,"end":1663877154548,"title":"conduitApp\/feature\/Signup[2.1:46] 22:05:53.978-22:05:54.548 Data-driven signup"},{"id":9,"group":5,"content":"conduitApp\/feature\/Signup[2.2:47]","start":1663877154335,"end":1663877154739,"title":"conduitApp\/feature\/Signup[2.2:47] 22:05:54.335-22:05:54.739 Data-driven signup"},{"id":10,"group":4,"content":"conduitApp\/feature\/Signup[2.3:48]","start":1663877154377,"end":1663877154889,"title":"conduitApp\/feature\/Signup[2.3:48] 22:05:54.377-22:05:54.889 Data-driven signup"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
