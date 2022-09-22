@@ -6,6 +6,12 @@ Feature: Tests for Articles
     * def token = tokenResponse.authToken
     Given header Authorization = 'Token ' + token
     Given path 'articles/'
+    * def articleRequestBody = read('classpath:conduitApp/json/newArticleRequest.json')
+
+    Scenario: Create new article by read from file
+      And request articleRequestBody
+      When method post
+      Then status 200
 
   Scenario: Login to account and create article
     And request {"article":{"tagList":[],"title":"Some news title2","description":"International news NOW","body":"Nuclears going off "}}

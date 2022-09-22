@@ -9697,3 +9697,3140 @@ src/test/java/conduitApp/feature/Signup.feature:4
 {"user":{"email":"fredia461@gmail.com","username":"nichol.schoen","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZyZWRpYTQ2MUBnbWFpbC5jb20iLCJ1c2VybmFtZSI6Im5pY2hvbC5zY2hvZW4iLCJpYXQiOjE2NjM3Mjk1NjQsImV4cCI6MTY2ODkxMzU2NH0.IWt08Tp7sYnYOrlVh_e39JeJSlW1OuKmW45hXIsrVLc"}}
 
 05:06:04.732 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+20:12:38.805 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: src/test/java/conduitApp/feature/Signup.feature - mismatched input '<EOF>' expecting TABLE_ROW
+20:16:03.345 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:16:03.347 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663870563347
+20:16:03.372 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 56 - ^Create a unique user$
+20:16:04.428 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:16:04.997 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 86
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"chu11@gmail.com","password":"Karate123","username":"antwan.brakus"}}
+
+20:16:05.829 [main] DEBUG com.intuit.karate - response time in milliseconds: 830
+1 < 200
+1 < Date: Thu, 22 Sep 2022 18:16:05 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"129-gAzbUitbFc8B2CW0A4P4BtsJ64s"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BMUgPW21P375nePP7TQ7hdcvQ2IuBtXMYAvofiB1GaOWD21dOhr37uDiQYzs6eBPvfVYQRXnochHPJMKcm1T4sIQ41Yih9Ti9azL7EatgyqWc6wsiSlfP1XxEWmQ3CSnMOwv"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed079a3805b91e-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"chu11@gmail.com","username":"antwan.brakus","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNodTExQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiYW50d2FuLmJyYWt1cyIsImlhdCI6MTY2Mzg3MDU2NSwiZXhwIjoxNjY5MDU0NTY1fQ.Bmpx6nIcRsC8puFOTH-DeX7hL2NyF8JpV3VCF5Aq6hs"}}
+
+20:16:06.510 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+20:16:50.211 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:16:50.214 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663870610214
+20:16:50.236 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 56 - ^Create a unique user$
+20:16:50.954 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:16:51.354 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 90
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"adrian400@gmail.com","password":"Karate123","username":"rutha.gerhold"}}
+
+20:16:52.018 [main] DEBUG com.intuit.karate - response time in milliseconds: 662
+1 < 200
+1 < Date: Thu, 22 Sep 2022 18:16:52 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"132-uop9cNnRD+iyCQTrwIMymEo90N4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fUdZN5tfr2uPsg7V%2Fbm%2FH9QqKEw%2BAxA5HYZXiacsb%2BgiURA2RRbQRLHazsO%2BdzaCbpTIKWMJ4YeynYdEKjI2kVpTI0NeDzTL7AZgUqTVtIh%2FMWH%2Fu%2BT6%2F65UPopOntZZoqIT"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed08bb3c84b746-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"adrian400@gmail.com","username":"rutha.gerhold","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkcmlhbjQwMEBnbWFpbC5jb20iLCJ1c2VybmFtZSI6InJ1dGhhLmdlcmhvbGQiLCJpYXQiOjE2NjM4NzA2MTEsImV4cCI6MTY2OTA1NDYxMX0.vnJGpP0tuLySWUubDBmU5slr1VOAaZ4I0PiWU3D-2gY"}}
+
+20:16:52.700 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+20:23:50.712 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:23:50.714 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663871030714
+20:23:50.730 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 56 - ^Create a unique user$
+20:23:51.449 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:23:51.900 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 91
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"patrice339@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+20:23:52.529 [main] DEBUG com.intuit.karate - response time in milliseconds: 628
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:23:52 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=iR8O28D0Sm8L2DUeKxXHT7i0jkOLsURHI%2BEws4GfZxH5ChW4DCvuLUQJGfCUgUUkaDLpwcf5wT5YKNDQK9u7HsMgWjlvmkw82ZG44YUGkPs6lyYxkYnbGTXwvvlABPBUr%2BxB"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed12ffdbffb89d-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+20:23:52.531 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:41
+Then status 200
+status code was: 422, expected: 200, response time in milliseconds: 628, url: https://api.realworld.io/api/users, response: 
+{"errors":{"username":["has already been taken"]}}
+src/test/java/conduitApp/feature/Signup.feature:41
+20:23:53.113 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+20:26:09.571 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:26:09.573 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663871169573
+20:26:09.589 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 46 - ^Data\-driven signup$
+20:26:10.327 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:26:10.779 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 90
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"hermine30@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+20:26:11.301 [main] DEBUG com.intuit.karate - response time in milliseconds: 520
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:26:11 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=bCLdggxWN5ga81Sxp5ibo9y%2F0BFIW1c5OZCeEYjxrLtXAjvDcZ7xgb2a7Uw%2FpWfS9yqesS8fyIDbwUIGZs8vjQaBddLLM2nDYiQb1jWDB9z3bbZL58fMsgTJEVomij4CGIg1"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed16637b90b743-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+20:26:11.306 [main] INFO  com.intuit.karate - [print] {
+  "errors": {
+    "username": [
+      "has already been taken"
+    ]
+  }
+}
+ 
+20:26:11.315 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:43
+And match response == 422
+match failed: EQUALS
+  $ | data types don't match (MAP:NUMBER)
+  {"errors":{"username":["has already been taken"]}}
+  422
+
+src/test/java/conduitApp/feature/Signup.feature:43
+20:26:11.839 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+20:26:35.895 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:26:35.897 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663871195897
+20:26:35.915 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 46 - ^Data\-driven signup$
+20:26:36.628 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:26:37.149 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 92
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"clotilde145@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+20:26:37.733 [main] DEBUG com.intuit.karate - response time in milliseconds: 582
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:26:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=R5MHyIUQf32KIUjbdAEXwv5bFMIPz%2BDIIcuhkVyMTLcXygT%2BcmukofCBaK4bDIW5i7o%2BRBewET4ksbFUUULMJH3ZD7z4nPNmVYEiLmx7VCPrjczD3DP7MGQRheDrK3JwOc2Y"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed17087b1cb930-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+20:26:37.738 [main] INFO  com.intuit.karate - [print] {
+  "errors": {
+    "username": [
+      "has already been taken"
+    ]
+  }
+}
+ 
+20:26:38.337 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+20:31:26.167 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:31:26.173 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663871486172
+20:31:26.220 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 57 - ^Data\-driven signup$
+20:31:27.133 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:31:27.671 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 88
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"erin469@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+20:31:28.356 [main] DEBUG com.intuit.karate - response time in milliseconds: 684
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:31:28 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XzX%2BXJKHFrhwE7JlDjg8zcQA5Mbd2aOcG9WIRL6IW2vVYTJThh20gIV8MIQA5yw7A3NGwAq%2BMEUujJ0XMORn4EdCvY25mjKTrqsszApCUyFXKLs31bzw%2Bcs6isP%2B0MjtLimG"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed1e206d54b74e-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+20:31:28.368 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 58 - ^Data\-driven signup$
+20:31:28.376 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:31:28.438 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 96
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"maynard218@gmail.com","password":"arianne.goldner","username":"KaratUser123"}}
+
+20:31:28.861 [main] DEBUG com.intuit.karate - response time in milliseconds: 421
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:31:28 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=W7g8nMi364AdS0qzH9FMnDhdJknKvX9oeS9R1QzjtU8aD3TG5cnCHTGCwEmwSi1tXIIiOXzVAfLAjWngOfNlfvI28ig0sU9F%2BiqnI%2Fg2o9%2FnWkt3ntatTFAaRSbDcjfukSay"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed1e23ed9cb8d9-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+20:31:28.862 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:53
+Then status 200
+status code was: 422, expected: 200, response time in milliseconds: 421, url: https://api.realworld.io/api/users, response: 
+{"errors":{"username":["has already been taken"]}}
+src/test/java/conduitApp/feature/Signup.feature:53
+20:31:29.420 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+20:33:00.695 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:33:00.698 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663871580698
+20:33:00.717 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 57 - ^Data\-driven signup$
+20:33:01.468 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:33:02.010 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 88
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"kyra276@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+20:33:02.668 [main] DEBUG com.intuit.karate - response time in milliseconds: 656
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:33:02 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=iirOPNr9l3mcOkcr9RIqvMHQUJXwbQFFJvORqO15xeqduSp7sYjnUAEF31EaXFjLd3fh2JgRPsDIriszv%2B6hCinKUPjQdFGtEZ6NCzBFLWtgsyXzG2PYfWJZWWsaYctmYiw1"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed206dbff6b897-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+20:33:02.681 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 58 - ^Data\-driven signup$
+20:33:02.690 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:33:02.742 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 91
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"teddy463@gmail.com","password":"Karate1234","username":"dominick.white"}}
+
+20:33:03.277 [main] DEBUG com.intuit.karate - response time in milliseconds: 535
+1 < 200
+1 < Date: Thu, 22 Sep 2022 18:33:03 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"132-f274lCJJ145FdyGiERwnCoD7ctM"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=m%2B5PWFKX%2FcMhPfaFd2%2FEy%2Bqxc73euaN4SAR%2BPfhzNlFDTCXvUDhz%2B9YvlTKunsldyufxBu%2FUWp5b%2FteLBGYMJR6vbvkVxUOXvygTPNDw5ztcCdcdF5UIJQdmZugR36yv7y%2Bm"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed20715d84b766-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"teddy463@gmail.com","username":"dominick.white","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlZGR5NDYzQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiZG9taW5pY2sud2hpdGUiLCJpYXQiOjE2NjM4NzE1ODMsImV4cCI6MTY2OTA1NTU4M30.fOO7EHMMHWdqD6E3gJzJsl5E1D31p7_fpVQ_yx_wVlQ"}}
+
+20:33:03.303 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:54
+And match response == <signUpSuccess>
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 16; XML document structures must start and end within the same entity.
+src/test/java/conduitApp/feature/Signup.feature:54
+20:33:03.931 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+20:34:47.087 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:34:47.089 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663871687089
+20:34:47.115 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 57 - ^Data\-driven signup$
+20:34:47.825 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:34:48.338 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 89
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"terra319@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+20:34:48.877 [main] DEBUG com.intuit.karate - response time in milliseconds: 537
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:34:48 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Oy%2B0JrmAtkssGCcuhppf1SvSx2vsUwmbR59Px%2FC8VS5v8HidNeLuxI7GcLGHNv3axcJpPhnuvmYhRAFC%2B%2BNIBUXNrDu1ex7W16wKIAal%2FRqnlN8GONIvkJQFkb3S43uFclyg"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed23065b9ab7e8-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+20:34:48.890 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 58 - ^Data\-driven signup$
+20:34:48.900 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:34:48.965 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 93
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"randall129@gmail.com","password":"Karate1234","username":"harlan.hagenes"}}
+
+20:34:49.568 [main] DEBUG com.intuit.karate - response time in milliseconds: 603
+1 < 200
+1 < Date: Thu, 22 Sep 2022 18:34:49 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"137-P1kaDMVF6cNYzTobaNaWPV5GhCs"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XLovFEw71QWbI0B%2FJYGH2lueBskwmRsAGJTg4GCGkhrp9KhAcYpmRBj7%2FBAV%2FdNcbqNI9V2p1h3gYI0BUfAZFM2IgchkBBtHdH2oYESuEuVjcO1q2jlA%2FRj7xVdzB1tU27kX"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed23095fd51ece-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"randall129@gmail.com","username":"harlan.hagenes","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InJhbmRhbGwxMjlAZ21haWwuY29tIiwidXNlcm5hbWUiOiJoYXJsYW4uaGFnZW5lcyIsImlhdCI6MTY2Mzg3MTY4OSwiZXhwIjoxNjY5MDU1Njg5fQ.uGdb_GuZSVQFlhR1QjPLVgB7SwwP3utBXa2KInZjGKU"}}
+
+20:34:49.582 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:54
+And match response == <signUpSuccess>
+org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 16; XML document structures must start and end within the same entity.
+src/test/java/conduitApp/feature/Signup.feature:54
+20:34:50.186 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+20:38:01.763 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:38:01.766 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663871881766
+20:38:01.782 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 45 - ^Data\-driven signup$
+20:38:02.531 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:38:03.017 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 90
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"johnson62@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+20:38:03.587 [main] DEBUG com.intuit.karate - response time in milliseconds: 567
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:38:03 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7rZx5pyieOYgWYPuFbYdDThCIO9QrdjNdHkrCkE2paXuRinoosSL3mLy0R9fshKcyGSQivGIlDt1wTOBKoc5HfDzsOqIaD7yYzidtch3dnLgKqicTOKaPLSsy%2BayUuYBRJl9"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed27c73ef80bb5-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+20:38:03.599 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 46 - ^Data\-driven signup$
+20:38:03.608 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:38:03.656 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 94
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"KarateUser1@test.com","password":"Karate1234","username":"wiley.lueilwitz"}}
+
+20:38:04.039 [main] DEBUG com.intuit.karate - response time in milliseconds: 383
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:38:04 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 47
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2o%2Bc4CA0MD9XVDmFyUbvu21RZ1Ehja2U1wtN2EeepsB1e%2FXl6zf3ouZvIo3p8jhQNxkJ1pSKcmcEUGvaLC94To2cRxMAGfX8Z7aMgAxG4HqmQZ1WKRS0e41vBm9AVwebcQFz"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed27ca0be4b779-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["has already been taken"]}}
+
+20:38:04.042 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:42
+And match response == {"errors":{"username":["has already been taken"]}}
+match failed: EQUALS
+  $ | not equal | match failed for name: 'errors' (MAP:MAP)
+  {"errors":{"email":["has already been taken"]}}
+  {"errors":{"username":["has already been taken"]}}
+
+    $.errors | not equal | actual does not contain key - 'username' (MAP:MAP)
+    {"email":["has already been taken"]}
+    {"username":["has already been taken"]}
+
+
+src/test/java/conduitApp/feature/Signup.feature:42
+20:38:04.594 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+20:38:23.163 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:38:23.165 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663871903165
+20:38:23.184 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 45 - ^Data\-driven signup$
+20:38:23.950 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:38:24.419 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 88
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"nolan98@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+20:38:24.982 [main] DEBUG com.intuit.karate - response time in milliseconds: 561
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:38:24 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=O1bXa1Di2gDxb%2B%2FDpGqZIKKy0Xa92jYr3ovBuoDCnHtclmdfTn5tyDSKX8vJuSZ8OQGObZ9LPfpJrcNEEa0Bl2mNlG7jE1wAXZ6ti39KLY2DUBaxh6aFN70K2Z60Qv16rz19"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed284ce998b88e-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+20:38:24.994 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 46 - ^Data\-driven signup$
+20:38:25.003 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:38:25.051 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 92
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"KarateUser1@test.com","password":"Karate1234","username":"keely.rolfson"}}
+
+20:38:25.425 [main] DEBUG com.intuit.karate - response time in milliseconds: 373
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:38:25 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 47
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Bab%2BQ2%2FEPa44ZvCPPJ2BHUJpazfCWluoOtcAqhQtIqhR5Q6IgMnxBz5TwCyoqZKUqAGmqibIxrzXTD2d1OVtLLur0gNG4PM3rXbPE2pTMCx0cx9d%2BFyPQ7h9nL3txPoO%2FKvZ"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed284fdc39009b-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["has already been taken"]}}
+
+20:38:25.970 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+20:41:09.723 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:41:09.725 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663872069725
+20:41:09.744 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 45 - ^Data\-driven signup$
+20:41:10.477 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:41:10.965 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 89
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"sonny255@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+20:41:11.524 [main] DEBUG com.intuit.karate - response time in milliseconds: 557
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:41:11 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=rAYTYkQDlQk2DBRRoc5Zbkt2wsKdmDw6XRmoNrboE8mrB0llRCQSSereZhaLOwUJs6a8evNeBs7ppd2jq0MydsqKvK42OMwtw2IP%2BounVmvp1rzdRwBg7RcbGJM%2B0U%2FfY6ul"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed2c5dcb85d0cd-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+20:41:11.536 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 46 - ^Data\-driven signup$
+20:41:11.544 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:41:11.594 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 91
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"KarateUser1@test.com","password":"Karate1234","username":"nestor.sauer"}}
+
+20:41:11.972 [main] DEBUG com.intuit.karate - response time in milliseconds: 377
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:41:11 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 47
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=od6nKYofk5twBvxU7xH%2ByNa2dmiyAlsxhxP80EgUo6M0%2BLMG7fTqScyYDxjf3%2FTz8VgiGB%2F89N5q5J5mj25NClkcHyo2MFBGu%2Fml3hMnEcIcL6Rvqg3GJlkiq%2FmxaQ%2FZ%2BGkd"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed2c60b9feb746-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["has already been taken"]}}
+
+20:41:11.974 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^Data\-driven signup$
+20:41:11.981 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:41:12.017 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 90
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"valerie351@gmail.com","password":"Karate1234","username":"howard.ward"}}
+
+20:41:12.545 [main] DEBUG com.intuit.karate - response time in milliseconds: 527
+1 < 200
+1 < Date: Thu, 22 Sep 2022 18:41:12 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"130-J4Ck1OuRIG2rJNFpu4uGEFRrb6A"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cNmkkj%2BWR4H3jFUM1T8xOFwlVVB4ShEFBXv%2FfVkvX%2FEOQfWinROxeXXTbf4ev4wuFlV0SLNE9c5Gt77CL9GakFhy8TSEdsta%2FQF2%2FOCD2SDeQiiBaoeYVDvDt%2B%2FANgKji2nk"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed2c634be9b944-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"valerie351@gmail.com","username":"howard.ward","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZhbGVyaWUzNTFAZ21haWwuY29tIiwidXNlcm5hbWUiOiJob3dhcmQud2FyZCIsImlhdCI6MTY2Mzg3MjA3MiwiZXhwIjoxNjY5MDU2MDcyfQ.j9_G1Qed16bIWFez9czG3c5sHBFP1RjFkBUiU8I_Okw"}}
+
+20:41:12.548 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:42
+And match response == {"user":{"email":[#(randomEmail)]}}
+match failed: EQUALS
+  $ | not equal | match failed for name: 'user' (MAP:MAP)
+  {"user":{"email":"valerie351@gmail.com","username":"howard.ward","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZhbGVyaWUzNTFAZ21haWwuY29tIiwidXNlcm5hbWUiOiJob3dhcmQud2FyZCIsImlhdCI6MTY2Mzg3MjA3MiwiZXhwIjoxNjY5MDU2MDcyfQ.j9_G1Qed16bIWFez9czG3c5sHBFP1RjFkBUiU8I_Okw"}}
+  {"user":{"email":["valerie351@gmail.com"]}}
+
+    $.user | not equal | actual has 4 more key(s) than expected - {"username":"howard.ward","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZhbGVyaWUzNTFAZ21haWwuY29tIiwidXNlcm5hbWUiOiJob3dhcmQud2FyZCIsImlhdCI6MTY2Mzg3MjA3MiwiZXhwIjoxNjY5MDU2MDcyfQ.j9_G1Qed16bIWFez9czG3c5sHBFP1RjFkBUiU8I_Okw"} (MAP:MAP)
+    {"email":"valerie351@gmail.com","username":"howard.ward","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InZhbGVyaWUzNTFAZ21haWwuY29tIiwidXNlcm5hbWUiOiJob3dhcmQud2FyZCIsImlhdCI6MTY2Mzg3MjA3MiwiZXhwIjoxNjY5MDU2MDcyfQ.j9_G1Qed16bIWFez9czG3c5sHBFP1RjFkBUiU8I_Okw"}
+    {"email":["valerie351@gmail.com"]}
+
+
+src/test/java/conduitApp/feature/Signup.feature:42
+20:41:13.129 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+20:45:05.417 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:45:05.420 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663872305420
+20:45:05.440 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 45 - ^Data\-driven signup$
+20:45:06.206 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:45:06.697 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 89
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"benny202@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+20:45:07.356 [main] DEBUG com.intuit.karate - response time in milliseconds: 657
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:45:07 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=HxAdBA16OB00P9vU2sWK6ay96eVUBXiArz3%2FsckBtQxuAeiNEWJ%2BmY%2Fp%2FldH2MKCwTN0hDXu38K%2BFNPE4ciZPPbmqEvcQjA74Ew4R3nHootl2H9TnZvYOASUlAIsRZ8ljjVY"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed321f9bc90b5b-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+20:45:07.368 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 46 - ^Data\-driven signup$
+20:45:07.376 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:45:07.432 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 95
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"KarateUser1@test.com","password":"Karate1234","username":"monroe.cummerata"}}
+
+20:45:07.817 [main] DEBUG com.intuit.karate - response time in milliseconds: 385
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:45:07 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 47
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=STsYjoxQ048yqHs7GS2VncqnO9ZBPa0sbD9je5QwzTjMbP%2FmhK9XjtwQF3msIcHOJLhLS7XWDTFpKzIICkgj3mkKmiAh0v0cVoyg6oipMjzAGlK7ar%2B1Rqik%2B348zG0fhQY5"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed3222bb32b760-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["has already been taken"]}}
+
+20:45:07.819 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^Data\-driven signup$
+20:45:07.826 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:45:07.866 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 88
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"minta104@gmail.com","password":"Karate1234","username":"virgie.veum"}}
+
+20:45:08.375 [main] DEBUG com.intuit.karate - response time in milliseconds: 509
+1 < 200
+1 < Date: Thu, 22 Sep 2022 18:45:08 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"12b-MSXCUkPrI6Ihn4x1DCFWpu5vKrU"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=b2XDhVotlOF2%2FpeewEn8riM9yCldMcDGmYTGUYMH6IBtGXuY4asUrVu19KxDQNyIqp%2FCR4d%2FFo9NHSLBXSBTp26bUpeecM2qEMFFtwJEaxr0%2F2cKMrrWj7DuET4%2Bo%2F4NTW5f"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed32255b890bf5-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"minta104@gmail.com","username":"virgie.veum","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1pbnRhMTA0QGdtYWlsLmNvbSIsInVzZXJuYW1lIjoidmlyZ2llLnZldW0iLCJpYXQiOjE2NjM4NzIzMDgsImV4cCI6MTY2OTA1NjMwOH0.I_Z2TnJvWfmqGHuf_oTYO89HbqvzbbJ_EjU2kQSzVKQ"}}
+
+20:45:08.378 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:42
+And match response == {"user":{"email":#(randomEmail)}}
+match failed: EQUALS
+  $ | not equal | match failed for name: 'user' (MAP:MAP)
+  {"user":{"email":"minta104@gmail.com","username":"virgie.veum","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1pbnRhMTA0QGdtYWlsLmNvbSIsInVzZXJuYW1lIjoidmlyZ2llLnZldW0iLCJpYXQiOjE2NjM4NzIzMDgsImV4cCI6MTY2OTA1NjMwOH0.I_Z2TnJvWfmqGHuf_oTYO89HbqvzbbJ_EjU2kQSzVKQ"}}
+  {"user":{"email":"minta104@gmail.com"}}
+
+    $.user | not equal | actual has 4 more key(s) than expected - {"username":"virgie.veum","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1pbnRhMTA0QGdtYWlsLmNvbSIsInVzZXJuYW1lIjoidmlyZ2llLnZldW0iLCJpYXQiOjE2NjM4NzIzMDgsImV4cCI6MTY2OTA1NjMwOH0.I_Z2TnJvWfmqGHuf_oTYO89HbqvzbbJ_EjU2kQSzVKQ"} (MAP:MAP)
+    {"email":"minta104@gmail.com","username":"virgie.veum","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1pbnRhMTA0QGdtYWlsLmNvbSIsInVzZXJuYW1lIjoidmlyZ2llLnZldW0iLCJpYXQiOjE2NjM4NzIzMDgsImV4cCI6MTY2OTA1NjMwOH0.I_Z2TnJvWfmqGHuf_oTYO89HbqvzbbJ_EjU2kQSzVKQ"}
+    {"email":"minta104@gmail.com"}
+
+
+src/test/java/conduitApp/feature/Signup.feature:42
+20:45:08.962 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+20:46:02.155 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:46:02.158 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663872362158
+20:46:02.176 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 45 - ^Data\-driven signup$
+20:46:02.989 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:46:03.478 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 92
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"brittani195@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+20:46:04.037 [main] DEBUG com.intuit.karate - response time in milliseconds: 556
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:46:04 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=LBuO%2BhvjU%2BtH1tGnpEIUf%2FF3RdubsHQsNE2uILX3cTALTE3gL%2BPYkTGSWDGWSjsDOFT8AhSv%2B9I%2F%2FVFGgtZNMa0VEVs%2FN0tiPKATnMug2l5NPuPbR9JcaXDfGhJOGl1wOo3%2F"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed33820dfbb956-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+20:46:04.049 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 46 - ^Data\-driven signup$
+20:46:04.057 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:46:04.114 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 89
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"KarateUser1@test.com","password":"Karate1234","username":"shaun.bins"}}
+
+20:46:04.472 [main] DEBUG com.intuit.karate - response time in milliseconds: 358
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:46:04 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 47
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=9SY7uPqI5ufrEp8PUIiLOzepFspXtvj4nsCRKWV5H4qYUi7%2FRLBwHjEphkn%2BpITVXH7%2F12YXd%2B3oek7PnADyTW3h2SQP5y4l6f1QXcpPsq8AaqejnDnsSx2s7%2B%2FHB5Dk9sP5"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed3384d8e0b7ae-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["has already been taken"]}}
+
+20:46:04.474 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^Data\-driven signup$
+20:46:04.480 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:46:04.527 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 89
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"bennie113@gmail.com","password":"Karate1234","username":"bud.barrows"}}
+
+20:46:05.103 [main] DEBUG com.intuit.karate - response time in milliseconds: 576
+1 < 200
+1 < Date: Thu, 22 Sep 2022 18:46:04 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"12d-anGNpV5qBl0W5xFTWcUqmUPyBWc"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tlx7WGAaSWpa4dACw%2FAY8HKr7apd5cQ6u2rKPRm1qirjWMPL5tFV%2FSa67BlvklqBHDDPh7Vwj4YQ406TH7f6oakIoE24TlLVx3BdSqSnvq0wc5nHF1WjTiFX%2BumDX7gvP6lT"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed33878d05d0c9-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"bennie113@gmail.com","username":"bud.barrows","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJlbm5pZTExM0BnbWFpbC5jb20iLCJ1c2VybmFtZSI6ImJ1ZC5iYXJyb3dzIiwiaWF0IjoxNjYzODcyMzY0LCJleHAiOjE2NjkwNTYzNjR9.NNWR57bSqkRyhckw42cVnVXdgfeza2901Pd62yuARjM"}}
+
+20:46:05.106 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:42
+And match response == {"user":{"email":#(randomUsername),"username":"virgie.veum","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1pbnRhMTA0QGdtYWlsLmNvbSIsInVzZXJuYW1lIjoidmlyZ2llLnZldW0iLCJpYXQiOjE2NjM4NzIzMDgsImV4cCI6MTY2OTA1NjMwOH0.I_Z2TnJvWfmqGHuf_oTYO89HbqvzbbJ_EjU2kQSzVKQ"}}
+match failed: EQUALS
+  $ | not equal | match failed for name: 'user' (MAP:MAP)
+  {"user":{"email":"bennie113@gmail.com","username":"bud.barrows","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJlbm5pZTExM0BnbWFpbC5jb20iLCJ1c2VybmFtZSI6ImJ1ZC5iYXJyb3dzIiwiaWF0IjoxNjYzODcyMzY0LCJleHAiOjE2NjkwNTYzNjR9.NNWR57bSqkRyhckw42cVnVXdgfeza2901Pd62yuARjM"}}
+  {"user":{"email":"bud.barrows","username":"virgie.veum","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1pbnRhMTA0QGdtYWlsLmNvbSIsInVzZXJuYW1lIjoidmlyZ2llLnZldW0iLCJpYXQiOjE2NjM4NzIzMDgsImV4cCI6MTY2OTA1NjMwOH0.I_Z2TnJvWfmqGHuf_oTYO89HbqvzbbJ_EjU2kQSzVKQ"}}
+
+    $.user | not equal | match failed for name: 'email' (MAP:MAP)
+    {"email":"bennie113@gmail.com","username":"bud.barrows","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJlbm5pZTExM0BnbWFpbC5jb20iLCJ1c2VybmFtZSI6ImJ1ZC5iYXJyb3dzIiwiaWF0IjoxNjYzODcyMzY0LCJleHAiOjE2NjkwNTYzNjR9.NNWR57bSqkRyhckw42cVnVXdgfeza2901Pd62yuARjM"}
+    {"email":"bud.barrows","username":"virgie.veum","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1pbnRhMTA0QGdtYWlsLmNvbSIsInVzZXJuYW1lIjoidmlyZ2llLnZldW0iLCJpYXQiOjE2NjM4NzIzMDgsImV4cCI6MTY2OTA1NjMwOH0.I_Z2TnJvWfmqGHuf_oTYO89HbqvzbbJ_EjU2kQSzVKQ"}
+
+      $.user.email | not equal (STRING:STRING)
+      'bennie113@gmail.com'
+      'bud.barrows'
+
+src/test/java/conduitApp/feature/Signup.feature:42
+20:46:05.727 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+20:46:33.680 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:46:33.683 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663872393683
+20:46:33.703 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 45 - ^Data\-driven signup$
+20:46:34.444 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:46:34.916 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 90
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"palmer270@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+20:46:35.487 [main] DEBUG com.intuit.karate - response time in milliseconds: 570
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:46:35 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wk%2FrXh%2FqnF%2FOzqwrV2fs6QCsYEox1V2GQMAj4bRGCoz%2FWElndgLmoIT0nKtOYS%2BzqN91%2BZM3QVagFVfopsBeBmEmTR9h8vCyjP1viOlkZJ09fJZMhxfVlYRFDwG5IPHEyJ2v"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed34469dbcb718-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+20:46:35.499 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 46 - ^Data\-driven signup$
+20:46:35.508 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:46:35.562 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 91
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"KarateUser1@test.com","password":"Karate1234","username":"stuart.tromp"}}
+
+20:46:36.025 [main] DEBUG com.intuit.karate - response time in milliseconds: 462
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:46:35 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 47
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=55E3zF9nK73ArSmCjXsVjFHW%2FB4opFmmMV0F8hQBek3uxF%2Bmbqav1SUko26Ozf3bX6lC1yPagdJef9Pj2OCTqADJLHlyeMPUrsRWpT%2FDsF1LokG2DgGFrD5MrCcSaW3uVrcm"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed344978340ba5-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["has already been taken"]}}
+
+20:46:36.026 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^Data\-driven signup$
+20:46:36.034 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:46:36.074 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 96
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"brice347@gmail.com","password":"Karate1234","username":"deangelo.macejkovic"}}
+
+20:46:36.745 [main] DEBUG com.intuit.karate - response time in milliseconds: 671
+1 < 200
+1 < Date: Thu, 22 Sep 2022 18:46:36 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"13e-OoTIHGTiEiswW57a3Os9i9TRPio"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=67aEKAX9OKFMaQtzd6Npiw77dB%2BkcM%2BJZ8IRMf0os0DFfvzNltib60cpDnLAQikS%2BbaG%2BErHCTCBKeuOHAEQJ2HOSrQdOvsM2ynfLqm%2FvB6l4ha0BaMWo0vsC91guzkdjpYx"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed344c9d1ab7f2-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"brice347@gmail.com","username":"deangelo.macejkovic","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJyaWNlMzQ3QGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiZGVhbmdlbG8ubWFjZWprb3ZpYyIsImlhdCI6MTY2Mzg3MjM5NiwiZXhwIjoxNjY5MDU2Mzk2fQ.xRGFI9SrCEYtIkL33SwArX-gS0bbY3bkkQ21UY0P90A"}}
+
+20:46:36.748 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:42
+And match response == {"user":{"email":#(randomEmail),"username":"virgie.veum","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1pbnRhMTA0QGdtYWlsLmNvbSIsInVzZXJuYW1lIjoidmlyZ2llLnZldW0iLCJpYXQiOjE2NjM4NzIzMDgsImV4cCI6MTY2OTA1NjMwOH0.I_Z2TnJvWfmqGHuf_oTYO89HbqvzbbJ_EjU2kQSzVKQ"}}
+match failed: EQUALS
+  $ | not equal | match failed for name: 'user' (MAP:MAP)
+  {"user":{"email":"brice347@gmail.com","username":"deangelo.macejkovic","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJyaWNlMzQ3QGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiZGVhbmdlbG8ubWFjZWprb3ZpYyIsImlhdCI6MTY2Mzg3MjM5NiwiZXhwIjoxNjY5MDU2Mzk2fQ.xRGFI9SrCEYtIkL33SwArX-gS0bbY3bkkQ21UY0P90A"}}
+  {"user":{"email":"brice347@gmail.com","username":"virgie.veum","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1pbnRhMTA0QGdtYWlsLmNvbSIsInVzZXJuYW1lIjoidmlyZ2llLnZldW0iLCJpYXQiOjE2NjM4NzIzMDgsImV4cCI6MTY2OTA1NjMwOH0.I_Z2TnJvWfmqGHuf_oTYO89HbqvzbbJ_EjU2kQSzVKQ"}}
+
+    $.user | not equal | match failed for name: 'username' (MAP:MAP)
+    {"email":"brice347@gmail.com","username":"deangelo.macejkovic","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJyaWNlMzQ3QGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiZGVhbmdlbG8ubWFjZWprb3ZpYyIsImlhdCI6MTY2Mzg3MjM5NiwiZXhwIjoxNjY5MDU2Mzk2fQ.xRGFI9SrCEYtIkL33SwArX-gS0bbY3bkkQ21UY0P90A"}
+    {"email":"brice347@gmail.com","username":"virgie.veum","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1pbnRhMTA0QGdtYWlsLmNvbSIsInVzZXJuYW1lIjoidmlyZ2llLnZldW0iLCJpYXQiOjE2NjM4NzIzMDgsImV4cCI6MTY2OTA1NjMwOH0.I_Z2TnJvWfmqGHuf_oTYO89HbqvzbbJ_EjU2kQSzVKQ"}
+
+      $.user.username | not equal (STRING:STRING)
+      'deangelo.macejkovic'
+      'virgie.veum'
+
+src/test/java/conduitApp/feature/Signup.feature:42
+20:46:37.305 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+20:47:21.140 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:47:21.147 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663872441146
+20:47:21.171 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 45 - ^Data\-driven signup$
+20:47:21.911 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:47:22.386 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 90
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"allena115@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+20:47:23.033 [main] DEBUG com.intuit.karate - response time in milliseconds: 646
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:47:22 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=lS%2Fbgaww8DtuhUkiAx189ExSHJxsTQo%2F09RJwczcSZZ5qU6bYmDgRFvxpypuJJs19RM%2BOH%2FTn8gjtNjiN9ZC0ueEfHBkEkU5fI4YH3urjsU8u1r6dq79qxTN4jMOIcjXsq6D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed356f1ba5b772-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+20:47:23.046 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 46 - ^Data\-driven signup$
+20:47:23.056 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:47:23.113 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 93
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"KarateUser1@test.com","password":"Karate1234","username":"terica.bernier"}}
+
+20:47:23.474 [main] DEBUG com.intuit.karate - response time in milliseconds: 360
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:47:23 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 47
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=amNV0AT5si%2B7Y6VoWHnRLnBlErkMH0F2ghKbx8ki7t1xv8iFhZ6%2BCWwY%2FgIcWUa67dbgO0JbsJOqLttAoW6KT3uP1ChPONHNUdIWGFnrqnZXMPIfmrLwmRjRySH8kJceXVNz"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed3572a99bb77c-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["has already been taken"]}}
+
+20:47:23.476 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^Data\-driven signup$
+20:47:23.482 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:47:23.532 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 91
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"oneida478@gmail.com","password":"Karate1234","username":"moises.rempel"}}
+
+20:47:24.055 [main] DEBUG com.intuit.karate - response time in milliseconds: 523
+1 < 200
+1 < Date: Thu, 22 Sep 2022 18:47:24 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"132-nveXCcbph1kh5Y5XjncqBoA7690"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TDorUp0Afn%2FgZ1c4ZW0ZnbJz%2FmojQvo4sDQFCTTgyjiFbr317NYz7vYtnbhPUXYRDB0ypATIesC4nG%2BYR7TPA%2FxTP7%2Fxy5R3FllWifEVsw3HQqZaOoyFeS2TgiX9uF5PABnh"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed35755c38b894-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"oneida478@gmail.com","username":"moises.rempel","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9uZWlkYTQ3OEBnbWFpbC5jb20iLCJ1c2VybmFtZSI6Im1vaXNlcy5yZW1wZWwiLCJpYXQiOjE2NjM4NzI0NDMsImV4cCI6MTY2OTA1NjQ0M30.wQhLk8zrUVLZk8XouDD9980VNQl3VMUn-fAAQwzIh7M"}}
+
+20:47:24.058 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:42
+And match response == {"user":{"email":#(randomEmail),"username":#(randomUsername),"bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1pbnRhMTA0QGdtYWlsLmNvbSIsInVzZXJuYW1lIjoidmlyZ2llLnZldW0iLCJpYXQiOjE2NjM4NzIzMDgsImV4cCI6MTY2OTA1NjMwOH0.I_Z2TnJvWfmqGHuf_oTYO89HbqvzbbJ_EjU2kQSzVKQ"}}
+match failed: EQUALS
+  $ | not equal | match failed for name: 'user' (MAP:MAP)
+  {"user":{"email":"oneida478@gmail.com","username":"moises.rempel","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9uZWlkYTQ3OEBnbWFpbC5jb20iLCJ1c2VybmFtZSI6Im1vaXNlcy5yZW1wZWwiLCJpYXQiOjE2NjM4NzI0NDMsImV4cCI6MTY2OTA1NjQ0M30.wQhLk8zrUVLZk8XouDD9980VNQl3VMUn-fAAQwzIh7M"}}
+  {"user":{"email":"oneida478@gmail.com","username":"moises.rempel","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1pbnRhMTA0QGdtYWlsLmNvbSIsInVzZXJuYW1lIjoidmlyZ2llLnZldW0iLCJpYXQiOjE2NjM4NzIzMDgsImV4cCI6MTY2OTA1NjMwOH0.I_Z2TnJvWfmqGHuf_oTYO89HbqvzbbJ_EjU2kQSzVKQ"}}
+
+    $.user | not equal | match failed for name: 'token' (MAP:MAP)
+    {"email":"oneida478@gmail.com","username":"moises.rempel","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9uZWlkYTQ3OEBnbWFpbC5jb20iLCJ1c2VybmFtZSI6Im1vaXNlcy5yZW1wZWwiLCJpYXQiOjE2NjM4NzI0NDMsImV4cCI6MTY2OTA1NjQ0M30.wQhLk8zrUVLZk8XouDD9980VNQl3VMUn-fAAQwzIh7M"}
+    {"email":"oneida478@gmail.com","username":"moises.rempel","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1pbnRhMTA0QGdtYWlsLmNvbSIsInVzZXJuYW1lIjoidmlyZ2llLnZldW0iLCJpYXQiOjE2NjM4NzIzMDgsImV4cCI6MTY2OTA1NjMwOH0.I_Z2TnJvWfmqGHuf_oTYO89HbqvzbbJ_EjU2kQSzVKQ"}
+
+      $.user.token | not equal (STRING:STRING)
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9uZWlkYTQ3OEBnbWFpbC5jb20iLCJ1c2VybmFtZSI6Im1vaXNlcy5yZW1wZWwiLCJpYXQiOjE2NjM4NzI0NDMsImV4cCI6MTY2OTA1NjQ0M30.wQhLk8zrUVLZk8XouDD9980VNQl3VMUn-fAAQwzIh7M'
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im1pbnRhMTA0QGdtYWlsLmNvbSIsInVzZXJuYW1lIjoidmlyZ2llLnZldW0iLCJpYXQiOjE2NjM4NzIzMDgsImV4cCI6MTY2OTA1NjMwOH0.I_Z2TnJvWfmqGHuf_oTYO89HbqvzbbJ_EjU2kQSzVKQ'
+
+src/test/java/conduitApp/feature/Signup.feature:42
+20:47:24.661 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+20:49:38.664 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:49:38.667 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663872578666
+20:49:38.688 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 46 - ^Data\-driven signup$
+20:49:39.453 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:49:39.936 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 93
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"katherine281@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+20:49:40.477 [main] DEBUG com.intuit.karate - response time in milliseconds: 539
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:49:40 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=v4BxfvGtYX6tTSdyPiLfU9sDLd%2Bs5U9NwTEosAXl3MaEk8N7HpMnyDOgvGIFQspaqTgdjqOw%2BAyNFtPXSGLNuju0C2EEXg68bKzJosIyIM%2Br5VSIYC0q2Gvtld2gnkPoNI8l"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed38cadc71b88b-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+20:49:40.498 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:41
+* def token = response.user.token
+js failed:
+>>>>
+01: response.user.token
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "token" from undefined
+- <js>.:program(Unnamed:1)
+
+src/test/java/conduitApp/feature/Signup.feature:41
+20:49:40.499 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^Data\-driven signup$
+20:49:40.509 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:49:40.569 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 93
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"KarateUser1@test.com","password":"Karate1234","username":"shon.vonrueden"}}
+
+20:49:40.947 [main] DEBUG com.intuit.karate - response time in milliseconds: 378
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:49:40 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 47
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cB6mlL2%2Bj7TXiProXn7ie0ZkzT9DYF0vfVVlY2DfMZwIdHjmwFn16tog7nERH8jGP4OHq9%2BJwuPOj9VyP2oXzFOb91ZG%2BhL9tFQXnEbIN9YmccfvBn2nrLSRVieFZTR%2Bhj74"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed38cddcb41e8d-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["has already been taken"]}}
+
+20:49:40.949 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:41
+* def token = response.user.token
+js failed:
+>>>>
+01: response.user.token
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "token" from undefined
+- <js>.:program(Unnamed:1)
+
+src/test/java/conduitApp/feature/Signup.feature:41
+20:49:40.950 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 48 - ^Data\-driven signup$
+20:49:40.955 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:49:41.013 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 88
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"jere136@gmail.com","password":"Karate1234","username":"gina.collins"}}
+
+20:49:41.680 [main] DEBUG com.intuit.karate - response time in milliseconds: 667
+1 < 200
+1 < Date: Thu, 22 Sep 2022 18:49:41 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"12b-McT9L0cu22OpYouypxo4g7BtSDU"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=bgFShgs9QQuLZ%2BaY%2Fx6vEBMXTeyBKNR7LI4zLtTYAW2m5dCnJmYzNbEax6n8YZojybceXuoS5V5jkCaAkkQgRFXw93s%2FWD8IQjH5OW3fqpzobhwqeNF%2Fe%2Bfhs5iVRuo0dGBu"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed38d109e3d0cd-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"jere136@gmail.com","username":"gina.collins","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImplcmUxMzZAZ21haWwuY29tIiwidXNlcm5hbWUiOiJnaW5hLmNvbGxpbnMiLCJpYXQiOjE2NjM4NzI1ODEsImV4cCI6MTY2OTA1NjU4MX0.YO5zhqTBxveIyDtuuAYcN-41thb82sUSxVX4kAULSSg"}}
+
+20:49:42.282 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+20:51:21.488 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:51:21.491 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663872681491
+20:51:21.519 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 46 - ^Data\-driven signup$
+20:51:22.240 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:51:22.715 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 90
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"gladis461@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+20:51:23.273 [main] DEBUG com.intuit.karate - response time in milliseconds: 557
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:51:23 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=muMesiYTXckKHoFk9sloVng64wrzJXJM4n5Uw%2FLxNiqGvgrnEw3CcmzWoEezQOnYeoigunvOjsA5LUve9bx2%2BVnlpN0TAMmBipXGmOZt8LTP2GIiK6BxYq%2BT%2BuHPmrRecboc"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed3b4d6939b7f2-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+20:51:23.291 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:41
+* def responseToken = response.user.token
+js failed:
+>>>>
+01: response.user.token
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "token" from undefined
+- <js>.:program(Unnamed:1)
+
+src/test/java/conduitApp/feature/Signup.feature:41
+20:51:23.292 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^Data\-driven signup$
+20:51:23.302 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:51:23.362 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 90
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"KarateUser1@test.com","password":"Karate1234","username":"elden.hoppe"}}
+
+20:51:23.785 [main] DEBUG com.intuit.karate - response time in milliseconds: 423
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:51:23 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 47
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=B10ReuwlU1Mov%2FpkiZnF1FI%2F%2BmXpG8hMacwTRAfSlRKFeKpeb41BdPAks7vBzTck53EGIsj8dRRJD0WDI5xcYprRRs8df9ONR2HvAPaMRuTduSQ6U6tMXCZKC%2F1wJ9X5ldBo"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed3b508f6db75a-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["has already been taken"]}}
+
+20:51:23.788 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:41
+* def responseToken = response.user.token
+js failed:
+>>>>
+01: response.user.token
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "token" from undefined
+- <js>.:program(Unnamed:1)
+
+src/test/java/conduitApp/feature/Signup.feature:41
+20:51:23.788 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 48 - ^Data\-driven signup$
+20:51:23.795 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:51:23.848 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 91
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"derick427@gmail.com","password":"Karate1234","username":"raleigh.yundt"}}
+
+20:51:24.390 [main] DEBUG com.intuit.karate - response time in milliseconds: 542
+1 < 200
+1 < Date: Thu, 22 Sep 2022 18:51:24 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"132-FcD1mri96s7269zz9DjEsZzU0C8"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2BzYbr8KD5Ea%2FEsPh8pe756ePuCdeV7bo2dBIrTf8az5VK65bSh7GnhM%2FLy31g7jnMZk094zpX5DNgpN43FJuTV1Pr0ef1EWkJWmuch%2BVdPYdroJGuAZ5RBw%2F0eo0b9tR5uQV"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed3b535df0b7a6-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"derick427@gmail.com","username":"raleigh.yundt","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRlcmljazQyN0BnbWFpbC5jb20iLCJ1c2VybmFtZSI6InJhbGVpZ2gueXVuZHQiLCJpYXQiOjE2NjM4NzI2ODQsImV4cCI6MTY2OTA1NjY4NH0.aKLpuGfg6Hv-T99zlhNDUy7LXexYJ7SEOGcKxccDkPk"}}
+
+20:51:24.958 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+20:52:40.499 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:52:40.501 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663872760501
+20:52:40.525 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 46 - ^Data\-driven signup$
+20:52:41.308 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:52:41.810 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 91
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"brandon154@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+20:52:42.364 [main] DEBUG com.intuit.karate - response time in milliseconds: 552
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:52:42 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=o3hG%2FCMo6Zewf8kuypNB6%2BYgfXUADaWQY07SbtazU8byznRi7cZezKWhCRBDZiQatFDL0r%2Fgz%2FbeDGfs2FFals%2FNVGGlSoxceSvwBL%2BsB5756gYhDwTxdBd%2F4MbA8G3uWI3P"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed3d3baa3bb8fc-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+20:52:42.382 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:42
+* print(response.user.token)
+js failed:
+>>>>
+01: print(response.user.token)
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "token" from undefined
+- <js>.:program(Unnamed:1)
+
+src/test/java/conduitApp/feature/Signup.feature:42
+20:52:42.384 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^Data\-driven signup$
+20:52:42.393 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:52:42.458 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 93
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"KarateUser1@test.com","password":"Karate1234","username":"aubrey.monahan"}}
+
+20:52:42.838 [main] DEBUG com.intuit.karate - response time in milliseconds: 380
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:52:42 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 47
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XrgC3t4PLbJ7vNfAAHbNhyohNNRfM4Qb5uVZnA9ekX%2FetCfNOIG10EA11pTZsxMcR5SGplme0hXJxdFct12EuLsXpvwHxZ4gpMe6%2F0eIWtMbSBAIq4z1GKsYfE5Clt2TAuf%2F"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed3d3e9eb2b897-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["has already been taken"]}}
+
+20:52:42.840 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:42
+* print(response.user.token)
+js failed:
+>>>>
+01: print(response.user.token)
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "token" from undefined
+- <js>.:program(Unnamed:1)
+
+src/test/java/conduitApp/feature/Signup.feature:42
+20:52:42.840 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 48 - ^Data\-driven signup$
+20:52:42.846 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:52:42.903 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 91
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"phil239@gmail.com","password":"Karate1234","username":"leonardo.marvin"}}
+
+20:52:43.436 [main] DEBUG com.intuit.karate - response time in milliseconds: 533
+1 < 200
+1 < Date: Thu, 22 Sep 2022 18:52:43 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"132-LDOLMFSBuzH8/vBw+YkHHWbywzQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=DNTPscBJxs1O7IyffZVF2kVY3Hw8aJVwGstpWDo0z%2FG%2F2lYkkWLHf1z36DQajle022stU5L0lDIQd5vAn%2BjHaq48A%2BHyzvElK6vnLmwLxj6kRiceGtehpbBhE1TEuXWKpryn"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed3d417d04b909-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"phil239@gmail.com","username":"leonardo.marvin","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InBoaWwyMzlAZ21haWwuY29tIiwidXNlcm5hbWUiOiJsZW9uYXJkby5tYXJ2aW4iLCJpYXQiOjE2NjM4NzI3NjMsImV4cCI6MTY2OTA1Njc2M30.hNBmq1qJLkfTupxZsDeLKgGEH81mqnJEUzX5Fw4komY"}}
+
+20:52:43.453 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:43
+And match response == {"user":{"email":#(randomEmail),"username":#(randomUsername),"bio":null,"image":null,"token":#(responseToken)}}
+ReferenceError: "responseToken" is not defined
+src/test/java/conduitApp/feature/Signup.feature:43
+20:52:44.066 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+20:54:05.721 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:54:05.724 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663872845724
+20:54:05.740 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 48 - ^Data\-driven signup$
+20:54:06.499 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:54:07.038 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 89
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"abram140@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+20:54:07.611 [main] DEBUG com.intuit.karate - response time in milliseconds: 571
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:54:07 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2ZyWjAFjTlzkMjUSI%2BTvFuqas1cXTd3xZ%2BVQJ2sqpBnup2J0HNMBTgF922Dcdupd7AzD96593fQGaGBlpewp8jHlCW2UwYu1yyB874I2hPtfJXsgmlUMw1ncpU%2FZVfKglfv1"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed3f503e49b8a3-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+20:54:07.630 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:42
+* print(response.user.token)
+js failed:
+>>>>
+01: print(response.user.token)
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "token" from undefined
+- <js>.:program(Unnamed:1)
+
+src/test/java/conduitApp/feature/Signup.feature:42
+20:54:07.631 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 49 - ^Data\-driven signup$
+20:54:07.640 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:54:07.697 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 89
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"KarateUser1@test.com","password":"Karate1234","username":"dan.rempel"}}
+
+20:54:08.079 [main] DEBUG com.intuit.karate - response time in milliseconds: 382
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:54:08 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 47
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Sacpbpiz5H4yjaLKH9BjKNIw3nHCx9UMCC61M2wtaz6AHGOUrHErKeYztgK2goojFapCCuz%2BMFCk8UtfTNdPGWiTzMw2K4g9mlWLm1UUk0gAUCOsVvQ4ZRxY%2B1xeSzO7ioek"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed3f537eaeb7c7-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["has already been taken"]}}
+
+20:54:08.082 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:42
+* print(response.user.token)
+js failed:
+>>>>
+01: print(response.user.token)
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "token" from undefined
+- <js>.:program(Unnamed:1)
+
+src/test/java/conduitApp/feature/Signup.feature:42
+20:54:08.084 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 50 - ^Data\-driven signup$
+20:54:08.092 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:54:08.142 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 95
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"katelynn327@gmail.com","password":"Karate1234","username":"jarvis.shanahan"}}
+
+20:54:08.624 [main] DEBUG com.intuit.karate - response time in milliseconds: 482
+1 < 200
+1 < Date: Thu, 22 Sep 2022 18:54:08 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"13b-cEYXbQ2ERRhjl4vSw04q7sbBH+A"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=kZut4x5ta4tftT9VZXNEw5Eb7xJGgytbpd6H1TL1dgJ9kPDIiofL2929vNwU8EzOD8dISbJ6NwA6FBm9nr0lND89no2PMqa36Y7fPiHZmrj7Zd7uTQycxvs2LBry1nZZneAr"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed3f564ff6b98e-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"katelynn327@gmail.com","username":"jarvis.shanahan","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthdGVseW5uMzI3QGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiamFydmlzLnNoYW5haGFuIiwiaWF0IjoxNjYzODcyODQ4LCJleHAiOjE2NjkwNTY4NDh9.3hVPIRQz23ccn-Yc7tCou9oD2w0EtD7PXqVO3Fexy08"}}
+
+20:54:08.630 [main] INFO  com.intuit.karate - [print] Response token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthdGVseW5uMzI3QGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiamFydmlzLnNoYW5haGFuIiwiaWF0IjoxNjYzODcyODQ4LCJleHAiOjE2NjkwNTY4NDh9.3hVPIRQz23ccn-Yc7tCou9oD2w0EtD7PXqVO3Fexy08 
+20:54:09.280 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+20:56:46.426 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:56:46.428 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663873006428
+20:56:46.448 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 48 - ^Data\-driven signup$
+20:56:47.204 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:56:47.678 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 90
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"nieves202@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+20:56:48.233 [main] DEBUG com.intuit.karate - response time in milliseconds: 552
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:56:48 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TgNLd8PKdHUhJvsZ7R9V7hw7hsJ32AmXzmBsiaDOaFIUM%2BFpnV97OGCCjOYmADuV7Uly9H58VL%2FBU6PldA2zMLdUVHojuvay63lJrgiY4NLZ3IHSr8OoMznDAwgfXQRzrC0S"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed433c5911b7d9-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+20:56:48.249 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:42
+* print(response.user[0].token)
+js failed:
+>>>>
+01: print(response.user[0].token)
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "0" from undefined
+- <js>.:program(Unnamed:1)
+
+src/test/java/conduitApp/feature/Signup.feature:42
+20:56:48.250 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 49 - ^Data\-driven signup$
+20:56:48.260 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:56:48.325 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 93
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"KarateUser1@test.com","password":"Karate1234","username":"bennett.hansen"}}
+
+20:56:48.700 [main] DEBUG com.intuit.karate - response time in milliseconds: 375
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:56:48 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 47
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=oI99S3K4gbQejEPxbrvKLnVYRxreEYd9RkQFirz6RvQB43mMz6QMBtG8slppCcJaapVI5bFOkSL9lvG%2F7OX%2B3KI7E4uPJVhdaYj9bH45ahCgKh58S5Ow4MMSK%2FZYA59NXv9k"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed433f4bc74224-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["has already been taken"]}}
+
+20:56:48.703 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:42
+* print(response.user[0].token)
+js failed:
+>>>>
+01: print(response.user[0].token)
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "0" from undefined
+- <js>.:program(Unnamed:1)
+
+src/test/java/conduitApp/feature/Signup.feature:42
+20:56:48.703 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 50 - ^Data\-driven signup$
+20:56:48.710 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:56:48.756 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 88
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"dyan452@gmail.com","password":"Karate1234","username":"patrick.lind"}}
+
+20:56:49.220 [main] DEBUG com.intuit.karate - response time in milliseconds: 464
+1 < 200
+1 < Date: Thu, 22 Sep 2022 18:56:49 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"12b-6SB/+oovaAeT8WzSqOaq4hRea58"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=x4QGvysms5PMtxs4mKUhdqeOJyPHOxcIBcHabScbc74HWJEjfG9HLyw6fpnzd0JODt4BSDm7NEMHTHMc%2Fn%2Bqk35J%2FhUSg6FBQevS8MhZLHF2RJYvBgWfZ4MrHlb5ohjLglHc"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed4341fd05b89c-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"dyan452@gmail.com","username":"patrick.lind","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImR5YW40NTJAZ21haWwuY29tIiwidXNlcm5hbWUiOiJwYXRyaWNrLmxpbmQiLCJpYXQiOjE2NjM4NzMwMDksImV4cCI6MTY2OTA1NzAwOX0.AcbyFok5P3jTUOyz0DxQPXgDfwoWDqO1gqVVjWHEzAI"}}
+
+20:56:49.225 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:42
+* print(response.user[0].token)
+js failed:
+>>>>
+01: print(response.user[0].token)
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "token" from undefined
+- <js>.:program(Unnamed:1)
+
+src/test/java/conduitApp/feature/Signup.feature:42
+20:56:49.819 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+20:57:45.228 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:57:45.230 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663873065230
+20:57:45.246 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 48 - ^Data\-driven signup$
+20:57:46.005 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:57:46.500 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 92
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"maybelle490@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+20:57:47.465 [main] DEBUG com.intuit.karate - response time in milliseconds: 963
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:57:47 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ySLWyg5a2bR2jfbU3CjEfnrEFDOF1oR7ICnBYyOBSqNhWogBPETr15cuI7y9BkNKQ1aWAkY45DhOPSRZeLyf4YqakWTzZw3gKwjaTa%2FqeyfmmfV%2FaIZi6OFbdl72NAJaiY6B"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed44ae9bfa0b53-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+20:57:47.499 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:43
+* def responseToken = response[0].user.token
+js failed:
+>>>>
+01: response[0].user.token
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "user" from undefined
+- <js>.:program(Unnamed:1)
+
+src/test/java/conduitApp/feature/Signup.feature:43
+20:57:47.500 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 49 - ^Data\-driven signup$
+20:57:47.509 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:57:47.567 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 94
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"KarateUser1@test.com","password":"Karate1234","username":"lazaro.emmerich"}}
+
+20:57:48.072 [main] DEBUG com.intuit.karate - response time in milliseconds: 504
+1 < 422
+1 < Date: Thu, 22 Sep 2022 18:57:48 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 47
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5aXy8roFAAXfIFU8RMmBAWLA4yF8ocZPu9Z7O%2FigFv2uN96o%2FvRT4dqAWVsVMy2nrZTZECBIy2aMS7NGBA7IgMqU%2BXXotbfcx8WnMp1ytFitsNzzmY5nVUPb8xY5ipZNpSTT"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed44b20deeb71f-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["has already been taken"]}}
+
+20:57:48.074 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:43
+* def responseToken = response[0].user.token
+js failed:
+>>>>
+01: response[0].user.token
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "user" from undefined
+- <js>.:program(Unnamed:1)
+
+src/test/java/conduitApp/feature/Signup.feature:43
+20:57:48.075 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 50 - ^Data\-driven signup$
+20:57:48.081 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:57:48.130 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 92
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"bernadette58@gmail.com","password":"Karate1234","username":"fredric.toy"}}
+
+20:57:48.689 [main] DEBUG com.intuit.karate - response time in milliseconds: 559
+1 < 200
+1 < Date: Thu, 22 Sep 2022 18:57:48 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"134-w6xtTOZeNxV5flodaPA7U8/Dtig"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=rNg3KZSqlHWiVxmuDHSRsdPULH6MmxaQSLiJrDn26qDTNG7Or06ap1vtikJ%2FFQqxyQWcyckPfmg5vi8kZ3Qm8nIletvvA9qhrfXIK3aEiJrMFuA19Pv8uk%2Fox7w7aPoN5Whc"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed44b5395ab76a-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"bernadette58@gmail.com","username":"fredric.toy","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJlcm5hZGV0dGU1OEBnbWFpbC5jb20iLCJ1c2VybmFtZSI6ImZyZWRyaWMudG95IiwiaWF0IjoxNjYzODczMDY4LCJleHAiOjE2NjkwNTcwNjh9.qv3UVZ_LwpOmyXylB6kReVay2mAoUeZnVSX0i5mhjs8"}}
+
+20:57:48.692 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:43
+* def responseToken = response[0].user.token
+js failed:
+>>>>
+01: response[0].user.token
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "user" from undefined
+- <js>.:program(Unnamed:1)
+
+src/test/java/conduitApp/feature/Signup.feature:43
+20:57:49.308 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+21:01:36.370 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:01:36.373 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663873296373
+21:01:36.390 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 48 - ^Data\-driven signup$
+21:01:37.126 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:01:37.615 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 92
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"tennille365@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+21:01:38.172 [main] DEBUG com.intuit.karate - response time in milliseconds: 555
+1 < 422
+1 < Date: Thu, 22 Sep 2022 19:01:38 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FWEum6P2lgEqAoJyIo1FnArgGMD106nWCIx1zFvyJMegglIyorf0YUM8KR7p7EcWo4suH1ZxNZ1TN7w59zXXc7IuW%2BQGJtZDUZ1aSCERv5cm1fuYcvt9cHSZ2iSJYtN5I3EA"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed4a504b0ab75b-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+21:01:38.199 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:43
+* print ("Response token: " + responseToken)
+js failed:
+>>>>
+01: karate.log('[print]',("Response token: " + responseToken))
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "responseToken" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/conduitApp/feature/Signup.feature:43
+21:01:38.201 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 49 - ^Data\-driven signup$
+21:01:38.212 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:01:38.276 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 92
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"KarateUser1@test.com","password":"Karate1234","username":"darwin.gibson"}}
+
+21:01:38.675 [main] DEBUG com.intuit.karate - response time in milliseconds: 398
+1 < 422
+1 < Date: Thu, 22 Sep 2022 19:01:38 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 47
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=keLCMS%2FJ6Sj9%2BtMu41rTf7T5qYxdl%2BO4MNmGz9qH%2BELLovAqKX%2FJ4rQT%2FHs27bKOrEuirXZEO0kJf9xryB8dNFJBjwwZpJusNrnsaOM39q72jIj82dFTUl2sEjx9Z4QEZQhM"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed4a53afb6b915-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["has already been taken"]}}
+
+21:01:38.678 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:43
+* print ("Response token: " + responseToken)
+js failed:
+>>>>
+01: karate.log('[print]',("Response token: " + responseToken))
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "responseToken" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/conduitApp/feature/Signup.feature:43
+21:01:38.678 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 50 - ^Data\-driven signup$
+21:01:38.685 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:01:38.736 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 91
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"gabriella162@gmail.com","password":"Karate1234","username":"holley.rau"}}
+
+21:01:39.295 [main] DEBUG com.intuit.karate - response time in milliseconds: 559
+1 < 200
+1 < Date: Thu, 22 Sep 2022 19:01:39 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"132-ivDH5MpZFQ6DMsdiijDGfemd/OI"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=oU4Z0w6ehYVLnh9Ss6UDCWnW2AHWzcpSHrJrSTC10q8%2Fe%2FgcdkovHiyJL7MYHpcZ8QlIusBlMktdyOwftUiHamrP%2FCTvR%2B%2BsoHHYQ2AG%2Ffv37Ragtfnz9BOAqT%2B0YUob%2Fauy"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed4a565d2fd0cd-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"gabriella162@gmail.com","username":"holley.rau","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImdhYnJpZWxsYTE2MkBnbWFpbC5jb20iLCJ1c2VybmFtZSI6ImhvbGxleS5yYXUiLCJpYXQiOjE2NjM4NzMyOTksImV4cCI6MTY2OTA1NzI5OX0.bmqaG2ewQCktnLokN3GhW7icmYikml1tOAGhKf18qss"}}
+
+21:01:39.299 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:43
+* print ("Response token: " + responseToken)
+js failed:
+>>>>
+01: karate.log('[print]',("Response token: " + responseToken))
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "responseToken" is not defined
+- <js>.:program(Unnamed:1)
+
+src/test/java/conduitApp/feature/Signup.feature:43
+21:01:39.901 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+21:01:59.118 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:01:59.121 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663873319121
+21:01:59.145 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 48 - ^Data\-driven signup$
+21:01:59.887 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:02:00.395 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 88
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"yuri288@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+21:02:00.925 [main] DEBUG com.intuit.karate - response time in milliseconds: 527
+1 < 422
+1 < Date: Thu, 22 Sep 2022 19:02:00 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=iccnwG0uX8LPq18k3F8tho0EQSt8XiHiYNz5JLsRK8QZq04eKCo74QhOInD9dpkJe8ZO20%2BML3pPxwJp%2BiE%2BKSTtUdk9znHp2W90DIXp3BRlZmgplBy0pDHb4iADpdWZndqb"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed4adecb92b770-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+21:02:00.945 [main] INFO  com.intuit.karate - [print] Response token: undefined 
+21:02:00.955 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:44
+* def responseToken = response[0].user.token
+js failed:
+>>>>
+01: response[0].user.token
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "user" from undefined
+- <js>.:program(Unnamed:1)
+
+src/test/java/conduitApp/feature/Signup.feature:44
+21:02:00.956 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 49 - ^Data\-driven signup$
+21:02:00.968 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:02:01.037 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 89
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"KarateUser1@test.com","password":"Karate1234","username":"veta.bosco"}}
+
+21:02:01.421 [main] DEBUG com.intuit.karate - response time in milliseconds: 384
+1 < 422
+1 < Date: Thu, 22 Sep 2022 19:02:01 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 47
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=9ST425Q27DvQ49dMmISr3WQBSiZnVWa61ZH1LutBGf7qcm%2FmXVP%2FX8fBu7FRoOCvDvDIjUyUaPulsFzS56IZ0MLWqY66deA%2FI1uX13wG%2FezptXGwu0%2FKzePlrirgwI854o7Y"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed4ae1ccf4b99a-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["has already been taken"]}}
+
+21:02:01.423 [main] INFO  com.intuit.karate - [print] Response token: undefined 
+21:02:01.424 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:44
+* def responseToken = response[0].user.token
+js failed:
+>>>>
+01: response[0].user.token
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "user" from undefined
+- <js>.:program(Unnamed:1)
+
+src/test/java/conduitApp/feature/Signup.feature:44
+21:02:01.425 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 50 - ^Data\-driven signup$
+21:02:01.432 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:02:01.482 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 94
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"fletcher186@gmail.com","password":"Karate1234","username":"jesica.gerhold"}}
+
+21:02:02.026 [main] DEBUG com.intuit.karate - response time in milliseconds: 544
+1 < 200
+1 < Date: Thu, 22 Sep 2022 19:02:01 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"139-xKgp6GqE6/RorzHBI3FyoAIS0Uk"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Sv7QwbztF2StuyGYplw3%2BAeSoDx0S74PNny6AjoNSm2fmH%2B8jK7sAbHyKWZeRvwv9r2u8lFzqD3wS1FGcngDkVtC4MvOfPahI99Wc8ZZ%2FGe3rH%2FX7iDdtJzdix6uUgLRJvbp"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed4ae48c2cb8c7-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"fletcher186@gmail.com","username":"jesica.gerhold","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImZsZXRjaGVyMTg2QGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiamVzaWNhLmdlcmhvbGQiLCJpYXQiOjE2NjM4NzMzMjEsImV4cCI6MTY2OTA1NzMyMX0.X2ce5sijXfF9feegMraOAtetjfiz1MQFMWOxY_6heRw"}}
+
+21:02:02.028 [main] INFO  com.intuit.karate - [print] Response token: undefined 
+21:02:02.029 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:44
+* def responseToken = response[0].user.token
+js failed:
+>>>>
+01: response[0].user.token
+<<<<
+org.graalvm.polyglot.PolyglotException: TypeError: Cannot read property "user" from undefined
+- <js>.:program(Unnamed:1)
+
+src/test/java/conduitApp/feature/Signup.feature:44
+21:02:02.791 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+21:02:37.562 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:02:37.565 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663873357565
+21:02:37.581 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 48 - ^Data\-driven signup$
+21:02:38.372 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:02:38.853 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 90
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"kimber290@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+21:02:39.406 [main] DEBUG com.intuit.karate - response time in milliseconds: 550
+1 < 422
+1 < Date: Thu, 22 Sep 2022 19:02:39 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=pzkb%2Fx%2BaugbVVVjfDt7n5Tby56rYfSyynvMYJXf9ZqneecJrpdfYvYw6ITKaZ0GEPJNq14VrK0LkVusdXJGh8hpO15FSd17SOD6uwE39tLh22sFVuYpSWUFsLVTx4B8Czv0n"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed4bcf2aaf1e81-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+21:02:39.424 [main] INFO  com.intuit.karate - [print] Response token: undefined 
+21:02:39.432 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 49 - ^Data\-driven signup$
+21:02:39.443 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:02:39.503 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 89
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"KarateUser1@test.com","password":"Karate1234","username":"amos.marks"}}
+
+21:02:39.873 [main] DEBUG com.intuit.karate - response time in milliseconds: 370
+1 < 422
+1 < Date: Thu, 22 Sep 2022 19:02:39 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 47
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=lkAs3uqmV5m9KFPdpj4PgJ5asiroodzP8WeqAdGZdPslXUtCiOqaPQFsBwYHAff%2FuvkgIs9sXoN4vshHyHnkTUUJylrIUAnga%2Bt4KYMQuvProTn%2BtKOaVaAotyaPgQ702qTm"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed4bd23bb6b749-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["has already been taken"]}}
+
+21:02:39.874 [main] INFO  com.intuit.karate - [print] Response token: undefined 
+21:02:39.875 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 50 - ^Data\-driven signup$
+21:02:39.883 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:02:39.929 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 92
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"harris184@gmail.com","password":"Karate1234","username":"demarcus.welch"}}
+
+21:02:40.427 [main] DEBUG com.intuit.karate - response time in milliseconds: 497
+1 < 200
+1 < Date: Thu, 22 Sep 2022 19:02:40 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"134-PJErirzXPxD7lv/s8o/FMVW3FjE"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=lQosKXXG9hcbs8ru9lJeOk%2FzwTYGvBtaO%2BuyD626ovdLhYCaxWXFwbJEtHt4wgOUw3Ry7%2BRR7rtTxHL62mzBYil1VSEw3qoj0J89Z48SwikteFUuM%2FccPsOl1EmtZe11rtgf"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed4bd4eae7b90c-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"harris184@gmail.com","username":"demarcus.welch","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImhhcnJpczE4NEBnbWFpbC5jb20iLCJ1c2VybmFtZSI6ImRlbWFyY3VzLndlbGNoIiwiaWF0IjoxNjYzODczMzYwLCJleHAiOjE2NjkwNTczNjB9.A5YR23HII61MJ40wfLgahPHWVGVYnN_-qRrXsp84jxU"}}
+
+21:02:40.429 [main] INFO  com.intuit.karate - [print] Response token: undefined 
+21:02:40.439 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:45
+And match response == {"user":{"email":#(randomEmail),"username":#(randomUsername),"bio":null,"image":null,"token":#(responseToken)}}
+ReferenceError: "responseToken" is not defined
+src/test/java/conduitApp/feature/Signup.feature:45
+21:02:41.042 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+21:04:03.647 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:04:03.651 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663873443651
+21:04:03.677 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 48 - ^Data\-driven signup$
+21:04:04.444 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:04:04.995 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 90
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"donnie238@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+21:04:05.559 [main] DEBUG com.intuit.karate - response time in milliseconds: 563
+1 < 422
+1 < Date: Thu, 22 Sep 2022 19:04:05 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=k044G5m0FpZDiHtX78sDi7g5PauqNmo1n1L0zCJxeZzgyIrDR7CV8Jx66sq91bp25ItlBexoWJPEfWkvIFT2DD0D20g086XxKTWYphTB5bXfXQwYX%2B%2Bq%2BS88ZcNzhf3QuvHw"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed4de9bc1e0c21-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+21:04:05.585 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 49 - ^Data\-driven signup$
+21:04:05.593 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:04:05.651 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 93
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"KarateUser1@test.com","password":"Karate1234","username":"kerstin.renner"}}
+
+21:04:06.234 [main] DEBUG com.intuit.karate - response time in milliseconds: 583
+1 < 422
+1 < Date: Thu, 22 Sep 2022 19:04:06 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 47
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MBdBbbJ3lfZ0iVxvibQY89zq0y3mU2u4W3uhEeFJlkDQTsP0SJKC5nR1vYEMzf%2B8YXWH8i%2BBG8N%2FygCZpHNjfra72W4pDJfrh9ibaQaeTqlLlJPC2hJ7%2BRmYIY%2Ba7V7gckU%2F"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed4dec9b210bcd-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["has already been taken"]}}
+
+21:04:06.237 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 50 - ^Data\-driven signup$
+21:04:06.244 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:04:06.288 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 93
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"clark430@gmail.com","password":"Karate1234","username":"jospeh.dickinson"}}
+
+21:04:06.849 [main] DEBUG com.intuit.karate - response time in milliseconds: 560
+1 < 200
+1 < Date: Thu, 22 Sep 2022 19:04:06 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"137-8Hy8KZcCYOLivdzRlKPIM33k1GI"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=wikSKQPbevo836mr%2BNm9fcqL6XSwXJ7EC6MV0BRgFPImfQfW9RByYbeeGYeSUzsKZVeEWJibhshZpfn3SDRQECcN1lPReaXeGJxPHEqWup%2BqSCsNE5vNuGDxEvnwK7lJoDbJ"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed4df0a847fa28-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"clark430@gmail.com","username":"jospeh.dickinson","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNsYXJrNDMwQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiam9zcGVoLmRpY2tpbnNvbiIsImlhdCI6MTY2Mzg3MzQ0NiwiZXhwIjoxNjY5MDU3NDQ2fQ.kGHiKqeC4CjbX7Lf8KC1DIDI6A4HBpi19eHWn9NHIow"}}
+
+21:04:06.861 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:45
+And match response == {"user":{"email":#(randomEmail),"username":#(randomUsername),"bio":null,"image":null,"token":#(responseToken)}}
+ReferenceError: "responseToken" is not defined
+src/test/java/conduitApp/feature/Signup.feature:45
+21:04:07.542 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+21:10:14.390 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:10:14.399 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663873814399
+21:10:14.436 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 7 - ^Create an already existing User$
+21:10:15.168 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:10:15.545 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 93
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"brucelee100@karate.com","password":"Karate123","username":"KarateUser166"}}
+
+21:10:16.097 [main] DEBUG com.intuit.karate - response time in milliseconds: 550
+1 < 422
+1 < Date: Thu, 22 Sep 2022 19:10:16 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 85
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"55-NjrsT9gca4ZDmlQ/ixYZy7cuscc"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=b2Ja0a1yv%2Fgl6sxVUJPShN7gZps40Ciu1cqYYk3l2X5PaIOUZUbg7Tm%2BA4ylqTzM7mdFMm4%2BGFCOuA0XbJBsMBv6bSAZhFzgipwrUD92S7stN3NVk2TEVs9Hcb4VPCxQa0Nw"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed56f58ad00115-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["has already been taken"],"username":["has already been taken"]}}
+
+21:10:16.657 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+21:11:51.173 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:11:51.176 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663873911176
+21:11:51.192 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 49 - ^Data\-driven signup$
+21:11:51.936 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:11:52.411 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 91
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"refugia175@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+21:11:52.973 [main] DEBUG com.intuit.karate - response time in milliseconds: 561
+1 < 422
+1 < Date: Thu, 22 Sep 2022 19:11:53 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=YXGKqtPrz1nkH4uNUXQhOmTaIyFJFNVDcK3RXG404aYBl2IxCcfs2V6P6LK5J9QgP%2FWQ8gtSi1rqSBWDiXOq9ifPLewSvZJ2OFvsMhoE1GbTu6naC6NAO078JYSaJ6TTaBC8"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed59530b31b936-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+21:11:52.996 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 50 - ^Data\-driven signup$
+21:11:53.007 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:11:53.073 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 92
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"KarateUser1@test.com","password":"Karate1234","username":"claudia.marks"}}
+
+21:11:53.444 [main] DEBUG com.intuit.karate - response time in milliseconds: 370
+1 < 422
+1 < Date: Thu, 22 Sep 2022 19:11:53 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 47
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=eogIk6ptniMgOXiE7g%2BiT3my8AOXg%2FrwAbaeHtmIfDR9vKR1Oi50aZn5D%2Fhc0u%2BASj9M1JFuZgRLEqJ8p0ww5eS17sexI7uSA7xmOwMOXrV9%2F28GV9Jny9RdFDMmGJVL5oXO"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed59560de8b78e-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["has already been taken"]}}
+
+21:11:53.447 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 51 - ^Data\-driven signup$
+21:11:53.454 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:11:53.505 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 95
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"drucilla229@gmail.com","password":"Karate1234","username":"julianna.casper"}}
+
+21:11:53.972 [main] DEBUG com.intuit.karate - response time in milliseconds: 466
+1 < 200
+1 < Date: Thu, 22 Sep 2022 19:11:54 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"13b-BpmcAVDtKJz4oNL2ObZ0h8yc+IU"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0BQ7ebC2bVr%2BiIflY70rbEbNV%2BT1TJ4cHKSwYmidfFSvWKXaK3wk8ZSOIZorldQIoXp4JruPsdoLxnBPlGp1nkqJYuI79HbFuP7TayN0FU3sJWOuAnyV2IaCDxGmt4Hx443m"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed5958c811b951-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"drucilla229@gmail.com","username":"julianna.casper","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRydWNpbGxhMjI5QGdtYWlsLmNvbSIsInVzZXJuYW1lIjoianVsaWFubmEuY2FzcGVyIiwiaWF0IjoxNjYzODczOTEzLCJleHAiOjE2NjkwNTc5MTN9.8jEcLE2pylWMDyNZ2k3oxWm7USLppCMCl6xAA8U0rA8"}}
+
+21:11:53.984 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:46
+And match response == {"user":{"email":#(randomEmail),"username":#(randomUsername),"bio":null,"image":null,"token":#(responseToken)}}
+ReferenceError: "responseToken" is not defined
+src/test/java/conduitApp/feature/Signup.feature:46
+21:11:54.669 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+21:15:39.667 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:15:39.670 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663874139670
+21:15:39.690 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 46 - ^Data\-driven signup$
+21:15:40.462 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:15:40.953 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 90
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"robert196@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+21:15:41.515 [main] DEBUG com.intuit.karate - response time in milliseconds: 559
+1 < 422
+1 < Date: Thu, 22 Sep 2022 19:15:41 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=QZ6vWfYClbFkALwPk2bvZWO8%2FS9hXeGPwB6KvHrEyKrK0rWFe2iRp4kNCkXt0PvP%2BEETVrIlKmxb5uRIpr8HCk8%2BERSCf7nsbHRYXojVlUhsdq6xgU9Oh5K9r%2FlR6He1UWIS"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed5ee77e64b79c-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+21:15:41.541 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:43
+* def responseToken = "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJydWNlbDJlZXNkMTAyMEBrYXJhdGUuY29tIiwidXNlcm5hbWUiOiJLYXIyYXRlVXNzZDJlcjE2NiIsImlhdCI6MTY2Mzg3MTk4MCwiZXhwIjoxNjY5MDU1OTgwfQ.sKEjI5iWI-NSjLGmbblQjpUvdpNM6DcEIVAiltgla78"
+js failed:
+>>>>
+01: "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJydWNlbDJlZXNkMTAyMEBrYXJhdGUuY29tIiwidXNlcm5hbWUiOiJLYXIyYXRlVXNzZDJlcjE2NiIsImlhdCI6MTY2Mzg3MTk4MCwiZXhwIjoxNjY5MDU1OTgwfQ.sKEjI5iWI-NSjLGmbblQjpUvdpNM6DcEIVAiltgla78"
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:7 Expected ; but found :
+"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJydWNlbDJlZXNkMTAyMEBrYXJhdGUuY29tIiwidXNlcm5hbWUiOiJLYXIyYXRlVXNzZDJlcjE2NiIsImlhdCI6MTY2Mzg3MTk4MCwiZXhwIjoxNjY5MDU1OTgwfQ.sKEjI5iWI-NSjLGmbblQjpUvdpNM6DcEIVAiltgla78"
+       ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:401)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:141)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:137)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1344)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2373)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2292)
+- com.intuit.karate.core.ScenarioEngine.evalAndCastTo(ScenarioEngine.java:1412)
+
+src/test/java/conduitApp/feature/Signup.feature:43
+21:15:41.542 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^Data\-driven signup$
+21:15:41.551 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:15:41.611 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 92
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"KarateUser1@test.com","password":"Karate1234","username":"deonna.stokes"}}
+
+21:15:42.041 [main] DEBUG com.intuit.karate - response time in milliseconds: 428
+1 < 422
+1 < Date: Thu, 22 Sep 2022 19:15:42 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 47
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=VFttCKWRFcZ7FnP7WYy5gr1yL%2BuJPMjAjOrgtb1fEo6ZaC85dGiZEYQUzdtbTJKNAwBGq4mMQMMa5BLqAUM6mwLjbr91v2tjOU9nMw4XuUtgcvYgXBe7EfL1g6QmqNWwISbX"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed5eea9e2ed0d1-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["has already been taken"]}}
+
+21:15:42.043 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:43
+* def responseToken = "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJydWNlbDJlZXNkMTAyMEBrYXJhdGUuY29tIiwidXNlcm5hbWUiOiJLYXIyYXRlVXNzZDJlcjE2NiIsImlhdCI6MTY2Mzg3MTk4MCwiZXhwIjoxNjY5MDU1OTgwfQ.sKEjI5iWI-NSjLGmbblQjpUvdpNM6DcEIVAiltgla78"
+js failed:
+>>>>
+01: "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJydWNlbDJlZXNkMTAyMEBrYXJhdGUuY29tIiwidXNlcm5hbWUiOiJLYXIyYXRlVXNzZDJlcjE2NiIsImlhdCI6MTY2Mzg3MTk4MCwiZXhwIjoxNjY5MDU1OTgwfQ.sKEjI5iWI-NSjLGmbblQjpUvdpNM6DcEIVAiltgla78"
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:7 Expected ; but found :
+"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJydWNlbDJlZXNkMTAyMEBrYXJhdGUuY29tIiwidXNlcm5hbWUiOiJLYXIyYXRlVXNzZDJlcjE2NiIsImlhdCI6MTY2Mzg3MTk4MCwiZXhwIjoxNjY5MDU1OTgwfQ.sKEjI5iWI-NSjLGmbblQjpUvdpNM6DcEIVAiltgla78"
+       ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:401)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:141)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:137)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1344)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2373)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2292)
+- com.intuit.karate.core.ScenarioEngine.evalAndCastTo(ScenarioEngine.java:1412)
+
+src/test/java/conduitApp/feature/Signup.feature:43
+21:15:42.044 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 48 - ^Data\-driven signup$
+21:15:42.051 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:15:42.104 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 92
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"karlene308@gmail.com","password":"Karate1234","username":"kym.vonrueden"}}
+
+21:15:42.657 [main] DEBUG com.intuit.karate - response time in milliseconds: 553
+1 < 200
+1 < Date: Thu, 22 Sep 2022 19:15:42 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"134-jSgaoNHtMW8nzKS/4+poP0RavOc"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=3mI%2BU5LCfB9vLl3ybE49CP2%2FXNMzVg0QcKCIlMybU8CmqUK4ilmDcQpmbNiUApU8J4C3xXyNRzpUliMhKbD2iNZ4%2FruuJLcKUK6fLQCjHv7rYqQ2sWHP4AI3pN9b12nBelLF"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed5eed9f3cb7c1-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"karlene308@gmail.com","username":"kym.vonrueden","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthcmxlbmUzMDhAZ21haWwuY29tIiwidXNlcm5hbWUiOiJreW0udm9ucnVlZGVuIiwiaWF0IjoxNjYzODc0MTQyLCJleHAiOjE2NjkwNTgxNDJ9.H2U2JNrEyFBmHd4BotUbQVmSO1OLue_u9iW_--YSo-w"}}
+
+21:15:42.662 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:42
+And match response == {"user":{"email":#(randomEmail),"username":#(randomUsername),"bio":null,"image":null,"token":#(responseToken)}}
+ReferenceError: "responseToken" is not defined
+src/test/java/conduitApp/feature/Signup.feature:42
+21:15:43.276 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+21:16:04.470 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:16:04.473 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663874164472
+21:16:04.499 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 46 - ^Data\-driven signup$
+21:16:05.232 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:16:05.769 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 91
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"rodrigo498@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+21:16:07.342 [main] DEBUG com.intuit.karate - response time in milliseconds: 1571
+1 < 422
+1 < Date: Thu, 22 Sep 2022 19:16:07 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=IdkmgDkeNCvstRxRXPZT1aECKpb8sBWzJjKB6xv4r%2B48hoscLT0KFuCoONlpWddDGVIYcNHlX%2B57IpE7RxKBvwDlFajkMPCxTpHT%2FJ9S%2FYd3r5QLi3w8ObOuglH263PtKqak"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed5f88a8cbd0bd-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+21:16:07.354 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^Data\-driven signup$
+21:16:07.365 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:16:07.418 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 94
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"KarateUser1@test.com","password":"Karate1234","username":"ernestina.doyle"}}
+
+21:16:07.949 [main] DEBUG com.intuit.karate - response time in milliseconds: 531
+1 < 422
+1 < Date: Thu, 22 Sep 2022 19:16:07 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 47
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5kRil3tEzPOVlxIQ6ngqSEVgHT9ESbrz9A3Wp2gDtjcsujYIv%2BFhoYBkyXQ%2BaOX5LEcYJoT8RiO%2FoPk%2FQ6OIuaf5Xg4sIduzxiPSpRMPY0m%2FdJGav1TYVOojASRoFp59GaMv"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed5f8bdd70b8be-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["has already been taken"]}}
+
+21:16:07.952 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 48 - ^Data\-driven signup$
+21:16:07.958 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:16:08.007 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 88
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"irvin8@gmail.com","password":"Karate1234","username":"piedad.beatty"}}
+
+21:16:08.565 [main] DEBUG com.intuit.karate - response time in milliseconds: 558
+1 < 200
+1 < Date: Thu, 22 Sep 2022 19:16:08 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"12b-VVzLnQT4y1KyI/kqe06XHKhYwaQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=3RVWa3Q82OQubdZzG120CXw1UU5WkXaduCnt52nCHfvTKePO2RoKZsePtNStSy5V3yVKy0G9dmlJIKFi2R7VviEK8FBGyA9GbBnXfaBrN3CHwGzjNgCPxgZgJhMzKP7WXfiY"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed5f8f89efb8b8-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"irvin8@gmail.com","username":"piedad.beatty","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImlydmluOEBnbWFpbC5jb20iLCJ1c2VybmFtZSI6InBpZWRhZC5iZWF0dHkiLCJpYXQiOjE2NjM4NzQxNjgsImV4cCI6MTY2OTA1ODE2OH0.E-F7hAUvJdBqnaR9yBueULlkUIPbV2iK7CNUPB92OqE"}}
+
+21:16:08.576 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:42
+And match response == {"user":{"email":#(randomEmail),"username":#(randomUsername),"bio":null,"image":null,"token":#(responseToken)}}
+ReferenceError: "responseToken" is not defined
+src/test/java/conduitApp/feature/Signup.feature:42
+21:16:09.154 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+21:17:20.843 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:17:20.846 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663874240846
+21:17:20.869 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 46 - ^Data\-driven signup$
+21:17:21.768 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:17:22.260 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 88
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"denae14@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+21:17:22.990 [main] DEBUG com.intuit.karate - response time in milliseconds: 728
+1 < 422
+1 < Date: Thu, 22 Sep 2022 19:17:22 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SY1EfLzH%2F23aCO5eNtQ%2BOSq0AJ%2FSmpdc2%2FiHVTI%2B4vav5Xa4Ou1NJ2uEGYfTwwbixNNpq1sZ5Cd31e%2BC%2B3WdzIpbE6uyNjURIgCZ179Noogv5qLUApam%2B%2FzNOiFPf0Yv91ar"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed61619c5241bc-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+21:17:23.002 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^Data\-driven signup$
+21:17:23.012 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:17:23.065 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 93
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"KarateUser1@test.com","password":"Karate1234","username":"porter.friesen"}}
+
+21:17:23.475 [main] DEBUG com.intuit.karate - response time in milliseconds: 409
+1 < 422
+1 < Date: Thu, 22 Sep 2022 19:17:23 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 47
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=WACUrgLc0dHz285U2acAcbP%2FOS8F0Dpiqye3IjoY%2BswmGFcVbqs7cyc3YgxEv%2BLqGn6GokXTNsTT6oc0g%2B5fRD865rsA72bCEH4DxNlbz0fvEd4ljdUYQ0hrQGpaYprGLXr%2F"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed6164c95db88e-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["has already been taken"]}}
+
+21:17:23.477 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 48 - ^Data\-driven signup$
+21:17:23.485 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:17:23.528 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 88
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"benito401@gmail.com","password":"Karate1234","username":"gus.hoeger"}}
+
+21:17:24.136 [main] DEBUG com.intuit.karate - response time in milliseconds: 608
+1 < 200
+1 < Date: Thu, 22 Sep 2022 19:17:24 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"12b-xsmiVRz4Mi/sXBhSS9jXzq3IjAM"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PEhZ6JsjCt78SVr015vxBz38DrCLt16nbvwHg7PGwNdxrV2JKoFRj48AiGL50A%2BN1fahVDfYorJ9qKbjJqeLvL%2Bn3RAStAbjRPMzKZg6dNCd3CuTJ7wEYs8dyY0RyF2UHWSM"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed6167af23b957-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"benito401@gmail.com","username":"gus.hoeger","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJlbml0bzQwMUBnbWFpbC5jb20iLCJ1c2VybmFtZSI6Imd1cy5ob2VnZXIiLCJpYXQiOjE2NjM4NzQyNDQsImV4cCI6MTY2OTA1ODI0NH0.4i29YQpMTfSHwxgT0nW4gl28Mr7Oe9th0vDARUhiPQg"}}
+
+21:17:24.139 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:42
+And match response == {"user":{"email":#(randomEmail),"username":#(randomUsername),"bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJydWNlbDJlZXNkMTAyMEBrYXJhdGUuY29tIiwidXNlcm5hbWUiOiJLYXIyYXRlVXNzZDJlcjE2NiIsImlhdCI6MTY2Mzg3MTk4MCwiZXhwIjoxNjY5MDU1OTgwfQ.sKEjI5iWI-NSjLGmbblQjpUvdpNM6DcEIVAiltgla78"}}
+match failed: EQUALS
+  $ | not equal | match failed for name: 'user' (MAP:MAP)
+  {"user":{"email":"benito401@gmail.com","username":"gus.hoeger","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJlbml0bzQwMUBnbWFpbC5jb20iLCJ1c2VybmFtZSI6Imd1cy5ob2VnZXIiLCJpYXQiOjE2NjM4NzQyNDQsImV4cCI6MTY2OTA1ODI0NH0.4i29YQpMTfSHwxgT0nW4gl28Mr7Oe9th0vDARUhiPQg"}}
+  {"user":{"email":"benito401@gmail.com","username":"gus.hoeger","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJydWNlbDJlZXNkMTAyMEBrYXJhdGUuY29tIiwidXNlcm5hbWUiOiJLYXIyYXRlVXNzZDJlcjE2NiIsImlhdCI6MTY2Mzg3MTk4MCwiZXhwIjoxNjY5MDU1OTgwfQ.sKEjI5iWI-NSjLGmbblQjpUvdpNM6DcEIVAiltgla78"}}
+
+    $.user | not equal | match failed for name: 'token' (MAP:MAP)
+    {"email":"benito401@gmail.com","username":"gus.hoeger","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJlbml0bzQwMUBnbWFpbC5jb20iLCJ1c2VybmFtZSI6Imd1cy5ob2VnZXIiLCJpYXQiOjE2NjM4NzQyNDQsImV4cCI6MTY2OTA1ODI0NH0.4i29YQpMTfSHwxgT0nW4gl28Mr7Oe9th0vDARUhiPQg"}
+    {"email":"benito401@gmail.com","username":"gus.hoeger","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJydWNlbDJlZXNkMTAyMEBrYXJhdGUuY29tIiwidXNlcm5hbWUiOiJLYXIyYXRlVXNzZDJlcjE2NiIsImlhdCI6MTY2Mzg3MTk4MCwiZXhwIjoxNjY5MDU1OTgwfQ.sKEjI5iWI-NSjLGmbblQjpUvdpNM6DcEIVAiltgla78"}
+
+      $.user.token | not equal (STRING:STRING)
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJlbml0bzQwMUBnbWFpbC5jb20iLCJ1c2VybmFtZSI6Imd1cy5ob2VnZXIiLCJpYXQiOjE2NjM4NzQyNDQsImV4cCI6MTY2OTA1ODI0NH0.4i29YQpMTfSHwxgT0nW4gl28Mr7Oe9th0vDARUhiPQg'
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJydWNlbDJlZXNkMTAyMEBrYXJhdGUuY29tIiwidXNlcm5hbWUiOiJLYXIyYXRlVXNzZDJlcjE2NiIsImlhdCI6MTY2Mzg3MTk4MCwiZXhwIjoxNjY5MDU1OTgwfQ.sKEjI5iWI-NSjLGmbblQjpUvdpNM6DcEIVAiltgla78'
+
+src/test/java/conduitApp/feature/Signup.feature:42
+21:17:24.733 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+21:21:53.656 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:21:53.659 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663874513659
+21:21:53.677 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^Data\-driven signup$
+21:21:54.452 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:21:54.945 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 89
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"leola124@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+21:21:55.606 [main] DEBUG com.intuit.karate - response time in milliseconds: 659
+1 < 422
+1 < Date: Thu, 22 Sep 2022 19:21:55 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=eL011YsbhX9uHCJy3aDCuBLDbPSkNTAs4vaMAVmloBrDjlFMIFKLdjS7jjAfqw%2BxzoGR5eQfkV%2BStBLEK%2BgOoHAR72ufr%2BJTeTZm4mW6jOVSpJcwmMHX%2FU7S55WcL4mMzwW2"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed6808f985b828-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+21:21:55.620 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 48 - ^Data\-driven signup$
+21:21:55.629 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:21:55.679 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 94
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"KarateUser1@test.com","password":"Karate1234","username":"julee.gleichner"}}
+
+21:21:56.080 [main] DEBUG com.intuit.karate - response time in milliseconds: 400
+1 < 422
+1 < Date: Thu, 22 Sep 2022 19:21:56 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 47
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ieb%2BJOhG8%2FsAruh9ES%2FTV17TJ6%2Bf0rfbvuGwklla%2BezYpKFDB7tLFP4Ed0ybj7fyeu9KnJ%2F9QQ1MrQSJ8IV4glZqNJ7S5ENRBieOCdNlRz9ixYnU1e2zj%2FU%2FoSyB1%2F8qfWqL"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed680c6fafb770-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["has already been taken"]}}
+
+21:21:56.082 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 49 - ^Data\-driven signup$
+21:21:56.089 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:21:56.124 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 89
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"long401@gmail.com","password":"Karate1234","username":"aubrey.pouros"}}
+
+21:21:56.728 [main] DEBUG com.intuit.karate - response time in milliseconds: 604
+1 < 200
+1 < Date: Thu, 22 Sep 2022 19:21:56 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"12d-8yuFolsWwuxG9Ak/esVXxgrE/lA"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=rOujYRNq%2BtzbW%2F%2FlD%2FAb%2BEsqV7LEOOjIZzwHGqxoWbZ8GEaJsjJQHpWrKMHocXVreMS%2FA0IAEml5md%2FAoT7GDSd1TIXBK6Atj0Ll8QIUkuphMtLQMDLrNTREpQfLG1l%2FdSq2"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed680f2fb9b930-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"long401@gmail.com","username":"aubrey.pouros","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imxvbmc0MDFAZ21haWwuY29tIiwidXNlcm5hbWUiOiJhdWJyZXkucG91cm9zIiwiaWF0IjoxNjYzODc0NTE2LCJleHAiOjE2NjkwNTg1MTZ9.EcqC-60LRmvPsmtAe15rDk2m54wTW5i6iifHYpEjbBI"}}
+
+21:21:56.732 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Signup.feature:44
+And match response == {"user":{"email":#(randomEmail),"username":#(randomUsername),"bio":null,"image":null,"token":#(responseToken)}}
+match failed: EQUALS
+  $ | not equal | match failed for name: 'user' (MAP:MAP)
+  {"user":{"email":"long401@gmail.com","username":"aubrey.pouros","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imxvbmc0MDFAZ21haWwuY29tIiwidXNlcm5hbWUiOiJhdWJyZXkucG91cm9zIiwiaWF0IjoxNjYzODc0NTE2LCJleHAiOjE2NjkwNTg1MTZ9.EcqC-60LRmvPsmtAe15rDk2m54wTW5i6iifHYpEjbBI"}}
+  {"user":{"email":"long401@gmail.com","username":"aubrey.pouros","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJydWNlbDJlZXNkMTAyMEBrYXJhdGUuY29tIiwidXNlcm5hbWUiOiJLYXIyYXRlVXNzZDJlcjE2NiIsImlhdCI6MTY2Mzg3MTk4MCwiZXhwIjoxNjY5MDU1OTgwfQ.sKEjI5iWI-NSjLGmbblQjpUvdpNM6DcEIVAiltgla78"}}
+
+    $.user | not equal | match failed for name: 'token' (MAP:MAP)
+    {"email":"long401@gmail.com","username":"aubrey.pouros","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imxvbmc0MDFAZ21haWwuY29tIiwidXNlcm5hbWUiOiJhdWJyZXkucG91cm9zIiwiaWF0IjoxNjYzODc0NTE2LCJleHAiOjE2NjkwNTg1MTZ9.EcqC-60LRmvPsmtAe15rDk2m54wTW5i6iifHYpEjbBI"}
+    {"email":"long401@gmail.com","username":"aubrey.pouros","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJydWNlbDJlZXNkMTAyMEBrYXJhdGUuY29tIiwidXNlcm5hbWUiOiJLYXIyYXRlVXNzZDJlcjE2NiIsImlhdCI6MTY2Mzg3MTk4MCwiZXhwIjoxNjY5MDU1OTgwfQ.sKEjI5iWI-NSjLGmbblQjpUvdpNM6DcEIVAiltgla78"}
+
+      $.user.token | not equal (STRING:STRING)
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imxvbmc0MDFAZ21haWwuY29tIiwidXNlcm5hbWUiOiJhdWJyZXkucG91cm9zIiwiaWF0IjoxNjYzODc0NTE2LCJleHAiOjE2NjkwNTg1MTZ9.EcqC-60LRmvPsmtAe15rDk2m54wTW5i6iifHYpEjbBI'
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJydWNlbDJlZXNkMTAyMEBrYXJhdGUuY29tIiwidXNlcm5hbWUiOiJLYXIyYXRlVXNzZDJlcjE2NiIsImlhdCI6MTY2Mzg3MTk4MCwiZXhwIjoxNjY5MDU1OTgwfQ.sKEjI5iWI-NSjLGmbblQjpUvdpNM6DcEIVAiltgla78'
+
+src/test/java/conduitApp/feature/Signup.feature:44
+21:21:57.304 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+21:23:35.965 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:23:35.967 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663874615967
+21:23:35.984 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 48 - ^Data\-driven signup$
+21:23:36.739 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:23:37.224 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 89
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"norman94@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+21:23:37.901 [main] DEBUG com.intuit.karate - response time in milliseconds: 675
+1 < 422
+1 < Date: Thu, 22 Sep 2022 19:23:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BYtjljPeXAi65jt80E4btYh3ybXMWRwL0Mmmpm1MZDcQbS3INuH4MnhuotYa%2BoT2P4IjKYhO7Tw5pbmvMVTH6KKccU6oGtwNbAxzhMhYK8aalzN8wdzh0de2CFhgiRYXxglr"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed6a88387ab7dc-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+21:23:37.929 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 49 - ^Data\-driven signup$
+21:23:37.937 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:23:37.997 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 94
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"KarateUser1@test.com","password":"Karate1234","username":"santiago.russel"}}
+
+21:23:38.648 [main] DEBUG com.intuit.karate - response time in milliseconds: 650
+1 < 422
+1 < Date: Thu, 22 Sep 2022 19:23:38 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 47
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Dv9KJsw20DS2vxM5ArRm46P3iH5h7MwgEJpk5i9L0j4UpEiqjrR2V7SHQA2Ww8UEJTaz6K2VkE6aLK3vQcZBa8J0dXHALLAxP%2FxHhXIRfem8UV8c60wHbBnb3mWGD4xYMQW1"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed6a8d9a50b84f-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["has already been taken"]}}
+
+21:23:39.210 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+21:44:40.775 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:44:40.778 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663875880778
+21:44:40.797 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 46 - ^Data\-driven signup$
+21:44:41.531 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:44:42.058 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 91
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"marlana270@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+21:44:42.664 [main] DEBUG com.intuit.karate - response time in milliseconds: 605
+1 < 422
+1 < Date: Thu, 22 Sep 2022 19:44:42 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=JXRLyq32ZZpvAH8FDkyayC8x8QmUmAPElJQKI3LPNRZE1pRuPC8%2BAlDllZir8bMg2CuRMM6NUFE2FB%2BJ0sIt4Q4%2B18xEQJxbuXTbI7z0UZXAzcp9Y6Xs91lvqf0s4kkW%2FT1m"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed89698e27b89a-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+21:44:42.692 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^Data\-driven signup$
+21:44:42.703 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:44:42.753 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 91
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"KarateUser1@test.com","password":"Karate1234","username":"mellie.grant"}}
+
+21:44:43.150 [main] DEBUG com.intuit.karate - response time in milliseconds: 395
+1 < 422
+1 < Date: Thu, 22 Sep 2022 19:44:43 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 47
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=Kq4w6YmLDqARx4vPbj%2Br4nTXV7OiVtxIrFLbNE4u0uEFs0zhBWHXasWtXo0cwBVsSu%2Btf5j7KmQkQyJ5H82SEj56ZCrhz5xZHPc9gP2o1PQB9piiCO9sszqPTaqzeR31OTrr"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed896c8ec0b968-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["has already been taken"]}}
+
+21:44:43.728 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+21:50:14.343 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:50:14.346 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663876214345
+21:50:14.364 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 46 - ^Data\-driven signup$
+21:50:15.100 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:50:15.567 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 91
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"whitney103@gmail.com","password":"Karate1234","username":"KaratUser123"}}
+
+21:50:16.108 [main] DEBUG com.intuit.karate - response time in milliseconds: 540
+1 < 422
+1 < Date: Thu, 22 Sep 2022 19:50:16 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 50
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PlGAIVYf6zAhZijfDKiVozMYdFsCOclSHK8bSjRhYmqYuK26B1npSttYMYMNwU1pd%2BeSmAdFakO0VavUG9MERXidrl8M90ZTzD6f3rOqZeKFNZx6ssoMJP5KbcrC%2BQm1I%2Bjw"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed918d990ab920-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"username":["has already been taken"]}}
+
+21:50:16.131 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 47 - ^Data\-driven signup$
+21:50:16.141 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:50:16.201 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 94
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"KarateUser1@test.com","password":"Karate1234","username":"valentin.dooley"}}
+
+21:50:16.695 [main] DEBUG com.intuit.karate - response time in milliseconds: 494
+1 < 422
+1 < Date: Thu, 22 Sep 2022 19:50:16 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 47
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=AA%2BWC%2BlsfnZZT4695WjlWPJIPg2f3FB4OjrlP27YROajoshqgM0QRVKt6LnK1Jj2r9AgDUhPsh%2FlYjPFYbMAXhcipq7Xk9fzfE0FrxqVd%2FtrT4O9p5FU4odvFWO5Gg3Le0xi"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed91909a90b890-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"errors":{"email":["has already been taken"]}}
+
+21:50:16.697 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 48 - ^Data\-driven signup$
+21:50:16.706 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:50:16.752 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 97
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"ellsworth374@gmail.com","password":"Karate1234","username":"linwood.predovic"}}
+
+21:50:17.250 [main] DEBUG com.intuit.karate - response time in milliseconds: 498
+1 < 200
+1 < Date: Thu, 22 Sep 2022 19:50:17 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"140-FbRb410q9yub3HTlXVih0HuKe+I"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2rJgjIrMDiIazYGRf%2BKPBjoaEoPlgPk4Z80FWCCP6e%2FgeHyngBa3Z64m4vIR%2B7wLAKhoc8hwotZLyjm9a8QTrtF25XBGm0jWGCEljBaz19%2FeVw7Umfr4Uknr%2F4QfcWo3FhJ0"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74ed91940ac9b7ea-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"ellsworth374@gmail.com","username":"linwood.predovic","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImVsbHN3b3J0aDM3NEBnbWFpbC5jb20iLCJ1c2VybmFtZSI6Imxpbndvb2QucHJlZG92aWMiLCJpYXQiOjE2NjM4NzYyMTcsImV4cCI6MTY2OTA2MDIxN30.gJzS8kc73wCflqcc-paKCvlmnu2TPogGM-mBkfqJw9o"}}
+
+21:50:17.820 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Signup.feature
+22:03:28.764 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:03:28.767 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663877008766
+22:03:28.785 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 11 - ^Create new article by read from file$
+22:03:29.645 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:03:30.000 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"karate@test.com","password":"Karate123"}}
+
+22:03:30.685 [main] DEBUG com.intuit.karate - response time in milliseconds: 682
+1 < 200
+1 < Date: Thu, 22 Sep 2022 20:03:30 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"11b-lLBeupQN0ZS6uSzRW3Yq0G8j6lQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=P5RWuWxThK92ilZjp%2Fux74XcDk3XLS5KoYeUV36uNmxyqMhqmvQGdxQZ4p%2B4gOEFtpp1liieXkw0sjE%2Bf2VfhwTRnsxH0jxzBW2h9eIZQIEcWBGbIIiP6jkuK0m6WZM0d8Tk"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74eda4f32d79b70c-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"karate@test.com","username":"Karate1","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthcmF0ZUB0ZXN0LmNvbSIsInVzZXJuYW1lIjoiS2FyYXRlMSIsImlhdCI6MTY2Mzg3NzAxMCwiZXhwIjoxNjY5MDYxMDEwfQ.dExx90E1gJ359mfXfyLnVrOl0DXQzw059sv4j0UzGQo"}}
+
+22:03:30.716 [main] ERROR com.intuit.karate - src/test/java/conduitApp/feature/Articles.feature:9
+* def articleRequestBody = read(classpath:conduitApp/json/newArticleRequest.json)
+js failed:
+>>>>
+01: read(classpath:conduitApp/json/newArticleRequest.json)
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:14 Expected , but found :
+read(classpath:conduitApp/json/newArticleRequest.json)
+              ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:401)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:141)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:137)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1344)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2373)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2292)
+- com.intuit.karate.core.ScenarioEngine.evalAndCastTo(ScenarioEngine.java:1412)
+
+src/test/java/conduitApp/feature/Articles.feature:9
+22:03:31.511 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Articles.feature
+22:03:56.167 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:03:56.171 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1663877036171
+22:03:56.195 [main] INFO  c.intuit.karate.core.FeatureRuntime - found scenario at line: 11 - ^Create new article by read from file$
+22:03:57.003 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:03:57.347 [main] DEBUG com.intuit.karate - request:
+1 > POST https://api.realworld.io/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 59
+1 > Host: api.realworld.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"karate@test.com","password":"Karate123"}}
+
+22:03:58.069 [main] DEBUG com.intuit.karate - response time in milliseconds: 720
+1 < 200
+1 < Date: Thu, 22 Sep 2022 20:03:57 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"11b-LTs06YYsJO04TrLe1BhhSU8idoc"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=9dm7SuByE9tXxyOyCGf0nIDbQYgD%2Fm0sarj1Re00LxZCVLCkgmXBRJo32GktW1l31Ze6cpcNcL7LKuiCz0lhtsr6hLlEsiTaHDKt%2FcNxtnzh4b3LHwMIdiM9KHdLwaJQ8wyC"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 74eda59dbca74196-AMS
+1 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"user":{"email":"karate@test.com","username":"Karate1","bio":null,"image":null,"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthcmF0ZUB0ZXN0LmNvbSIsInVzZXJuYW1lIjoiS2FyYXRlMSIsImlhdCI6MTY2Mzg3NzAzNywiZXhwIjoxNjY5MDYxMDM3fQ.Q2w9suHbe4nXYwmpq_z2zD7CzG2bmgEtxHU4Za-aPFQ"}}
+
+22:03:58.084 [main] DEBUG com.intuit.karate - request:
+2 > POST https://api.realworld.io/api/articles
+2 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthcmF0ZUB0ZXN0LmNvbSIsInVzZXJuYW1lIjoiS2FyYXRlMSIsImlhdCI6MTY2Mzg3NzAzNywiZXhwIjoxNjY5MDYxMDM3fQ.Q2w9suHbe4nXYwmpq_z2zD7CzG2bmgEtxHU4Za-aPFQ
+2 > Content-Type: application/json; charset=UTF-8
+2 > Content-Length: 121
+2 > Host: api.realworld.io
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+2 > Accept-Encoding: gzip,deflate
+{"article":{"tagList":[],"title":"Some news title2","description":"International news NOW","body":"Nuclears going off "}}
+
+22:03:58.569 [main] DEBUG com.intuit.karate - response time in milliseconds: 485
+2 < 200
+2 < Date: Thu, 22 Sep 2022 20:03:58 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < Access-Control-Allow-Origin: *
+2 < Etag: W/"183-UNK7vSDQ2JTsKtV0l83gtF+Rik0"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: DYNAMIC
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dRc06MOplLV8F8SkHZLmza9gbVpawTsgIb1E9Ajd0M14QSHwnKtmoyI8ODyj8dp4fHnWxj9yXrZ%2BIWlgx%2FXOsgZeR6ZuL4Sqw2towTTXqh9stuhYYM4PiBxh7lO2rXZMhkLG"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 74eda5a18c5c41c2-AMS
+2 < alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+{"article":{"slug":"Some-news-title2-644","title":"Some news title2","description":"International news NOW","body":"Nuclears going off ","tagList":[],"createdAt":"2022-09-22T20:03:58.478Z","updatedAt":"2022-09-22T20:03:58.478Z","favorited":false,"favoritesCount":0,"author":{"username":"Karate1","bio":null,"image":"https://api.realworld.io/images/smiley-cyrus.jpeg","following":false}}}
+
+22:03:59.166 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/conduitApp/feature/Articles.feature

@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/conduitApp\/feature\/Signup[2.1:46]","start":1663874140353,"end":1663874141540,"title":"src\/test\/java\/conduitApp\/feature\/Signup[2.1:46] 21:15:40.353-21:15:41.540 Data-driven signup","className":"failed"},{"id":2,"group":1,"content":"src\/test\/java\/conduitApp\/feature\/Signup[2.2:47]","start":1663874141549,"end":1663874142042,"title":"src\/test\/java\/conduitApp\/feature\/Signup[2.2:47] 21:15:41.549-21:15:42.042 Data-driven signup","className":"failed"},{"id":3,"group":1,"content":"src\/test\/java\/conduitApp\/feature\/Signup[2.3:48]","start":1663874142051,"end":1663874142661,"title":"src\/test\/java\/conduitApp\/feature\/Signup[2.3:48] 21:15:42.051-21:15:42.661 Data-driven signup","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/conduitApp\/feature\/Signup[2.1:45]","start":1663872070376,"end":1663872071534,"title":"src\/test\/java\/conduitApp\/feature\/Signup[2.1:45] 20:41:10.376-20:41:11.534 Data-driven signup"},{"id":2,"group":1,"content":"src\/test\/java\/conduitApp\/feature\/Signup[2.2:46]","start":1663872071542,"end":1663872071972,"title":"src\/test\/java\/conduitApp\/feature\/Signup[2.2:46] 20:41:11.542-20:41:11.972 Data-driven signup"},{"id":3,"group":1,"content":"src\/test\/java\/conduitApp\/feature\/Signup[2.3:47]","start":1663872071980,"end":1663872072547,"title":"src\/test\/java\/conduitApp\/feature\/Signup[2.3:47] 20:41:11.980-20:41:12.547 Data-driven signup","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
