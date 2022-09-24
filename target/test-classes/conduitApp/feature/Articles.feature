@@ -6,6 +6,10 @@ Feature: Tests for Articles
     * def dataGenerator = Java.type('helpers.DataGenerator')
     * def articleRequestBody = read('classpath:conduitApp/json/newArticleRequest.json')
     * def randomTitle = dataGenerator.getRandomTitle()
+    # * set articleRequestBody.article.title = dataGenerator.getRandomArticleValues.title
+    # * set articleRequestBody.article.description = dataGenerator.getRandomArticleValues.description
+    #* set articleRequestBody.article.body = dataGenerator.getRandomArticleValues.body
+
     Given url apiUrl
     Given header Authorization = 'Token ' + token
     Given path 'articles/'
@@ -40,8 +44,9 @@ Feature: Tests for Articles
     Then status 200
     * def articleId = response.article.slug
 
-    Given header Authorization = 'Token ' + token
+
     Given path 'articles/',articleId
+    Given header Authorization = 'Token ' + token
     When method Delete
     Then status 200
 

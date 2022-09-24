@@ -22,6 +22,12 @@ public class DataGenerator {
         return title;
     }
 
+    public static String getGameOfThronesQuotes() {
+        Faker faker = new Faker();
+        String quote = faker.gameOfThrones().quote();
+        return quote;
+    }
+
     public static JSONObject getRandomArticleValues() {
         Faker faker = new Faker();
         String title = faker.book().title();

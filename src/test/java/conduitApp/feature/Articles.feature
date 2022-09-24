@@ -44,8 +44,9 @@ Feature: Tests for Articles
     Then status 200
     * def articleId = response.article.slug
 
-    Given header Authorization = 'Token ' + token
+
     Given path 'articles/',articleId
+    Given header Authorization = 'Token ' + token
     When method Delete
     Then status 200
 

@@ -1,0 +1,76 @@
+{
+  "comments": [
+    {
+      "id": 4,
+      "createdAt": "2021-11-24T12:11:08.340Z",
+      "updatedAt": "2021-11-24T12:11:08.340Z",
+      "body": "Before starting a new implementation, please check if there is any work in progress for the stack you want to work on.",
+      "author": {
+        "username": "Gerome",
+        "bio": null,
+        "image": "https://api.realworld.io/images/demo-avatar.png",
+        "following": false
+      }
+    },
+    {
+      "id": 5,
+      "createdAt": "2021-11-24T12:11:08.480Z",
+      "updatedAt": "2021-11-24T12:11:08.480Z",
+      "body": "If someone else has started working on an implementation, consider jumping in and helping them! by contacting the author.",
+      "author": {
+        "username": "Gerome",
+        "bio": null,
+        "image": "https://api.realworld.io/images/demo-avatar.png",
+        "following": false
+      }
+    },
+    {
+      "id": 27802,
+      "createdAt": "2022-09-24T20:14:43.359Z",
+      "updatedAt": "2022-09-24T20:14:43.359Z",
+      "body": "Comment coming from IntelliJ",
+      "author": {
+        "username": "Karate1",
+        "bio": null,
+        "image": "https://api.realworld.io/images/smiley-cyrus.jpeg",
+        "following": false
+      }
+    },
+    {
+      "id": 27804,
+      "createdAt": "2022-09-24T20:30:25.206Z",
+      "updatedAt": "2022-09-24T20:30:25.206Z",
+      "body": "asdasdas\n",
+      "author": {
+        "username": "Karate1",
+        "bio": null,
+        "image": "https://api.realworld.io/images/smiley-cyrus.jpeg",
+        "following": false
+      }
+    },
+    {
+      "id": 27805,
+      "createdAt": "2022-09-24T20:30:32.250Z",
+      "updatedAt": "2022-09-24T20:30:32.250Z",
+      "body": "Let alone",
+      "author": {
+        "username": "Karate1",
+        "bio": null,
+        "image": "https://api.realworld.io/images/smiley-cyrus.jpeg",
+        "following": false
+      }
+    },
+    {
+      "id": 27807,
+      "createdAt": "2022-09-24T21:26:30.428Z",
+      "updatedAt": "2022-09-24T21:26:30.428Z",
+      "body": "bla bla",
+      "author": {
+        "username": "Karate1",
+        "bio": null,
+        "image": "https://api.realworld.io/images/smiley-cyrus.jpeg",
+        "following": false
+      }
+    }
+  ]
+}
