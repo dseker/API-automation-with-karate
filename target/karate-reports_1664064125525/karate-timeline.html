@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/conduitApp\/feature\/Homework[1:12]","start":1664063946672,"end":1664063951322,"title":"src\/test\/java\/conduitApp\/feature\/Homework[1:12] 01:59:06.672-01:59:11.322 Favorite articles","className":"failed"},{"id":2,"group":1,"content":"src\/test\/java\/conduitApp\/feature\/Homework[2:30]","start":1664063951331,"end":1664063951990,"title":"src\/test\/java\/conduitApp\/feature\/Homework[2:30] 01:59:11.331-01:59:11.990 Get all favorite articles count"},{"id":3,"group":1,"content":"src\/test\/java\/conduitApp\/feature\/Homework[3:47]","start":1664063951995,"end":1664063953907,"title":"src\/test\/java\/conduitApp\/feature\/Homework[3:47] 01:59:11.995-01:59:13.907 Comment articles","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

@@ -1,14 +1,13 @@
 Feature: Homework assignment
 
   Background:
-    Given url apiUrl
-    * def tokenResponse = call read('classpath:helpers/CreateToken.feature')
+    * def tokenResponse = callonce read('classpath:helpers/CreateToken.feature')
     * def token = tokenResponse.authToken
     * def commentsResponseBody = read('classpath:conduitApp/json/getCommentsResponse.json')
-    Given header Authorization = 'Token ' + token
     * def dataGenerator = Java.type('helpers.DataGenerator')
     * def GOTquotes = dataGenerator.getGameOfThronesQuotes()
-
+    Given url apiUrl
+    Given header Authorization = 'Token ' + token
 
   Scenario: Favorite articles
     Given path 'articles/Create-a-new-implementation-1/favorite'
@@ -76,7 +75,6 @@ Feature: Homework assignment
     * def bodyOfLastIndex = response.comments[updatedCommentsLength -1].body
     * def idOfLastIndexComment = response.comments[updatedCommentsLength - 1].id
     * assert commentsLength == response.comments.length - 1
-    * print('Body of last index' + bodyOfLastIndex)
 
     # Delete comment with id of the last index of the comments Array
     Given path 'articles/Create-a-new-implementation-1/comments/' + idOfLastIndexComment
@@ -90,8 +88,7 @@ Feature: Homework assignment
     When method get
     * def updatedCommentsLength = updatedCommentsLength - 1
     * assert commentsLength == updatedCommentsLength
-    
-    * print('Text printed ' + bodyOfLastIndex)
+
 
 
 

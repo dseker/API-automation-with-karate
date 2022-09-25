@@ -1,14 +1,13 @@
 Feature: Homework assignment
 
   Background:
-    Given url apiUrl
-    * def tokenResponse = call read('classpath:helpers/CreateToken.feature')
+    * def tokenResponse = callonce read('classpath:helpers/CreateToken.feature')
     * def token = tokenResponse.authToken
     * def commentsResponseBody = read('classpath:conduitApp/json/getCommentsResponse.json')
-    Given header Authorization = 'Token ' + token
     * def dataGenerator = Java.type('helpers.DataGenerator')
     * def GOTquotes = dataGenerator.getGameOfThronesQuotes()
-
+    Given url apiUrl
+    Given header Authorization = 'Token ' + token
 
   Scenario: Favorite articles
     Given path 'articles/Create-a-new-implementation-1/favorite'
