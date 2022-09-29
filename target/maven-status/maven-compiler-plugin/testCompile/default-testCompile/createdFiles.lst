@@ -1,2 +1,2 @@
-examples/users/UsersRunner.class
-examples/ExamplesTest.class
+conduitApp/conduitTest.class
+helpers/DataGenerator.class

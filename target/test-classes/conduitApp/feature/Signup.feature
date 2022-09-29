@@ -45,4 +45,4 @@ Feature: Signup new user
       | email                | password   | username          | statusCode | errorResponse                                      |
       | #(randomEmail)       | Karate1234 | KaratUser123      | 422        | {"errors":{"username":["has already been taken"]}}
       | KarateUser1@test.com | Karate1234 | #(randomUsername) | 422        | {"errors":{"email":["has already been taken"]}}
-      | #(randomEmail)       | Karate1234 | #(randomUsername) | 200        | {"user":{"email":#(randomEmail),"username":#(randomUsername),"bio":null,"image":null,"token":"#string"}}
+      | #(randomEmail)       | Karate1234 | #(randomUsername) | 200        | {"user":{"email":#(randomEmail),"username":#(randomUsername),"bio":null,"image":"##string","token":"#string"}}

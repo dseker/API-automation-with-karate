@@ -1,0 +1,3380 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports  - Feature: conduitApp/feature/Articles.feature</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>Conduit Application</td>
+      <td>29 Sep 2022, 18:34</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Feature Report</h2>
+  </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table class="stats-table">
+
+
+<thead>
+  <tr class="header dont-sort">
+      <th></th>
+    <th colspan="6">Steps</th>
+    <th colspan="3">Scenarios</th>
+    <th colspan="2">Features</th>
+  </tr>
+  <tr>
+    <th>Feature</th>
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="skipped">Skipped</th>
+    <th class="pending">Pending</th>
+    <th class="undefined">Undefined</th>
+    <th class="total">Total</th>
+
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="total">Total</th>
+
+    <th>Duration</th>
+    <th>Status</th>
+  </tr>
+</thead>
+
+
+        <tbody>
+        <tr>
+          <td class="tagname">conduitApp/feature/Articles.feature</td>
+          <td      class="passed"    >85</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td class="total">85</td>
+
+          <td  class="passed"    >4</td>
+          <td >0</td>
+          <td class="total">4</td>
+
+          <td class="duration" data-value="13172950700">13.172</td>
+          <td class="passed">Passed</td>
+        </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-1 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="feature">
+
+<div class="tags indention">
+</div>
+
+
+<div class="brief passed">
+  <span class="keyword indention">Feature</span>
+  <span class="name">conduitApp/feature/Articles.feature</span>
+
+
+</div>
+
+        <div class="description indention">Tests for Articles</div>
+
+        <div class="elements inner-level">
+
+<div class="element">
+
+
+<div class="tags indention">
+</div>
+
+
+  <span class="lead-duration duration">2.491</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+
+<div class="brief passed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-1" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-2" class="inner-level collapse collapsable-details ">
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def tokenResponse = call read('classpath:helpers/CreateToken.feature')</span>
+
+  <span class="lead-duration duration">1.199</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name- passed">
+  <span class="keyword indention"></span>
+  <span class="name">helpers/CreateToken.feature</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Given passed">
+  <span class="keyword indention">&gt; Given</span>
+  <span class="name">url apiUrl</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-3" class="collapse collapsable-details">
+        <pre>18:34:29.970 karate.env system property was: null 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Given passed">
+  <span class="keyword indention">&gt; Given</span>
+  <span class="name">path 'users/login'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; And passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">request {&quot;user&quot;: {&quot;email&quot;: &quot;#(userEmail)&quot;,&quot;password&quot;: &quot;#(userPassword)&quot;}}</span>
+
+  <span class="lead-duration duration">0.041</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; When passed">
+  <span class="keyword indention">&gt; When</span>
+  <span class="name">method Post</span>
+
+  <span class="lead-duration duration">1.113</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-4">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-4" class="collapse collapsable-details">
+        <pre>18:34:30.208 request:
+1 &gt; POST https://api.realworld.io/api/users/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 59
+1 &gt; Host: api.realworld.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;user&quot;:{&quot;email&quot;:&quot;karate@test.com&quot;,&quot;password&quot;:&quot;Karate123&quot;}}
+
+18:34:31.192 response time in milliseconds: 982
+1 &lt; 200
+1 &lt; Date: Thu, 29 Sep 2022 16:34:31 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Etag: W/&quot;14a-AIdQ0CWLcf9nCKmGAlpMx355cPE&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=cddkPL8fjwZmx9645w7o1IayaFS2GoMMuzVqHQa5IybIRZnL%2BuX81BXaJFL81k3Ft3hWM2fY%2FA7uxMZo0aeD9POOgc7RWcZjHT76v2xP9GtDjpAwKcjRRespqx1ONyzggEx9&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 7526206e589cb529-OSL
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;user&quot;:{&quot;email&quot;:&quot;karate@test.com&quot;,&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthcmF0ZUB0ZXN0LmNvbSIsInVzZXJuYW1lIjoiS2FyYXRlMSIsImlhdCI6MTY2NDQ2OTI3MSwiZXhwIjoxNjY5NjUzMjcxfQ.YY-i9x43CD5dlFMI_nPAj_3JaCEv0qC77J71gnkrLlk&quot;}}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Then passed">
+  <span class="keyword indention">&gt; Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.004</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def authToken = response.user.token</span>
+
+  <span class="lead-duration duration">0.005</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def token = tokenResponse.authToken</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def dataGenerator = Java.type('helpers.DataGenerator')</span>
+
+  <span class="lead-duration duration">0.020</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def articleRequestBody = read('classpath:conduitApp/json/newArticleRequest.json')</span>
+
+  <span class="lead-duration duration">0.005</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def randomTitle = dataGenerator.getRandomTitle()</span>
+
+  <span class="lead-duration duration">0.091</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># * set articleRequestBody.article.title = dataGenerator.getRandomArticleValues.title</div>
+          <div class="comment indention"># * set articleRequestBody.article.description = dataGenerator.getRandomArticleValues.description</div>
+          <div class="comment indention">#* set articleRequestBody.article.body = dataGenerator.getRandomArticleValues.body</div>
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">url apiUrl</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">header Authorization = 'Token ' + token</span>
+
+  <span class="lead-duration duration">0.007</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path 'articles/'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+</div>
+
+
+  <span class="lead-duration duration">0.442</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-5">
+
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Create new article by read from file</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-5" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-6">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-6" class="inner-level collapse collapsable-details ">
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">set articleRequestBody.article.title = randomTitle</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request articleRequestBody</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method post</span>
+
+  <span class="lead-duration duration">0.440</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-7">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-7" class="collapse collapsable-details">
+        <pre>18:34:31.336 request:
+2 &gt; POST https://api.realworld.io/api/articles
+2 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthcmF0ZUB0ZXN0LmNvbSIsInVzZXJuYW1lIjoiS2FyYXRlMSIsImlhdCI6MTY2NDQ2OTI3MSwiZXhwIjoxNjY5NjUzMjcxfQ.YY-i9x43CD5dlFMI_nPAj_3JaCEv0qC77J71gnkrLlk
+2 &gt; Content-Type: application/json; charset=UTF-8
+2 &gt; Content-Length: 123
+2 &gt; Host: api.realworld.io
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+2 &gt; Accept-Encoding: gzip,deflate
+{&quot;article&quot;:{&quot;tagList&quot;:[],&quot;title&quot;:&quot;Moab Is My Washpot&quot;,&quot;description&quot;:&quot;International news NOW&quot;,&quot;body&quot;:&quot;Nuclears going off &quot;}}
+
+18:34:31.774 response time in milliseconds: 438
+2 &lt; 200
+2 &lt; Date: Thu, 29 Sep 2022 16:34:31 GMT
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Transfer-Encoding: chunked
+2 &lt; Connection: keep-alive
+2 &lt; X-Powered-By: Express
+2 &lt; Access-Control-Allow-Origin: *
+2 &lt; Etag: W/&quot;187-grFFy9ZF9nwl+4OEzbUN8y6XH/c&quot;
+2 &lt; Via: 1.1 vegur
+2 &lt; CF-Cache-Status: DYNAMIC
+2 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=9WbHhZ1JwGUZxxhrIzZURRr7c7NiIyKsuh92ueBrVBSJf1kQR9POfTUxylHZJt5u476onIA7TCAf%2BhABIXMYC1dIJIXaZhUbXxwiLpjd9MhxZF5j3V0yNfFc7ptM2nvHEgP1&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+2 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+2 &lt; Server: cloudflare
+2 &lt; CF-RAY: 75262073acc6b4e8-OSL
+2 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;article&quot;:{&quot;slug&quot;:&quot;Moab-Is-My-Washpot-644&quot;,&quot;title&quot;:&quot;Moab Is My Washpot&quot;,&quot;description&quot;:&quot;International news NOW&quot;,&quot;body&quot;:&quot;Nuclears going off &quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-09-29T16:34:31.787Z&quot;,&quot;updatedAt&quot;:&quot;2022-09-29T16:34:31.787Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}}}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+</div>
+
+
+  <span class="lead-duration duration">2.739</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-8">
+
+<div class="brief passed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-8" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-9">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-9" class="inner-level collapse collapsable-details ">
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def tokenResponse = call read('classpath:helpers/CreateToken.feature')</span>
+
+  <span class="lead-duration duration">1.374</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name- passed">
+  <span class="keyword indention"></span>
+  <span class="name">helpers/CreateToken.feature</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Given passed">
+  <span class="keyword indention">&gt; Given</span>
+  <span class="name">url apiUrl</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-10">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-10" class="collapse collapsable-details">
+        <pre>18:34:29.970 karate.env system property was: null 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Given passed">
+  <span class="keyword indention">&gt; Given</span>
+  <span class="name">path 'users/login'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; And passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">request {&quot;user&quot;: {&quot;email&quot;: &quot;#(userEmail)&quot;,&quot;password&quot;: &quot;#(userPassword)&quot;}}</span>
+
+  <span class="lead-duration duration">0.042</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; When passed">
+  <span class="keyword indention">&gt; When</span>
+  <span class="name">method Post</span>
+
+  <span class="lead-duration duration">1.298</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-11">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-11" class="collapse collapsable-details">
+        <pre>18:34:30.208 request:
+1 &gt; POST https://api.realworld.io/api/users/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 59
+1 &gt; Host: api.realworld.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;user&quot;:{&quot;email&quot;:&quot;karate@test.com&quot;,&quot;password&quot;:&quot;Karate123&quot;}}
+
+18:34:31.376 response time in milliseconds: 1166
+1 &lt; 200
+1 &lt; Date: Thu, 29 Sep 2022 16:34:31 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Etag: W/&quot;14a-AIdQ0CWLcf9nCKmGAlpMx355cPE&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=gRbAZlDkvrWE%2FfM8Kcn6miQmSKjxl2ncScdh3EN7SMH3JXtpxF%2Fccu%2BPcQRwkTlXJOZ983e1G9pZiV6%2FX2GiqMaJ7Ntp1z1yVKUEC8pXrTuGSX9Oe8Ny2kzDyFs1PgHiiw9h&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 7526206e5974b515-OSL
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;user&quot;:{&quot;email&quot;:&quot;karate@test.com&quot;,&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthcmF0ZUB0ZXN0LmNvbSIsInVzZXJuYW1lIjoiS2FyYXRlMSIsImlhdCI6MTY2NDQ2OTI3MSwiZXhwIjoxNjY5NjUzMjcxfQ.YY-i9x43CD5dlFMI_nPAj_3JaCEv0qC77J71gnkrLlk&quot;}}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Then passed">
+  <span class="keyword indention">&gt; Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def authToken = response.user.token</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def token = tokenResponse.authToken</span>
+
+  <span class="lead-duration duration">0.002</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def dataGenerator = Java.type('helpers.DataGenerator')</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def articleRequestBody = read('classpath:conduitApp/json/newArticleRequest.json')</span>
+
+  <span class="lead-duration duration">0.002</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def randomTitle = dataGenerator.getRandomTitle()</span>
+
+  <span class="lead-duration duration">0.014</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># * set articleRequestBody.article.title = dataGenerator.getRandomArticleValues.title</div>
+          <div class="comment indention"># * set articleRequestBody.article.description = dataGenerator.getRandomArticleValues.description</div>
+          <div class="comment indention">#* set articleRequestBody.article.body = dataGenerator.getRandomArticleValues.body</div>
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">url apiUrl</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">header Authorization = 'Token ' + token</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path 'articles/'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+</div>
+
+
+  <span class="lead-duration duration">0.385</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-12">
+
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Login to account and create article</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-12" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-13">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-13" class="inner-level collapse collapsable-details ">
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">set articleRequestBody.article.title = randomTitle</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request articleRequestBody</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method Post</span>
+
+  <span class="lead-duration duration">0.382</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-14">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-14" class="collapse collapsable-details">
+        <pre>18:34:31.406 request:
+2 &gt; POST https://api.realworld.io/api/articles
+2 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthcmF0ZUB0ZXN0LmNvbSIsInVzZXJuYW1lIjoiS2FyYXRlMSIsImlhdCI6MTY2NDQ2OTI3MSwiZXhwIjoxNjY5NjUzMjcxfQ.YY-i9x43CD5dlFMI_nPAj_3JaCEv0qC77J71gnkrLlk
+2 &gt; Content-Type: application/json; charset=UTF-8
+2 &gt; Content-Length: 123
+2 &gt; Host: api.realworld.io
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+2 &gt; Accept-Encoding: gzip,deflate
+{&quot;article&quot;:{&quot;tagList&quot;:[],&quot;title&quot;:&quot;Jacob Have I Loved&quot;,&quot;description&quot;:&quot;International news NOW&quot;,&quot;body&quot;:&quot;Nuclears going off &quot;}}
+
+18:34:31.787 response time in milliseconds: 380
+2 &lt; 200
+2 &lt; Date: Thu, 29 Sep 2022 16:34:31 GMT
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Transfer-Encoding: chunked
+2 &lt; Connection: keep-alive
+2 &lt; X-Powered-By: Express
+2 &lt; Access-Control-Allow-Origin: *
+2 &lt; Etag: W/&quot;187-yBnzZxrXx6CJ4fmR9lIqJJhAK/s&quot;
+2 &lt; Via: 1.1 vegur
+2 &lt; CF-Cache-Status: DYNAMIC
+2 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=2VPezIKGerSnJz6m47hfHnNXxm3tThgKVDHjbK3wNlXHoBm1Z0QH%2BDjakoluPRtzj40rdUb6653lfPYkKdgueuS%2FG8AVpLdz4Q7OnqviGromXr6ErkB4ooR56uF%2B2JxkoeuP&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+2 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+2 &lt; Server: cloudflare
+2 &lt; CF-RAY: 75262073bd20b4f4-OSL
+2 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;article&quot;:{&quot;slug&quot;:&quot;Jacob-Have-I-Loved-644&quot;,&quot;title&quot;:&quot;Jacob Have I Loved&quot;,&quot;description&quot;:&quot;International news NOW&quot;,&quot;body&quot;:&quot;Nuclears going off &quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-09-29T16:34:31.793Z&quot;,&quot;updatedAt&quot;:&quot;2022-09-29T16:34:31.793Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}}}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">assert response.article.description == 'International news NOW'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">assert response.article.title == randomTitle</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+</div>
+
+
+  <span class="lead-duration duration">2.738</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-15">
+
+<div class="brief passed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-15" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-16">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-16" class="inner-level collapse collapsable-details ">
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def tokenResponse = call read('classpath:helpers/CreateToken.feature')</span>
+
+  <span class="lead-duration duration">1.374</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name- passed">
+  <span class="keyword indention"></span>
+  <span class="name">helpers/CreateToken.feature</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Given passed">
+  <span class="keyword indention">&gt; Given</span>
+  <span class="name">url apiUrl</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-17">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-17" class="collapse collapsable-details">
+        <pre>18:34:29.970 karate.env system property was: null 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Given passed">
+  <span class="keyword indention">&gt; Given</span>
+  <span class="name">path 'users/login'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; And passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">request {&quot;user&quot;: {&quot;email&quot;: &quot;#(userEmail)&quot;,&quot;password&quot;: &quot;#(userPassword)&quot;}}</span>
+
+  <span class="lead-duration duration">0.041</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; When passed">
+  <span class="keyword indention">&gt; When</span>
+  <span class="name">method Post</span>
+
+  <span class="lead-duration duration">1.298</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-18">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-18" class="collapse collapsable-details">
+        <pre>18:34:30.208 request:
+1 &gt; POST https://api.realworld.io/api/users/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 59
+1 &gt; Host: api.realworld.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;user&quot;:{&quot;email&quot;:&quot;karate@test.com&quot;,&quot;password&quot;:&quot;Karate123&quot;}}
+
+18:34:31.376 response time in milliseconds: 1166
+1 &lt; 200
+1 &lt; Date: Thu, 29 Sep 2022 16:34:31 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Etag: W/&quot;14a-AIdQ0CWLcf9nCKmGAlpMx355cPE&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=p83nqrtbYVowGA7gF%2BBYeBMWcCIFmR8FBzf9oXVyDp%2BZaD9zCKxaFnBGcR%2BbCG5rT0Qo%2F5%2BK4%2FphbVnJ8eLEYo76YMIzYfJIybWRanZ7pWIXPjo9U3fRNxFrnqFbkuMzj0os&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 7526206e5c05b51d-OSL
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;user&quot;:{&quot;email&quot;:&quot;karate@test.com&quot;,&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthcmF0ZUB0ZXN0LmNvbSIsInVzZXJuYW1lIjoiS2FyYXRlMSIsImlhdCI6MTY2NDQ2OTI3MSwiZXhwIjoxNjY5NjUzMjcxfQ.YY-i9x43CD5dlFMI_nPAj_3JaCEv0qC77J71gnkrLlk&quot;}}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Then passed">
+  <span class="keyword indention">&gt; Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def authToken = response.user.token</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def token = tokenResponse.authToken</span>
+
+  <span class="lead-duration duration">0.002</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def dataGenerator = Java.type('helpers.DataGenerator')</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def articleRequestBody = read('classpath:conduitApp/json/newArticleRequest.json')</span>
+
+  <span class="lead-duration duration">0.002</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def randomTitle = dataGenerator.getRandomTitle()</span>
+
+  <span class="lead-duration duration">0.013</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># * set articleRequestBody.article.title = dataGenerator.getRandomArticleValues.title</div>
+          <div class="comment indention"># * set articleRequestBody.article.description = dataGenerator.getRandomArticleValues.description</div>
+          <div class="comment indention">#* set articleRequestBody.article.body = dataGenerator.getRandomArticleValues.body</div>
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">url apiUrl</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">header Authorization = 'Token ' + token</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path 'articles/'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+</div>
+
+
+  <span class="lead-duration duration">1.017</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-19">
+
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Delete first article in the list</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-19" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-20">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-20" class="inner-level collapse collapsable-details ">
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method Get</span>
+
+  <span class="lead-duration duration">0.640</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-21">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-21" class="collapse collapsable-details">
+        <pre>18:34:31.405 request:
+2 &gt; GET https://api.realworld.io/api/articles
+2 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthcmF0ZUB0ZXN0LmNvbSIsInVzZXJuYW1lIjoiS2FyYXRlMSIsImlhdCI6MTY2NDQ2OTI3MSwiZXhwIjoxNjY5NjUzMjcxfQ.YY-i9x43CD5dlFMI_nPAj_3JaCEv0qC77J71gnkrLlk
+2 &gt; Host: api.realworld.io
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+2 &gt; Accept-Encoding: gzip,deflate
+
+
+18:34:32.043 response time in milliseconds: 638
+2 &lt; 200
+2 &lt; Date: Thu, 29 Sep 2022 16:34:32 GMT
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Transfer-Encoding: chunked
+2 &lt; Connection: keep-alive
+2 &lt; X-Powered-By: Express
+2 &lt; Access-Control-Allow-Origin: *
+2 &lt; Etag: W/&quot;ee2-ULTBY5SmX5I5pcR6e/ilPFRvVUA&quot;
+2 &lt; Via: 1.1 vegur
+2 &lt; CF-Cache-Status: DYNAMIC
+2 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=5FKgRVQ3Bbi4EywF4D6mfVdD241DE42JLPyhgEuIGJqBh%2Fi6PLSXEuWyZK8WwZbIYp2bhdIFSZP6hsesMqkyb3%2BN5SsfSaYgTaCVX3P61OYfaFK4L8dKG%2B5HsmypUo65iUZ5&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+2 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+2 &lt; Server: cloudflare
+2 &lt; CF-RAY: 75262073dd73b518-OSL
+2 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;articles&quot;:[{&quot;slug&quot;:&quot;Jacob-Have-I-Loved-644&quot;,&quot;title&quot;:&quot;Jacob Have I Loved&quot;,&quot;description&quot;:&quot;International news NOW&quot;,&quot;body&quot;:&quot;Nuclears going off &quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-09-29T16:34:31.793Z&quot;,&quot;updatedAt&quot;:&quot;2022-09-29T16:34:31.793Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Moab-Is-My-Washpot-644&quot;,&quot;title&quot;:&quot;Moab Is My Washpot&quot;,&quot;description&quot;:&quot;International news NOW&quot;,&quot;body&quot;:&quot;Nuclears going off &quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-09-29T16:34:31.787Z&quot;,&quot;updatedAt&quot;:&quot;2022-09-29T16:34:31.787Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Delete-Article-644&quot;,&quot;title&quot;:&quot;Delete Article&quot;,&quot;description&quot;:&quot;New Article&quot;,&quot;body&quot;:&quot;Nuclears going off &quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-09-29T16:34:31.770Z&quot;,&quot;updatedAt&quot;:&quot;2022-09-29T16:34:31.770Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Some-Buried-Caesar-644&quot;,&quot;title&quot;:&quot;Some Buried Caesar&quot;,&quot;description&quot;:&quot;International news NOW&quot;,&quot;body&quot;:&quot;Nuclears going off &quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-09-29T16:30:41.624Z&quot;,&quot;updatedAt&quot;:&quot;2022-09-29T16:30:41.624Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;The-Daffodil-Sky-644&quot;,&quot;title&quot;:&quot;The Daffodil Sky&quot;,&quot;description&quot;:&quot;International news NOW&quot;,&quot;body&quot;:&quot;Nuclears going off &quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-09-29T16:21:04.773Z&quot;,&quot;updatedAt&quot;:&quot;2022-09-29T16:21:04.773Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Beyond-the-Mexique-Bay-644&quot;,&quot;title&quot;:&quot;Beyond the Mexique Bay&quot;,&quot;description&quot;:&quot;International news NOW&quot;,&quot;body&quot;:&quot;Nuclears going off &quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-09-29T16:21:04.749Z&quot;,&quot;updatedAt&quot;:&quot;2022-09-29T16:21:04.749Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Blood's-a-Rover-644&quot;,&quot;title&quot;:&quot;Blood's a Rover&quot;,&quot;description&quot;:&quot;International news NOW&quot;,&quot;body&quot;:&quot;Nuclears going off &quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-09-29T16:14:58.427Z&quot;,&quot;updatedAt&quot;:&quot;2022-09-29T16:14:58.427Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;The-Yellow-Meads-of-Asphodel-644&quot;,&quot;title&quot;:&quot;The Yellow Meads of Asphodel&quot;,&quot;description&quot;:&quot;International news NOW&quot;,&quot;body&quot;:&quot;Nuclears going off &quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-09-29T16:10:50.726Z&quot;,&quot;updatedAt&quot;:&quot;2022-09-29T16:10:50.726Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Consider-Phlebas-644&quot;,&quot;title&quot;:&quot;Consider Phlebas&quot;,&quot;description&quot;:&quot;International news NOW&quot;,&quot;body&quot;:&quot;Nuclears going off &quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-09-29T16:10:24.417Z&quot;,&quot;updatedAt&quot;:&quot;2022-09-29T16:10:24.417Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Russias-war-644&quot;,&quot;title&quot;:&quot;Russias war&quot;,&quot;description&quot;:&quot;International news&quot;,&quot;body&quot;:&quot;Nuclears going off &quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-09-18T22:24:55.216Z&quot;,&quot;updatedAt&quot;:&quot;2022-09-18T22:24:55.216Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}}],&quot;articlesCount&quot;:39}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def firstArticle = response.articles[0].slug</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">header Authorization = 'Token ' + token</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path 'articles/',firstArticle</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method Delete</span>
+
+  <span class="lead-duration duration">0.375</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-22">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-22" class="collapse collapsable-details">
+        <pre>18:34:32.047 request:
+3 &gt; DELETE https://api.realworld.io/api/articles/Jacob-Have-I-Loved-644
+3 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthcmF0ZUB0ZXN0LmNvbSIsInVzZXJuYW1lIjoiS2FyYXRlMSIsImlhdCI6MTY2NDQ2OTI3MSwiZXhwIjoxNjY5NjUzMjcxfQ.YY-i9x43CD5dlFMI_nPAj_3JaCEv0qC77J71gnkrLlk
+3 &gt; Host: api.realworld.io
+3 &gt; Connection: Keep-Alive
+3 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+3 &gt; Accept-Encoding: gzip,deflate
+
+
+18:34:32.420 response time in milliseconds: 372
+3 &lt; 204
+3 &lt; Date: Thu, 29 Sep 2022 16:34:32 GMT
+3 &lt; Content-Length: 0
+3 &lt; Connection: keep-alive
+3 &lt; X-Powered-By: Express
+3 &lt; Access-Control-Allow-Origin: *
+3 &lt; Etag: W/&quot;a-bAsFyilMr4Ra1hIU5PyoyFRunpI&quot;
+3 &lt; Via: 1.1 vegur
+3 &lt; CF-Cache-Status: DYNAMIC
+3 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=UiYzOFImrRdx8fCsXSeHz5wjjM87dstnhssXW3puT%2BydPERftuDoAw1lsjUCk%2FXcBiWjZsyb0x%2FbHpkpNGb6wKFELgBdCckFod8ZZ7QCDOsJojRf8VpDfbX6lRIGgE7W2%2BoT&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+3 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+3 &lt; Server: cloudflare
+3 &lt; CF-RAY: 75262077bbb0b505-OSL
+3 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 204</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+</div>
+
+
+  <span class="lead-duration duration">2.491</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-23">
+
+<div class="brief passed">
+  <span class="keyword indention">Background</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-23" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-24">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-24" class="inner-level collapse collapsable-details ">
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def tokenResponse = call read('classpath:helpers/CreateToken.feature')</span>
+
+  <span class="lead-duration duration">1.199</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name- passed">
+  <span class="keyword indention"></span>
+  <span class="name">helpers/CreateToken.feature</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Given passed">
+  <span class="keyword indention">&gt; Given</span>
+  <span class="name">url apiUrl</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-25">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-25" class="collapse collapsable-details">
+        <pre>18:34:29.970 karate.env system property was: null 
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Given passed">
+  <span class="keyword indention">&gt; Given</span>
+  <span class="name">path 'users/login'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; And passed">
+  <span class="keyword indention">&gt; And</span>
+  <span class="name">request {&quot;user&quot;: {&quot;email&quot;: &quot;#(userEmail)&quot;,&quot;password&quot;: &quot;#(userPassword)&quot;}}</span>
+
+  <span class="lead-duration duration">0.041</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; When passed">
+  <span class="keyword indention">&gt; When</span>
+  <span class="name">method Post</span>
+
+  <span class="lead-duration duration">1.113</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-26">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-26" class="collapse collapsable-details">
+        <pre>18:34:30.208 request:
+1 &gt; POST https://api.realworld.io/api/users/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 59
+1 &gt; Host: api.realworld.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;user&quot;:{&quot;email&quot;:&quot;karate@test.com&quot;,&quot;password&quot;:&quot;Karate123&quot;}}
+
+18:34:31.192 response time in milliseconds: 982
+1 &lt; 200
+1 &lt; Date: Thu, 29 Sep 2022 16:34:31 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Etag: W/&quot;14a-AIdQ0CWLcf9nCKmGAlpMx355cPE&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=YcrpIfE0L7%2BOc3Nr%2FGd8dVo3urg3fHtxeefdzelqpACLBxFKuaEUVM4BD0jFYEJNrtMzS0XAYP77eTK2N49B0g%2FRfv%2ByfkzxGvzsZtBnZXggZH%2BuSlpAzk5OfE02THqi92l5&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 7526206e5dceb4f4-OSL
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;user&quot;:{&quot;email&quot;:&quot;karate@test.com&quot;,&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthcmF0ZUB0ZXN0LmNvbSIsInVzZXJuYW1lIjoiS2FyYXRlMSIsImlhdCI6MTY2NDQ2OTI3MSwiZXhwIjoxNjY5NjUzMjcxfQ.YY-i9x43CD5dlFMI_nPAj_3JaCEv0qC77J71gnkrLlk&quot;}}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; Then passed">
+  <span class="keyword indention">&gt; Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.004</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-&amp;gt; * passed">
+  <span class="keyword indention">&gt; *</span>
+  <span class="name">def authToken = response.user.token</span>
+
+  <span class="lead-duration duration">0.005</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def token = tokenResponse.authToken</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def dataGenerator = Java.type('helpers.DataGenerator')</span>
+
+  <span class="lead-duration duration">0.020</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def articleRequestBody = read('classpath:conduitApp/json/newArticleRequest.json')</span>
+
+  <span class="lead-duration duration">0.005</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def randomTitle = dataGenerator.getRandomTitle()</span>
+
+  <span class="lead-duration duration">0.091</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+          <div class="comment indention"># * set articleRequestBody.article.title = dataGenerator.getRandomArticleValues.title</div>
+          <div class="comment indention"># * set articleRequestBody.article.description = dataGenerator.getRandomArticleValues.description</div>
+          <div class="comment indention">#* set articleRequestBody.article.body = dataGenerator.getRandomArticleValues.body</div>
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">url apiUrl</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">header Authorization = 'Token ' + token</span>
+
+  <span class="lead-duration duration">0.007</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path 'articles/'</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+<div class="element">
+
+
+<div class="tags indention">
+</div>
+
+
+  <span class="lead-duration duration">0.867</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-27">
+
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Create and Delete Article</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-27" class="collapse collapsable-details ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-28">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-28" class="inner-level collapse collapsable-details ">
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">request {&quot;article&quot;:{&quot;tagList&quot;:[],&quot;title&quot;:&quot;Delete Article&quot;,&quot;description&quot;:&quot;New Article&quot;,&quot;body&quot;:&quot;Nuclears going off &quot;}}</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method Post</span>
+
+  <span class="lead-duration duration">0.429</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-29">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-29" class="collapse collapsable-details">
+        <pre>18:34:31.334 request:
+2 &gt; POST https://api.realworld.io/api/articles
+2 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthcmF0ZUB0ZXN0LmNvbSIsInVzZXJuYW1lIjoiS2FyYXRlMSIsImlhdCI6MTY2NDQ2OTI3MSwiZXhwIjoxNjY5NjUzMjcxfQ.YY-i9x43CD5dlFMI_nPAj_3JaCEv0qC77J71gnkrLlk
+2 &gt; Content-Type: application/json; charset=UTF-8
+2 &gt; Content-Length: 108
+2 &gt; Host: api.realworld.io
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+2 &gt; Accept-Encoding: gzip,deflate
+{&quot;article&quot;:{&quot;tagList&quot;:[],&quot;title&quot;:&quot;Delete Article&quot;,&quot;description&quot;:&quot;New Article&quot;,&quot;body&quot;:&quot;Nuclears going off &quot;}}
+
+18:34:31.761 response time in milliseconds: 426
+2 &lt; 200
+2 &lt; Date: Thu, 29 Sep 2022 16:34:31 GMT
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Transfer-Encoding: chunked
+2 &lt; Connection: keep-alive
+2 &lt; X-Powered-By: Express
+2 &lt; Access-Control-Allow-Origin: *
+2 &lt; Etag: W/&quot;174-ZpYLYuE03X8YNPlsY6s+zOaaOz8&quot;
+2 &lt; Via: 1.1 vegur
+2 &lt; CF-Cache-Status: DYNAMIC
+2 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=aUpQA9ihIxPCVkjDvx5lpw%2BKw4zHcOsS6Pz4sgE99KR%2Bl7J6iQQE2rX3G%2BySGgtIDUrbFkxj0sxRS4RzDovOxHuScz0uaKhuohrVfmox2q0x3vU1yHoVBC9%2B%2FQSX%2FhYX13oS&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+2 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+2 &lt; Server: cloudflare
+2 &lt; CF-RAY: 752620738a120af6-OSL
+2 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;article&quot;:{&quot;slug&quot;:&quot;Delete-Article-644&quot;,&quot;title&quot;:&quot;Delete Article&quot;,&quot;description&quot;:&quot;New Article&quot;,&quot;body&quot;:&quot;Nuclears going off &quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-09-29T16:34:31.770Z&quot;,&quot;updatedAt&quot;:&quot;2022-09-29T16:34:31.770Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}}}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def articleId = response.article.slug</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path 'articles/',articleId</span>
+
+  <span class="lead-duration duration">0.006</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">header Authorization = 'Token ' + token</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method Delete</span>
+
+  <span class="lead-duration duration">0.430</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-30">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-30" class="collapse collapsable-details">
+        <pre>18:34:31.772 request:
+3 &gt; DELETE https://api.realworld.io/api/articles/Delete-Article-644
+3 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthcmF0ZUB0ZXN0LmNvbSIsInVzZXJuYW1lIjoiS2FyYXRlMSIsImlhdCI6MTY2NDQ2OTI3MSwiZXhwIjoxNjY5NjUzMjcxfQ.YY-i9x43CD5dlFMI_nPAj_3JaCEv0qC77J71gnkrLlk
+3 &gt; Host: api.realworld.io
+3 &gt; Connection: Keep-Alive
+3 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/18.0.2.1)
+3 &gt; Accept-Encoding: gzip,deflate
+
+
+18:34:32.200 response time in milliseconds: 427
+3 &lt; 204
+3 &lt; Date: Thu, 29 Sep 2022 16:34:32 GMT
+3 &lt; Content-Length: 0
+3 &lt; Connection: keep-alive
+3 &lt; X-Powered-By: Express
+3 &lt; Access-Control-Allow-Origin: *
+3 &lt; Etag: W/&quot;a-bAsFyilMr4Ra1hIU5PyoyFRunpI&quot;
+3 &lt; Via: 1.1 vegur
+3 &lt; CF-Cache-Status: DYNAMIC
+3 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=EOceQpmG%2Bf7N%2BB2uY3rXmDTfhNGfw5Zcg0R81H7%2FSdVYywS3GhDOhUgyt4qiD%2BbVM%2BFSTt8wrMIWwy6N5xpLgGLez9p1CB8YIbXRtZ5oafNHgC8figPxva49IWFMC0oiEl3w&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+3 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+3 &lt; Server: cloudflare
+3 &lt; CF-RAY: 752620763eb70b61-OSL
+3 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 204</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-1 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+<br/>
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

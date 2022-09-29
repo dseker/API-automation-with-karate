@@ -36,7 +36,7 @@ Feature: Tests for Articles
     Given header Authorization = 'Token ' + token
     Given path 'articles/',firstArticle
     When method Delete
-    Then status 200
+    Then status 204
 
   Scenario: Create and Delete Article
     And request {"article":{"tagList":[],"title":"Delete Article","description":"New Article","body":"Nuclears going off "}}
@@ -48,5 +48,5 @@ Feature: Tests for Articles
     Given path 'articles/',articleId
     Given header Authorization = 'Token ' + token
     When method Delete
-    Then status 200
+    Then status 204
 
