@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"pool-1-thread-3","id":1},{"content":"pool-1-thread-5","id":2},{"content":"pool-1-thread-1","id":3},{"content":"pool-1-thread-2","id":4},{"content":"pool-1-thread-4","id":5}];
+var items = [{"id":1,"group":1,"content":"conduitApp\/feature\/Hooks[1:17]","start":1664469272428,"end":1664469272484,"title":"conduitApp\/feature\/Hooks[1:17] 18:34:32.428-18:34:32.484 First scenario"},{"id":2,"group":2,"content":"conduitApp\/feature\/Hooks[2:22]","start":1664469272429,"end":1664469272483,"title":"conduitApp\/feature\/Hooks[2:22] 18:34:32.429-18:34:32.483 Second scenario"},{"id":3,"group":3,"content":"conduitApp\/feature\/Articles[1:17]","start":1664469269839,"end":1664469271775,"title":"conduitApp\/feature\/Articles[1:17] 18:34:29.839-18:34:31.775 Create new article by read from file"},{"id":4,"group":4,"content":"conduitApp\/feature\/Articles[2:23]","start":1664469269839,"end":1664469271788,"title":"conduitApp\/feature\/Articles[2:23] 18:34:29.839-18:34:31.788 Login to account and create article"},{"id":5,"group":1,"content":"conduitApp\/feature\/Articles[3:31]","start":1664469269839,"end":1664469272421,"title":"conduitApp\/feature\/Articles[3:31] 18:34:29.839-18:34:32.421 Delete first article in the list"},{"id":6,"group":5,"content":"conduitApp\/feature\/Articles[4:41]","start":1664469269839,"end":1664469272200,"title":"conduitApp\/feature\/Articles[4:41] 18:34:29.839-18:34:32.200 Create and Delete Article"},{"id":7,"group":2,"content":"conduitApp\/feature\/HomePage[1:6]","start":1664469269839,"end":1664469271409,"title":"conduitApp\/feature\/HomePage[1:6] 18:34:29.839-18:34:31.409 Get all tags"},{"id":8,"group":2,"content":"conduitApp\/feature\/HomePage[2:25]","start":1664469271415,"end":1664469272424,"title":"conduitApp\/feature\/HomePage[2:25] 18:34:31.415-18:34:32.424 Get 10 articles from the page"},{"id":9,"group":2,"content":"conduitApp\/feature\/Signup[1:9]","start":1664469272550,"end":1664469273244,"title":"conduitApp\/feature\/Signup[1:9] 18:34:32.550-18:34:33.244 Create an already existing User"},{"id":10,"group":1,"content":"conduitApp\/feature\/Signup[2.1:46]","start":1664469272550,"end":1664469273240,"title":"conduitApp\/feature\/Signup[2.1:46] 18:34:32.550-18:34:33.240 Data-driven signup"},{"id":11,"group":1,"content":"conduitApp\/feature\/Signup[2.2:47]","start":1664469273246,"end":1664469273739,"title":"conduitApp\/feature\/Signup[2.2:47] 18:34:33.246-18:34:33.739 Data-driven signup"},{"id":12,"group":2,"content":"conduitApp\/feature\/Signup[2.3:48]","start":1664469273249,"end":1664469273814,"title":"conduitApp\/feature\/Signup[2.3:48] 18:34:33.249-18:34:33.814 Data-driven signup"},{"id":13,"group":3,"content":"conduitApp\/feature\/Homework[1:12]","start":1664469271779,"end":1664469279293,"title":"conduitApp\/feature\/Homework[1:12] 18:34:31.779-18:34:39.293 Favorite articles"},{"id":14,"group":4,"content":"conduitApp\/feature\/Homework[2:31]","start":1664469271801,"end":1664469273248,"title":"conduitApp\/feature\/Homework[2:31] 18:34:31.801-18:34:33.248 Get all favorite articles count"},{"id":15,"group":5,"content":"conduitApp\/feature\/Homework[3:48]","start":1664469272204,"end":1664469275533,"title":"conduitApp\/feature\/Homework[3:48] 18:34:32.204-18:34:35.533 Comment articles"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

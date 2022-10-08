@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("5ff9db3d-7be6-496b-beac-90adb0605f7d",{name:"diyadinseker"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>src.test.java.conduitApp.feature.ZRefund</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-10-02 07:33:35 pm</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:8]"><span>[1:8]</span> <span>Get User info</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/conduitApp/feature/ZRefund.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Refund purchase</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:8]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:8]</span>
+                <span class="scenario-name">Get User info</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1813</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:8]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Given url &#39;https://oauth.zettletest.com/token&#39;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def tokenResponse = callonce read(&#39;classpath:helpers/CreateToken.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1469</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">19:33:35.213 &lt;&lt; lock released, cached callonce: read(&#39;classpath:helpers/CreateToken.feature&#39;)
+</div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.5.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">helpers.CreateToken</div>
+      </div>
+      <div class="time-cell passed">1444</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url apiUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.4">19:33:33.721 karate.env system property was: null 
+19:33:33.753 &gt;&gt; lock acquired, begin callonce: read(&#39;classpath:helpers/CreateToken.feature&#39;)
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;users/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.8">
+      <div class="step-ref bg-step">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request {&quot;user&quot;: {&quot;email&quot;: &quot;#(userEmail)&quot;,&quot;password&quot;: &quot;#(userPassword)&quot;}}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">30</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.9">
+      <div class="step-ref bg-step">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">973</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.9">19:33:34.034 request:
+1 &gt; POST https://api.realworld.io/api/users/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 59
+1 &gt; Host: api.realworld.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;user&quot;:{&quot;email&quot;:&quot;karate@test.com&quot;,&quot;password&quot;:&quot;Karate123&quot;}}
+
+19:33:34.765 response time in milliseconds: 729
+1 &lt; 200
+1 &lt; Date: Sun, 02 Oct 2022 17:33:34 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Etag: W/&quot;14a-CAu1Zv3cg4qJnuXwQrsaS6JVZsw&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=1pFuXke2uLmQo5lNz6eZa939Q3xJuS9GkEaOueaB%2BM6LBiXNy5cb9xRFmTV1Wi0gURbQy3TOUZNtaVZcNoFa%2B7bRMBegP64bSzBidO4Z616DbCuTkkQ9ulqS3x%2BqZMbyofwc&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 753f2f11d8e31e8d-AMS
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;user&quot;:{&quot;email&quot;:&quot;karate@test.com&quot;,&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthcmF0ZUB0ZXN0LmNvbSIsInVzZXJuYW1lIjoiS2FyYXRlMSIsImlhdCI6MTY2NDczMjAxNCwiZXhwIjoxNjY5OTE2MDE0fQ.QaiTqxP4d3ra326jllV0yzb9Zl0hgEvS4l-QJ1cwNq4&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.10">
+      <div class="step-ref bg-step">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.11">
+      <div class="step-ref bg-step">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def authToken = response.user.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url apiUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.14">
+      <div class="step-ref bg-step">14</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def credentials = { grant_type: #(grantType), client_id: &#39;#(clientID)&#39;, assertion: &#39;#(assertion)&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.15">
+      <div class="step-ref bg-step">15</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://oauth.zettletest.com/token&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.16">
+      <div class="step-ref bg-step">16</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Content-Type = &#39;application/x-www-form-urlencoded&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.17">
+      <div class="step-ref bg-step">17</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>form fields credentials</span>
+      </div>
+    </div>
+    <div class="time-cell passed">68</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.18">
+      <div class="step-ref bg-step">18</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">365</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.18">19:33:34.852 request:
+2 &gt; POST https://oauth.zettletest.com/token
+2 &gt; Content-Type: application/x-www-form-urlencoded
+2 &gt; Content-Length: 1087
+2 &gt; Host: oauth.zettletest.com
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+2 &gt; Accept-Encoding: gzip,deflate
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&amp;client_id=2d06f4b3-4118-11ed-b29c-61822928312d&amp;assertion=eyJraWQiOiIwIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJpc3MiOiJpWmV0dGxlIiwiYXVkIjoiQVBJIiwiZXhwIjoyNjExMjg4NTM2LCJzdWIiOiJkMTIxNzAyMC00YzEyLTExZTUtYjNlZC0yNWY3MWZkNzk4NmQiLCJpYXQiOjE2NjQ1ODA3NjAsInJlbmV3ZWQiOmZhbHNlLCJzY29wZSI6WyJSRUFEOlBST0RVQ1QiLCJXUklURTpQUk9EVUNUIiwiUkVBRDpQVVJDSEFTRSIsIlJFQUQ6RklOQU5DRSIsIlJFQUQ6VVNFUklORk8iXSwiY2xpZW50X2lkIjoiMmQwNmY0YjMtNDExOC0xMWVkLWIyOWMtNjE4MjI5MjgzMTJkIiwidHlwZSI6InVzZXItYXNzZXJ0aW9uIiwidXNlciI6eyJ1c2VyVHlwZSI6IlVTRVIiLCJ1dWlkIjoiZDEyMTcwMjAtNGMxMi0xMWU1LWIzZWQtMjVmNzFmZDc5ODZkIiwib3JnVXVpZCI6ImQxMjE3MDIwLTRjMTItMTFlNS1hM2ZkLTBjYmZhODRiZGViNyIsInVzZXJSb2xlIjoiT1dORVIifX0.ySlNhuuW-Nh9RLwX_bXfNI0itpFWpov0fVu4m9s6ZeK5owzFnwsz1H9OkElbFi5XF3T21L3p-GIS_ibnZpKpUTH-BjnBBE2f-0WcSP-DxJR6PL6iKqymUXwLRKeW9LqjPfwImADzX05_k71RDS4Zs_1lXgglqEjthEN4kzqe8MkV1kzDLEe8tMLZJvv9RaMOOpqqY35C2eONHqtuTLwQsS3hnrKMe3AhyIy9t9P_DR7VKcXvhdmQ-_RRUHj3KP9KTEhUrg44Ujq8XYdchPhf3hi-3UWfKW-jtM-UbsQ7ObSczyVD3W1F5g8AcSKzT1vQQJqgliQH_QxociNuNJPcEw
+
+19:33:35.210 response time in milliseconds: 357
+2 &lt; 200
+2 &lt; Date: Sun, 02 Oct 2022 17:33:35 GMT
+2 &lt; Content-Type: application/json
+2 &lt; Content-Length: 986
+2 &lt; Connection: keep-alive
+2 &lt; X-Real-IP: 2.71.92.209
+2 &lt; X-Amzn-Trace-Id: Root=1-6339cb6f-29879a094cc4829e2bba5a94
+2 &lt; Strict-Transport-Security: max-age=31536000
+2 &lt; X-XSS-Protection: 1; mode=block
+2 &lt; X-Content-Type-Options: nosniff
+2 &lt; Content-Security-Policy: frame-ancestors &#39;none&#39;; default-src &#39;none&#39;
+{&quot;access_token&quot;:&quot;eyJraWQiOiIxNjY0Njg4NDg4Mzg2IiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJpc3MiOiJpWmV0dGxlIiwiYXVkIjoiQVBJIiwiZXhwIjoxNjY0NzM5MjE1LCJzdWIiOiJkMTIxNzAyMC00YzEyLTExZTUtYjNlZC0yNWY3MWZkNzk4NmQiLCJpYXQiOjE2NjQ3MzIwMTUsInVzZXIiOnsidXNlclR5cGUiOiJVU0VSIiwidXVpZCI6ImQxMjE3MDIwLTRjMTItMTFlNS1iM2VkLTI1ZjcxZmQ3OTg2ZCIsIm9yZ1V1aWQiOiJkMTIxNzAyMC00YzEyLTExZTUtYTNmZC0wY2JmYTg0YmRlYjciLCJ1c2VyUm9sZSI6Ik9XTkVSIn0sInNjb3BlIjpbIlJFQUQ6VVNFUklORk8iLCJSRUFEOlBST0RVQ1QiLCJXUklURTpQUk9EVUNUIiwiUkVBRDpQVVJDSEFTRSIsIlJFQUQ6RklOQU5DRSJdLCJyZW5ld2VkIjpmYWxzZSwiY2xpZW50X2lkIjoiMmQwNmY0YjMtNDExOC0xMWVkLWIyOWMtNjE4MjI5MjgzMTJkIn0.EO_UWEFmvZvzDuAOjmt92O3a8FZOXuEdypOQJgEyuZ2INe9zBHtkqm-Vp-sutIQuGvP69XKJSNgmcftShle6y18RfSaSbdli_3T9PubBAFPOX9X4OOtHl3SXJS0dN1QlAFeqk1dif57YdgUcDSGzsZ_CIEJM2fBz0GuQeIsjGsKIp6NMFM-m1qxd15B0D2fLxKH_zLtyEFxnZE4xYcncg7SNDQGkCZkBtdrSAV5ltSUmK6djwab7LNlDgnSCpvT7Aqqx8PzLigLDt7frSoOILlxqNtXirtyPKwZiepftSrWB3u3fYr-L-u3F13vKsOY92MV3fqFWcoo9xtO7A3VSLQ&quot;,&quot;expires_in&quot;:7200}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.19">
+      <div class="step-ref bg-step">19</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def gbcAuthToken = response.access_token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div data-parent="[1:8]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def bearerToken = tokenResponse.gbcAuthToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://www.izettletest.com/api/resources/user?&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = &#39;Bearer &#39;+bearerToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print(&#39;Bearer &#39;+&#39;token&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">330</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.12">19:33:35.228 request:
+3 &gt; GET https://www.izettletest.com/api/resources/user?
+3 &gt; Authorization: Bearer eyJraWQiOiIxNjY0Njg4NDg4Mzg2IiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJpc3MiOiJpWmV0dGxlIiwiYXVkIjoiQVBJIiwiZXhwIjoxNjY0NzM5MjE1LCJzdWIiOiJkMTIxNzAyMC00YzEyLTExZTUtYjNlZC0yNWY3MWZkNzk4NmQiLCJpYXQiOjE2NjQ3MzIwMTUsInVzZXIiOnsidXNlclR5cGUiOiJVU0VSIiwidXVpZCI6ImQxMjE3MDIwLTRjMTItMTFlNS1iM2VkLTI1ZjcxZmQ3OTg2ZCIsIm9yZ1V1aWQiOiJkMTIxNzAyMC00YzEyLTExZTUtYTNmZC0wY2JmYTg0YmRlYjciLCJ1c2VyUm9sZSI6Ik9XTkVSIn0sInNjb3BlIjpbIlJFQUQ6VVNFUklORk8iLCJSRUFEOlBST0RVQ1QiLCJXUklURTpQUk9EVUNUIiwiUkVBRDpQVVJDSEFTRSIsIlJFQUQ6RklOQU5DRSJdLCJyZW5ld2VkIjpmYWxzZSwiY2xpZW50X2lkIjoiMmQwNmY0YjMtNDExOC0xMWVkLWIyOWMtNjE4MjI5MjgzMTJkIn0.EO_UWEFmvZvzDuAOjmt92O3a8FZOXuEdypOQJgEyuZ2INe9zBHtkqm-Vp-sutIQuGvP69XKJSNgmcftShle6y18RfSaSbdli_3T9PubBAFPOX9X4OOtHl3SXJS0dN1QlAFeqk1dif57YdgUcDSGzsZ_CIEJM2fBz0GuQeIsjGsKIp6NMFM-m1qxd15B0D2fLxKH_zLtyEFxnZE4xYcncg7SNDQGkCZkBtdrSAV5ltSUmK6djwab7LNlDgnSCpvT7Aqqx8PzLigLDt7frSoOILlxqNtXirtyPKwZiepftSrWB3u3fYr-L-u3F13vKsOY92MV3fqFWcoo9xtO7A3VSLQ
+3 &gt; Host: www.izettletest.com
+3 &gt; Connection: Keep-Alive
+3 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+3 &gt; Accept-Encoding: gzip,deflate
+
+
+19:33:35.556 response time in milliseconds: 328
+3 &lt; 200
+3 &lt; Date: Sun, 02 Oct 2022 17:33:35 GMT
+3 &lt; Content-Type: application/json
+3 &lt; Content-Length: 5940
+3 &lt; Connection: keep-alive
+3 &lt; Server: Apache
+3 &lt; X-Frame-Options: SAMEORIGIN
+3 &lt; Cache-Control: no-cache, no-transform
+{&quot;merchant_dba_data&quot;:{&quot;merchant_optional_text&quot;:&quot;We never close!!!!&quot;,&quot;address&quot;:&quot;59 Bank Street Test, Opposite Etihad&quot;,&quot;city&quot;:&quot;London343&quot;,&quot;name&quot;:&quot;Susie Mason&quot;,&quot;phone_number&quot;:&quot;&quot;,&quot;id&quot;:8360621,&quot;zip_code&quot;:&quot;11201&quot;,&quot;web_site&quot;:&quot;www.kzy.com&quot;,&quot;last_changed&quot;:&quot;2022-09-30T13:35:36.397+0000&quot;},&quot;payment_settings&quot;:{},&quot;organization&quot;:{&quot;customer_type&quot;:&quot;Unknown&quot;,&quot;uses_vat&quot;:true,&quot;business_identity_provider&quot;:&quot;IZETTLE&quot;,&quot;uuid&quot;:&quot;0SFwIEwSEeWj_Qy_qEvetw&quot;,&quot;should_use_new_library&quot;:true,&quot;contact_email&quot;:&quot;gbc@izettle.com&quot;,&quot;legal_entity_type&quot;:&quot;COMPANY&quot;,&quot;refunds_enabled&quot;:true,&quot;features&quot;:[&quot;ALIPAY_QRC&quot;,&quot;PAYPAL_QRC&quot;,&quot;GRATUITY&quot;,&quot;GIFT_CARD&quot;,&quot;INVOICE&quot;,&quot;PAYMENT_LINK&quot;],&quot;taxation_mode&quot;:&quot;INCLUSIVE&quot;,&quot;id&quot;:34969296,&quot;legal_name&quot;:&quot;GBC Inc&quot;,&quot;taxation_type&quot;:&quot;VAT&quot;,&quot;contact_name&quot;:&quot;gb iZettle&quot;,&quot;created&quot;:&quot;2016-04-19T22:35:12.360+0000&quot;,&quot;merchant_category_code&quot;:&quot;8999&quot;,&quot;auto_revert&quot;:false,&quot;beta_features&quot;:[&quot;iOS-gift-cards&quot;,&quot;giftcards&quot;,&quot;Android-gift-cards-register&quot;,&quot;SocketMobileScanner&quot;,&quot;SetupExp6Experiment&quot;,&quot;KLARNA_INSTORE&quot;,&quot;BackOfficeRefundUsingCheckoutService&quot;,&quot;risk-cnp-activation&quot;,&quot;iOS-inventory-tab-sorting-filtering&quot;,&quot;OverviewReport&quot;,&quot;tap_on_phone_pin_support&quot;,&quot;can_subscribe_to_plan&quot;,&quot;BetterImportExport&quot;,&quot;Android-PayPal-keyin-gb&quot;,&quot;iOS-sdk-reader-settings&quot;,&quot;biasao-test-rollout-2&quot;,&quot;portal_banner_remote_payments&quot;,&quot;Marketing-GoogleAds&quot;,&quot;sadasd&quot;,&quot;InvoicePaymentNotifications&quot;,&quot;ImportExport&quot;,&quot;iOS-menu-redesign-2020&quot;,&quot;CodatFormgen&quot;,&quot;iOS-customer-list&quot;,&quot;perf-test-experiment-2&quot;,&quot;LimitSelzToActivatedUsers&quot;,&quot;ProductListV2&quot;,&quot;EcomAvailable&quot;,&quot;inventoryLowStockAlertsV2&quot;,&quot;SetupGuidePLDev&quot;,&quot;VariantImages&quot;,&quot;SetupEx9TreatmentAllExperiment&quot;,&quot;portal_banner_on_the_go&quot;,&quot;iOS-supports-ble&quot;,&quot;InventoryForecast&quot;,&quot;BigCommerceSelectiveSync&quot;,&quot;niklas_test_duplicates_control&quot;,&quot;Inventory&quot;,&quot;organization_customer_decoupling_rollout&quot;,&quot;gratuity&quot;,&quot;Android-multi-variants-edit&quot;,&quot;iOS-kyc-lux&quot;,&quot;Android-checkout-refunds-2020&quot;,&quot;InventoryList&quot;,&quot;en feature&quot;,&quot;reports_experiment_control_group&quot;,&quot;niklas-test&quot;,&quot;Android-top-level-fragment-navigation&quot;,&quot;ProvisionBusinessPortal&quot;,&quot;biasao-sun-e2e-23&quot;,&quot;BigCommerceApp&quot;,&quot;GiftCardReport&quot;,&quot;facebook-ads&quot;,&quot;SmsReceipt&quot;,&quot;iOS-add-customers-post-checkout&quot;,&quot;iOS-receipt-barcode-scan&quot;,&quot;Android-bulkEdit&quot;,&quot;iOS-new-bonding-flow&quot;,&quot;ApiKeys&quot;,&quot;iOS-saved-carts-prod&quot;,&quot;InventoryForecastV2&quot;,&quot;asd&quot;,&quot;BetterProductList&quot;,&quot;Advance_Demo&quot;,&quot;ImportFromTictail&quot;,&quot;organization_customer_decoupling_experiment&quot;,&quot;biasaoe2e5&quot;,&quot;biasao-sun-e2e-33&quot;,&quot;MultivariantCoachmark&quot;,&quot;Tipping&quot;,&quot;biasao-sun-e2e-34&quot;,&quot;YearInReview&quot;,&quot;NewCashRegister&quot;,&quot;iOS-custom-low-stock-limits&quot;,&quot;SyncLogBigCommerce&quot;,&quot;CustomLowStockLimits&quot;,&quot;Android-NewEditMode&quot;,&quot;Android-cashregister-backend-reports&quot;,&quot;perf-test-experiment&quot;,&quot;NewReceiptListWithDetailsPage&quot;,&quot;iOS-background-update-2&quot;,&quot;SetupExperiment20Treatment&quot;,&quot;iOS-saved-cart-print-bill&quot;,&quot;supportsBLE&quot;,&quot;iOS-background-update-3&quot;,&quot;NewInventoryTable&quot;,&quot;PortalRemoveLTWAndPS&quot;,&quot;SetupStepsUpfrontRollout&quot;,&quot;iOS-product-library-onboarding&quot;,&quot;Android-gift-cards&quot;,&quot;UseNewCustomerFeature&quot;,&quot;Android-checkout-service-3&quot;,&quot;Android-supports-ble&quot;,&quot;SharespineFormgen&quot;,&quot;iOS-new-sales-reports&quot;,&quot;ForeverLocal&quot;,&quot;CardReaderWizard&quot;,&quot;Moto&quot;,&quot;ImportExportExtended&quot;,&quot;webshop-2&quot;,&quot;iOS-payment-selection-2&quot;,&quot;ios-gift-cards&quot;,&quot;CategoryReport&quot;,&quot;Reactivate-invoice-soft-launch&quot;,&quot;InventoryNotifications&quot;,&quot;ShopwareApp&quot;,&quot;InvoiceSoftLaunchGb&quot;,&quot;Android-Gratuity&quot;,&quot;ForeverLocalAccess&quot;,&quot;productReport&quot;,&quot;gift-cards-rollout&quot;,&quot;iOS-multi-variants-edit&quot;,&quot;android-contactless-animation&quot;,&quot;iOS-contactless-animation&quot;,&quot;iOS-ProductLibraryPortrait&quot;,&quot;AdvanceTotalClaimDisplay&quot;,&quot;SetupDownloadAppDev&quot;,&quot;BetterProductForm&quot;,&quot;all_countries_rollout_test&quot;,&quot;Android-grouped-menu-2020&quot;,&quot;iOS-gift-cards-paid-by-link&quot;,&quot;WebProductLibraryCategoriesWalkthroughOnboarding&quot;,&quot;ios-gift-cards-2&quot;,&quot;NewAccountStatement&quot;,&quot;CategoriesEnabled&quot;,&quot;inventoryLowStockAlerts&quot;,&quot;tap_on_phone_android_v2&quot;,&quot;TestUIFeature&quot;,&quot;RBPC-receipt-search-web&quot;,&quot;TestNewRelease&quot;,&quot;PSV&quot;,&quot;AverageInsights&quot;,&quot;add-customers-post-checkout&quot;,&quot;Customers&quot;,&quot;ManageSalesChannels&quot;,&quot;iOS-checkout-service-refund-2&quot;,&quot;Loyalty&quot;,&quot;iOS-saved-carts&quot;,&quot;Invoice-pdf-attachment&quot;,&quot;MultivariantBulkEdit&quot;,&quot;Android-prod-lib-grid-default&quot;,&quot;ProductChartExp&quot;,&quot;iOS-QRForVIPPS&quot;,&quot;iOS-repeat-payments&quot;,&quot;NewReceiptListPage&quot;,&quot;iOS-gift-cards-2&quot;,&quot;iOS-deprecated-miura-reader-message&quot;,&quot;Marketing&quot;,&quot;ProductReportProfit&quot;,&quot;iOS-bulk-edit-variants&quot;,&quot;portal-giftcard&quot;,&quot;Alipay-closed-beta&quot;,&quot;Android-product-library-empty-state&quot;,&quot;iOS-product-library-empty-state&quot;,&quot;iOS-Inventory&quot;,&quot;CodatNewSideMenu&quot;,&quot;Android-gift-cards-selling-preferences&quot;,&quot;Qrc-closed-beta&quot;,&quot;ShopifyApp&quot;,&quot;variant-options&quot;,&quot;iOS-preferred-reader&quot;,&quot;Android-prod-lib-sort-and-filter&quot;,&quot;iOS-checkout-service-3&quot;,&quot;SelzMessageTest2&quot;,&quot;setup_exp06_experiment&quot;,&quot;VerticalNavigation&quot;,&quot;iOS-upgradeTo12Dialog&quot;,&quot;Payment-link&quot;,&quot;SelzAvailable&quot;,&quot;Android-new-sales-reports&quot;,&quot;SetupExp4PortalStepsV2&quot;,&quot;SwiftHistory&quot;,&quot;NewVariantList&quot;,&quot;EditBetterProductList&quot;,&quot;NewReceiptDetailPage&quot;,&quot;InventoryLowStockAlerts&quot;,&quot;setupGuideRollout&quot;,&quot;ImportFromShopify&quot;,&quot;zplit-rollout&quot;,&quot;iOS-refund-using-checkout-service&quot;,&quot;MinimalEcomUser&quot;,&quot;iOS-InvoiceMigration&quot;,&quot;Marketing-CompanyInfo&quot;,&quot;invoice&quot;,&quot;newSalesReport&quot;],&quot;legal_entity_nr&quot;:&quot;18496577&quot;,&quot;current_commission_model&quot;:&quot;FIXED_RATE&quot;,&quot;full_organization_uuid&quot;:&quot;d1217020-4c12-11e5-a3fd-0cbfa84bdeb7&quot;,&quot;customer_status&quot;:&quot;ACCEPTED&quot;,&quot;organization_type&quot;:1,&quot;vat_percentage&quot;:20,&quot;updated&quot;:&quot;2022-09-30T13:57:47.598+0000&quot;,&quot;country_id&quot;:&quot;GB&quot;,&quot;currency_id&quot;:&quot;GBP&quot;},&quot;user&quot;:{&quot;city&quot;:&quot;iZettle&quot;,&quot;created&quot;:&quot;2016-04-19T22:35:12.360+0000&quot;,&quot;identity_verification_required&quot;:false,&quot;birth_date&quot;:&quot;1980-01-01&quot;,&quot;last_name&quot;:&quot;iZettle&quot;,&quot;email_address_confirmed&quot;:false,&quot;profile_image_url&quot;:&quot;https://image.izettletest.com/profileimage/[size]/81pY82mJoW7kJa2c6NOpalKc6FY.jpeg&quot;,&quot;language_id&quot;:&quot;en&quot;,&quot;uuid&quot;:&quot;0SFwIEwSEeWz7SX3H9eYbQ&quot;,&quot;zip_code&quot;:&quot;11111&quot;,&quot;eligible_for_cash_register&quot;:false,&quot;user_role&quot;:0,&quot;email_address&quot;:&quot;gbc@izettle.com&quot;,&quot;legal_entity_number&quot;:&quot;18496577&quot;,&quot;street&quot;:&quot;iZettle&quot;,&quot;id&quot;:3193590,&quot;time_zone_id&quot;:&quot;Europe/London&quot;,&quot;first_name&quot;:&quot;gb&quot;,&quot;updated&quot;:&quot;2022-09-07T11:39:44.237+0000&quot;,&quot;has_cash_register&quot;:false}}
+
+</div>   
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

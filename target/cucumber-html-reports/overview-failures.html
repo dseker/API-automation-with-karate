@@ -75,7 +75,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>Conduit Application</td>
-      <td>29 Sep 2022, 18:34</td>
+      <td>08 Oct 2022, 11:53</td>
     </tr>
   </tbody>
 </table>
@@ -94,12 +94,386 @@ $(document).ready(function() {
 </div>
 
 
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-1 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+
 <div class="container-fluid" id="report">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
 
-        <p>You have no failed scenarios in your Cucumber report</p>
+        <div class="elements">
 
+<div class="element">
+    <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_3183737769.html">conduitApp/feature/Articles.feature</a>
+    </div>
+
+
+<div class="tags indention">
+</div>
+
+
+  <span class="lead-duration duration">1.068</span>
+
+
+  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+
+<div class="brief failed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">Delete first article in the list</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-1" class="collapse collapsable-details  in ">
+
+
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-2">
+
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-2" class="inner-level collapse collapsable-details  in ">
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method Get</span>
+
+  <span class="lead-duration duration">0.662</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-3" class="collapse collapsable-details">
+        <pre>11:53:15.887 request:
+2 &gt; GET https://api.realworld.io/api/articles
+2 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthcmF0ZUB0ZXN0LmNvbSIsInVzZXJuYW1lIjoiS2FyYXRlMSIsImlhdCI6MTY2NTIyMjc5MSwiZXhwIjoxNjcwNDA2NzkxfQ.jTXMu8yCxPbyScOsvxfGbJcN7L99E3ZotQaRdJIa1iM
+2 &gt; Host: api.realworld.io
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+2 &gt; Accept-Encoding: gzip,deflate
+
+
+11:53:16.547 response time in milliseconds: 659
+2 &lt; 200
+2 &lt; Date: Sat, 08 Oct 2022 09:53:16 GMT
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Transfer-Encoding: chunked
+2 &lt; Connection: keep-alive
+2 &lt; X-Powered-By: Express
+2 &lt; Access-Control-Allow-Origin: *
+2 &lt; Etag: W/&quot;ee0-2M1z4nd0A4I/GHz07QDZ/Vq+0Mw&quot;
+2 &lt; Via: 1.1 vegur
+2 &lt; CF-Cache-Status: DYNAMIC
+2 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=sE5wYwSQYlKmGM97QaoZ4msxXm4JBZP5MM74pttHs3PqQ0foqYtZq7aEJqMhIzmZGZ7m98770qq0HIbm%2Bp5i6CW7FePOer4gzHnvk6yGYsFq%2BQDmO4hUt9kPpcyjq3eMfGxH&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+2 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+2 &lt; Server: cloudflare
+2 &lt; CF-RAY: 756dfd0bc9ca0115-AMS
+2 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;articles&quot;:[{&quot;slug&quot;:&quot;Delete-Article-644&quot;,&quot;title&quot;:&quot;Delete Article&quot;,&quot;description&quot;:&quot;New Article&quot;,&quot;body&quot;:&quot;Nuclears going off &quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-10-08T09:53:16.302Z&quot;,&quot;updatedAt&quot;:&quot;2022-10-08T09:53:16.302Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;The-Moon-by-Night-644&quot;,&quot;title&quot;:&quot;The Moon by Night&quot;,&quot;description&quot;:&quot;International news NOW&quot;,&quot;body&quot;:&quot;Nuclears going off &quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-10-08T09:53:16.262Z&quot;,&quot;updatedAt&quot;:&quot;2022-10-08T09:53:16.262Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Moab-Is-My-Washpot-644&quot;,&quot;title&quot;:&quot;Moab Is My Washpot&quot;,&quot;description&quot;:&quot;International news NOW&quot;,&quot;body&quot;:&quot;Nuclears going off &quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-09-29T16:34:31.787Z&quot;,&quot;updatedAt&quot;:&quot;2022-09-29T16:34:31.787Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Some-Buried-Caesar-644&quot;,&quot;title&quot;:&quot;Some Buried Caesar&quot;,&quot;description&quot;:&quot;International news NOW&quot;,&quot;body&quot;:&quot;Nuclears going off &quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-09-29T16:30:41.624Z&quot;,&quot;updatedAt&quot;:&quot;2022-09-29T16:30:41.624Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;The-Daffodil-Sky-644&quot;,&quot;title&quot;:&quot;The Daffodil Sky&quot;,&quot;description&quot;:&quot;International news NOW&quot;,&quot;body&quot;:&quot;Nuclears going off &quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-09-29T16:21:04.773Z&quot;,&quot;updatedAt&quot;:&quot;2022-09-29T16:21:04.773Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Beyond-the-Mexique-Bay-644&quot;,&quot;title&quot;:&quot;Beyond the Mexique Bay&quot;,&quot;description&quot;:&quot;International news NOW&quot;,&quot;body&quot;:&quot;Nuclears going off &quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-09-29T16:21:04.749Z&quot;,&quot;updatedAt&quot;:&quot;2022-09-29T16:21:04.749Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Blood's-a-Rover-644&quot;,&quot;title&quot;:&quot;Blood's a Rover&quot;,&quot;description&quot;:&quot;International news NOW&quot;,&quot;body&quot;:&quot;Nuclears going off &quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-09-29T16:14:58.427Z&quot;,&quot;updatedAt&quot;:&quot;2022-09-29T16:14:58.427Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;The-Yellow-Meads-of-Asphodel-644&quot;,&quot;title&quot;:&quot;The Yellow Meads of Asphodel&quot;,&quot;description&quot;:&quot;International news NOW&quot;,&quot;body&quot;:&quot;Nuclears going off &quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-09-29T16:10:50.726Z&quot;,&quot;updatedAt&quot;:&quot;2022-09-29T16:10:50.726Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Consider-Phlebas-644&quot;,&quot;title&quot;:&quot;Consider Phlebas&quot;,&quot;description&quot;:&quot;International news NOW&quot;,&quot;body&quot;:&quot;Nuclears going off &quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-09-29T16:10:24.417Z&quot;,&quot;updatedAt&quot;:&quot;2022-09-29T16:10:24.417Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}},{&quot;slug&quot;:&quot;Russias-war-644&quot;,&quot;title&quot;:&quot;Russias war&quot;,&quot;description&quot;:&quot;International news&quot;,&quot;body&quot;:&quot;Nuclears going off &quot;,&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2022-09-18T22:24:55.216Z&quot;,&quot;updatedAt&quot;:&quot;2022-09-18T22:24:55.216Z&quot;,&quot;favorited&quot;:false,&quot;favoritesCount&quot;:0,&quot;author&quot;:{&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;following&quot;:false}}],&quot;articlesCount&quot;:38}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 200</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-* passed">
+  <span class="keyword indention">*</span>
+  <span class="name">def firstArticle = response.articles[0].slug</span>
+
+  <span class="lead-duration duration">0.002</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">header Authorization = 'Token ' + token</span>
+
+  <span class="lead-duration duration">0.002</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Given passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">path 'articles/',firstArticle</span>
+
+  <span class="lead-duration duration">0.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">method Delete</span>
+
+  <span class="lead-duration duration">0.399</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-4">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-4" class="collapse collapsable-details">
+        <pre>11:53:16.559 request:
+3 &gt; DELETE https://api.realworld.io/api/articles/Delete-Article-644
+3 &gt; Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthcmF0ZUB0ZXN0LmNvbSIsInVzZXJuYW1lIjoiS2FyYXRlMSIsImlhdCI6MTY2NTIyMjc5MSwiZXhwIjoxNjcwNDA2NzkxfQ.jTXMu8yCxPbyScOsvxfGbJcN7L99E3ZotQaRdJIa1iM
+3 &gt; Host: api.realworld.io
+3 &gt; Connection: Keep-Alive
+3 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+3 &gt; Accept-Encoding: gzip,deflate
+
+
+11:53:16.952 response time in milliseconds: 391
+3 &lt; 404
+3 &lt; Date: Sat, 08 Oct 2022 09:53:17 GMT
+3 &lt; Content-Type: application/json; charset=utf-8
+3 &lt; Content-Length: 2
+3 &lt; Connection: keep-alive
+3 &lt; X-Powered-By: Express
+3 &lt; Access-Control-Allow-Origin: *
+3 &lt; Etag: W/&quot;2-vyGp6PvFo4RvsFtPoIWeCReyIC8&quot;
+3 &lt; Via: 1.1 vegur
+3 &lt; CF-Cache-Status: DYNAMIC
+3 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=pJp5T%2Bebr3PhelVDtdI31Vc4j8%2FxQwE7zDYeqYcORVAwXdilBilc5XU9cQ3mEUATe%2FntVJdlD6KeQ%2FI4QnTCcSdXZcH2dO%2FW5jgVuHckfK%2F3Tw88c8x3SbmB0zG1fRycpXPV&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+3 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+3 &lt; Server: cloudflare
+3 &lt; CF-RAY: 756dfd0ffb2ab8f1-AMS
+3 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{}
+
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then failed">
+  <span class="keyword indention">Then</span>
+  <span class="name">status 204</span>
+
+  <span class="lead-duration duration">0.000</span>
+
+</div>
+
+
+
+
+
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-5">
+          <a>status</a>
+      </div>
+      <div id="msg-5" class="collapse collapsable-details  in ">
+        <pre>status code was: 404, expected: 204, response time in milliseconds: 391, url: https://api.realworld.io/api/articles/Delete-Article-644, response: 
+{}
+classpath:conduitApp/feature/Articles.feature:39</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="inner-level">
+    <div class="docstring indention">
+      <div data-toggle="collapse" class="collapsable-control" data-target="#msg-6">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-6" class="collapse collapsable-details">
+        <pre>11:53:16.957 classpath:conduitApp/feature/Articles.feature:39
+Then status 204
+status code was: 404, expected: 204, response time in milliseconds: 391, url: https://api.realworld.io/api/articles/Delete-Article-644, response: 
+{}
+classpath:conduitApp/feature/Articles.feature:39
+</pre>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+        </div>
+
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-1 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
     </div>
   </div>
 </div>

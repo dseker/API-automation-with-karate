@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/conduitApp\/feature\/ZRefund[1:8]","start":1664736386725,"end":1664736389354,"title":"src\/test\/java\/conduitApp\/feature\/ZRefund[1:8] 20:46:26.725-20:46:29.354 Get User info"},{"id":2,"group":1,"content":"src\/test\/java\/conduitApp\/feature\/ZRefund[2:14]","start":1664736389361,"end":1664736390570,"title":"src\/test\/java\/conduitApp\/feature\/ZRefund[2:14] 20:46:29.361-20:46:30.570 Get user Settings"},{"id":3,"group":1,"content":"src\/test\/java\/conduitApp\/feature\/ZRefund[3:20]","start":1664736390578,"end":1664736391778,"title":"src\/test\/java\/conduitApp\/feature\/ZRefund[3:20] 20:46:30.578-20:46:31.778 get latest 20 user purchases"},{"id":4,"group":1,"content":"src\/test\/java\/conduitApp\/feature\/ZRefund[4:27]","start":1664736391785,"end":1664736392966,"title":"src\/test\/java\/conduitApp\/feature\/ZRefund[4:27] 20:46:31.785-20:46:32.966 Validate Purchase fully refunded","className":"failed"},{"id":5,"group":1,"content":"src\/test\/java\/conduitApp\/feature\/ZRefund[5:34]","start":1664736392970,"end":1664736394152,"title":"src\/test\/java\/conduitApp\/feature\/ZRefund[5:34] 20:46:32.970-20:46:34.152 Validate Purchase Partial\/full refundable","className":"failed"},{"id":6,"group":1,"content":"src\/test\/java\/conduitApp\/feature\/ZRefund[6:40]","start":1664736394158,"end":1664736395390,"title":"src\/test\/java\/conduitApp\/feature\/ZRefund[6:40] 20:46:34.158-20:46:35.390 Get purchase details"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

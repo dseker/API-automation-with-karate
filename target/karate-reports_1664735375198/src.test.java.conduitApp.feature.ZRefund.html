@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.identify("5ff9db3d-7be6-496b-beac-90adb0605f7d",{name:"diyadinseker"});
+    posthog.capture("report_feature",{karate_version:"1.2.0",karate_meta:null});
+  }
+});
+</script>
+  
+    <title>src.test.java.conduitApp.feature.ZRefund</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-10-02 08:04:11 pm</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[3:23]"><span>[3:23]</span> <span>get latest 20 user purchases</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">src/test/java/conduitApp/feature/ZRefund.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Refund purchase</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[3:23]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[3:23]</span>
+                <span class="scenario-name">get latest 20 user purchases</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1929</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[3:23]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[3:23]bg"><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Given url &#39;https://oauth.zettletest.com/token&#39;</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def tokenResponse = callonce read(&#39;classpath:helpers/CreateToken.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1561</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5">20:04:11.571 &lt;&lt; lock released, cached callonce: read(&#39;classpath:helpers/CreateToken.feature&#39;)
+</div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.5.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">helpers.CreateToken</div>
+      </div>
+      <div class="time-cell passed">1523</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url apiUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.4">20:04:09.933 karate.env system property was: null 
+20:04:10.029 &gt;&gt; lock acquired, begin callonce: read(&#39;classpath:helpers/CreateToken.feature&#39;)
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;users/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.8">
+      <div class="step-ref bg-step">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request {&quot;user&quot;: {&quot;email&quot;: &quot;#(userEmail)&quot;,&quot;password&quot;: &quot;#(userPassword)&quot;}}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">55</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.9">
+      <div class="step-ref bg-step">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">993</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.9">20:04:10.379 request:
+1 &gt; POST https://api.realworld.io/api/users/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 59
+1 &gt; Host: api.realworld.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;user&quot;:{&quot;email&quot;:&quot;karate@test.com&quot;,&quot;password&quot;:&quot;Karate123&quot;}}
+
+20:04:11.088 response time in milliseconds: 707
+1 &lt; 200
+1 &lt; Date: Sun, 02 Oct 2022 18:04:11 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Etag: W/&quot;14a-dmrrWGBq02FHaZnJ8Kr5fh6Ql/g&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=V64MQ%2FeI7oBzYSJK%2FSOoYpqB%2FC%2FuKF2BgfCGwJvND%2BSRBEFw55DttnccO%2F3HGam0vsrbc7R%2BuRYtumV0SX7CQwly6FXQcNfcTdJO4aETnlNNZSlmf%2BzAZ3AHInd%2FsnLE3Ezp&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 753f5be749b4b8e8-AMS
+1 &lt; alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;user&quot;:{&quot;email&quot;:&quot;karate@test.com&quot;,&quot;username&quot;:&quot;Karate1&quot;,&quot;bio&quot;:null,&quot;image&quot;:&quot;https://api.realworld.io/images/smiley-cyrus.jpeg&quot;,&quot;token&quot;:&quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImthcmF0ZUB0ZXN0LmNvbSIsInVzZXJuYW1lIjoiS2FyYXRlMSIsImlhdCI6MTY2NDczMzg1MSwiZXhwIjoxNjY5OTE3ODUxfQ.OJgk8kbQDNG4GCzz176aGYth-_B7E6G7JtOCQDm2xhM&quot;}}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.10">
+      <div class="step-ref bg-step">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.11">
+      <div class="step-ref bg-step">11</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def authToken = response.user.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.4">
+      <div class="step-ref bg-step">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url apiUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.14">
+      <div class="step-ref bg-step">14</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def credentials = { grant_type: #(grantType), client_id: &#39;#(clientID)&#39;, assertion: &#39;#(assertion)&#39; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.15">
+      <div class="step-ref bg-step">15</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://oauth.zettletest.com/token&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.16">
+      <div class="step-ref bg-step">16</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Content-Type = &#39;application/x-www-form-urlencoded&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.17">
+      <div class="step-ref bg-step">17</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>form fields credentials</span>
+      </div>
+    </div>
+    <div class="time-cell passed">85</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.18">
+      <div class="step-ref bg-step">18</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">381</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.5.0.call.0.18">20:04:11.195 request:
+2 &gt; POST https://oauth.zettletest.com/token
+2 &gt; Content-Type: application/x-www-form-urlencoded
+2 &gt; Content-Length: 1087
+2 &gt; Host: oauth.zettletest.com
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+2 &gt; Accept-Encoding: gzip,deflate
+grant_type=urn%3Aietf%3Aparams%3Aoauth%3Agrant-type%3Ajwt-bearer&amp;client_id=2d06f4b3-4118-11ed-b29c-61822928312d&amp;assertion=eyJraWQiOiIwIiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJpc3MiOiJpWmV0dGxlIiwiYXVkIjoiQVBJIiwiZXhwIjoyNjExMjg4NTM2LCJzdWIiOiJkMTIxNzAyMC00YzEyLTExZTUtYjNlZC0yNWY3MWZkNzk4NmQiLCJpYXQiOjE2NjQ1ODA3NjAsInJlbmV3ZWQiOmZhbHNlLCJzY29wZSI6WyJSRUFEOlBST0RVQ1QiLCJXUklURTpQUk9EVUNUIiwiUkVBRDpQVVJDSEFTRSIsIlJFQUQ6RklOQU5DRSIsIlJFQUQ6VVNFUklORk8iXSwiY2xpZW50X2lkIjoiMmQwNmY0YjMtNDExOC0xMWVkLWIyOWMtNjE4MjI5MjgzMTJkIiwidHlwZSI6InVzZXItYXNzZXJ0aW9uIiwidXNlciI6eyJ1c2VyVHlwZSI6IlVTRVIiLCJ1dWlkIjoiZDEyMTcwMjAtNGMxMi0xMWU1LWIzZWQtMjVmNzFmZDc5ODZkIiwib3JnVXVpZCI6ImQxMjE3MDIwLTRjMTItMTFlNS1hM2ZkLTBjYmZhODRiZGViNyIsInVzZXJSb2xlIjoiT1dORVIifX0.ySlNhuuW-Nh9RLwX_bXfNI0itpFWpov0fVu4m9s6ZeK5owzFnwsz1H9OkElbFi5XF3T21L3p-GIS_ibnZpKpUTH-BjnBBE2f-0WcSP-DxJR6PL6iKqymUXwLRKeW9LqjPfwImADzX05_k71RDS4Zs_1lXgglqEjthEN4kzqe8MkV1kzDLEe8tMLZJvv9RaMOOpqqY35C2eONHqtuTLwQsS3hnrKMe3AhyIy9t9P_DR7VKcXvhdmQ-_RRUHj3KP9KTEhUrg44Ujq8XYdchPhf3hi-3UWfKW-jtM-UbsQ7ObSczyVD3W1F5g8AcSKzT1vQQJqgliQH_QxociNuNJPcEw
+
+20:04:11.567 response time in milliseconds: 371
+2 &lt; 200
+2 &lt; Date: Sun, 02 Oct 2022 18:04:11 GMT
+2 &lt; Content-Type: application/json
+2 &lt; Content-Length: 986
+2 &lt; Connection: keep-alive
+2 &lt; X-Real-IP: 2.71.92.209
+2 &lt; X-Amzn-Trace-Id: Root=1-6339d29b-1f86b81d2b5cd8035fc36344
+2 &lt; Strict-Transport-Security: max-age=31536000
+2 &lt; X-XSS-Protection: 1; mode=block
+2 &lt; X-Content-Type-Options: nosniff
+2 &lt; Content-Security-Policy: frame-ancestors &#39;none&#39;; default-src &#39;none&#39;
+{&quot;access_token&quot;:&quot;eyJraWQiOiIxNjY0Njg2MzgxMTQ4IiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJpc3MiOiJpWmV0dGxlIiwiYXVkIjoiQVBJIiwiZXhwIjoxNjY0NzQxMDUxLCJzdWIiOiJkMTIxNzAyMC00YzEyLTExZTUtYjNlZC0yNWY3MWZkNzk4NmQiLCJpYXQiOjE2NjQ3MzM4NTEsInVzZXIiOnsidXNlclR5cGUiOiJVU0VSIiwidXVpZCI6ImQxMjE3MDIwLTRjMTItMTFlNS1iM2VkLTI1ZjcxZmQ3OTg2ZCIsIm9yZ1V1aWQiOiJkMTIxNzAyMC00YzEyLTExZTUtYTNmZC0wY2JmYTg0YmRlYjciLCJ1c2VyUm9sZSI6Ik9XTkVSIn0sInNjb3BlIjpbIlJFQUQ6RklOQU5DRSIsIlJFQUQ6VVNFUklORk8iLCJSRUFEOlBST0RVQ1QiLCJXUklURTpQUk9EVUNUIiwiUkVBRDpQVVJDSEFTRSJdLCJyZW5ld2VkIjpmYWxzZSwiY2xpZW50X2lkIjoiMmQwNmY0YjMtNDExOC0xMWVkLWIyOWMtNjE4MjI5MjgzMTJkIn0.fTAHJhwAeO5rLURB288I191zJzN3lgKEsUsKUsYPilYda1svTiVkFBX7iM2dJCgPkmovqCFyj4fDYCrWJij84MMiK6-JbrsjfWhKIYIYT1Y4H7KA-LWwtHxdbBvsFBDT-h4vo-VbnTGKMpZPM6IQ4saaoiKXh8xp7qMK2Fc24Qvk2e4Z1NsRq0bt4rq6z4Xc3oWiMuvTy61FuyY-ITe48O-sKoENYg2CIV8u4Noh1sPNDjD5S65hrgyWAEMpvi-9j0hdh20qst11bcc7fd-p7SF6cMAHqhqxUSzoGlehyrWlgiHIbt7bNccCg5MARzc8Kw0bjRKRAo-q3Nldl_HrtQ&quot;,&quot;expires_in&quot;:7200}
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.5.0.call">
+    <div class="step-container" id="0.5.0.call.0.19">
+      <div class="step-ref bg-step">19</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def gbcAuthToken = response.access_token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div data-parent="[3:23]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def bearerToken = tokenResponse.gbcAuthToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[3:23]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>header Authorization = &#39;Bearer &#39;+bearerToken</span>
+      </div>
+    </div>
+    <div class="time-cell passed">9</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.24">
+      <div class="step-ref passed">24</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://purchase.izettletest.com/purchases/v2?&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.25">
+      <div class="step-ref passed">25</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>params {hasChangedDateRange: true ,limit: 20, descending: true}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.26">
+      <div class="step-ref passed">26</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">357</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.26">20:04:11.584 request:
+3 &gt; GET https://purchase.izettletest.com/purchases/v2?hasChangedDateRange=true&amp;limit=20&amp;descending=true
+3 &gt; Authorization: Bearer eyJraWQiOiIxNjY0Njg2MzgxMTQ4IiwidHlwIjoiSldUIiwiYWxnIjoiUlMyNTYifQ.eyJpc3MiOiJpWmV0dGxlIiwiYXVkIjoiQVBJIiwiZXhwIjoxNjY0NzQxMDUxLCJzdWIiOiJkMTIxNzAyMC00YzEyLTExZTUtYjNlZC0yNWY3MWZkNzk4NmQiLCJpYXQiOjE2NjQ3MzM4NTEsInVzZXIiOnsidXNlclR5cGUiOiJVU0VSIiwidXVpZCI6ImQxMjE3MDIwLTRjMTItMTFlNS1iM2VkLTI1ZjcxZmQ3OTg2ZCIsIm9yZ1V1aWQiOiJkMTIxNzAyMC00YzEyLTExZTUtYTNmZC0wY2JmYTg0YmRlYjciLCJ1c2VyUm9sZSI6Ik9XTkVSIn0sInNjb3BlIjpbIlJFQUQ6RklOQU5DRSIsIlJFQUQ6VVNFUklORk8iLCJSRUFEOlBST0RVQ1QiLCJXUklURTpQUk9EVUNUIiwiUkVBRDpQVVJDSEFTRSJdLCJyZW5ld2VkIjpmYWxzZSwiY2xpZW50X2lkIjoiMmQwNmY0YjMtNDExOC0xMWVkLWIyOWMtNjE4MjI5MjgzMTJkIn0.fTAHJhwAeO5rLURB288I191zJzN3lgKEsUsKUsYPilYda1svTiVkFBX7iM2dJCgPkmovqCFyj4fDYCrWJij84MMiK6-JbrsjfWhKIYIYT1Y4H7KA-LWwtHxdbBvsFBDT-h4vo-VbnTGKMpZPM6IQ4saaoiKXh8xp7qMK2Fc24Qvk2e4Z1NsRq0bt4rq6z4Xc3oWiMuvTy61FuyY-ITe48O-sKoENYg2CIV8u4Noh1sPNDjD5S65hrgyWAEMpvi-9j0hdh20qst11bcc7fd-p7SF6cMAHqhqxUSzoGlehyrWlgiHIbt7bNccCg5MARzc8Kw0bjRKRAo-q3Nldl_HrtQ
+3 &gt; Host: purchase.izettletest.com
+3 &gt; Connection: Keep-Alive
+3 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/13.0.2)
+3 &gt; Accept-Encoding: gzip,deflate
+
+
+20:04:11.933 response time in milliseconds: 348
+3 &lt; 200
+3 &lt; Date: Sun, 02 Oct 2022 18:04:11 GMT
+3 &lt; Content-Type: application/json
+3 &lt; Transfer-Encoding: chunked
+3 &lt; Connection: keep-alive
+3 &lt; Strict-Transport-Security: max-age=31536000; includeSubDomains
+3 &lt; User-Id: d1217020-4c12-11e5-b3ed-25f71fd7986d
+3 &lt; Client-Id: 2d06f4b3-4118-11ed-b29c-61822928312d
+3 &lt; Vary: Accept-Encoding
+{&quot;purchases&quot;:[{&quot;source&quot;:&quot;POS&quot;,&quot;purchaseUUID&quot;:&quot;y5PgAEG3Ee2L8GdFCBPIPA&quot;,&quot;amount&quot;:-800,&quot;vatAmount&quot;:-133,&quot;taxAmount&quot;:-133,&quot;country&quot;:&quot;GB&quot;,&quot;currency&quot;:&quot;GBP&quot;,&quot;timestamp&quot;:&quot;2022-10-01T18:36:00.174+0000&quot;,&quot;purchaseNumber&quot;:15438,&quot;globalPurchaseNumber&quot;:15438,&quot;userDisplayName&quot;:&quot;gb iZettle&quot;,&quot;userId&quot;:3193590,&quot;organizationId&quot;:34969296,&quot;products&quot;:[{&quot;quantity&quot;:&quot;-1&quot;,&quot;vatPercentage&quot;:20.0,&quot;taxRates&quot;:[{&quot;percentage&quot;:20}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:1000,&quot;rowTaxableAmount&quot;:-667,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;1&quot;,&quot;type&quot;:&quot;CUSTOM_AMOUNT&quot;,&quot;grossValue&quot;:-1000,&quot;grossTax&quot;:-167,&quot;libraryProduct&quot;:false}],&quot;discounts&quot;:[{&quot;amount&quot;:200,&quot;quantity&quot;:-1,&quot;value&quot;:200}],&quot;payments&quot;:[{&quot;uuid&quot;:&quot;e79bcd45-5033-4605-89b4-4d429273771d&quot;,&quot;amount&quot;:-800,&quot;type&quot;:&quot;IZETTLE_CASH&quot;,&quot;references&quot;:{&quot;refundsPayment&quot;:&quot;77154230-e4e1-434a-b79d-e6e974ed421a&quot;},&quot;attributes&quot;:{&quot;changeAmount&quot;:0,&quot;handedAmount&quot;:-800}}],&quot;refundsPurchaseUUID&quot;:&quot;7nkbRNT-RK6hOvFcqc024w&quot;,&quot;receiptCopyAllowed&quot;:true,&quot;references&quot;:{&quot;checkoutUUID&quot;:&quot;cb93e000-41b7-11ed-89f2-65470a11ca3e&quot;},&quot;taxationMode&quot;:&quot;INCLUSIVE&quot;,&quot;taxationType&quot;:&quot;VAT&quot;,&quot;taxValues&quot;:[{&quot;label&quot;:null,&quot;taxValue&quot;:20,&quot;taxAmount&quot;:-133,&quot;totalAmount&quot;:-800,&quot;taxableAmount&quot;:-667}],&quot;created&quot;:&quot;2022-10-01T18:36:00.174+0000&quot;,&quot;refundsPurchaseUUID1&quot;:&quot;ee791b44-d4fe-44ae-a13a-f15ca9cd36e3&quot;,&quot;purchaseUUID1&quot;:&quot;cb93e000-41b7-11ed-8bf0-67450813c83c&quot;,&quot;groupedVatAmounts&quot;:{&quot;20.0&quot;:-800},&quot;refunded&quot;:false,&quot;refund&quot;:true},{&quot;source&quot;:&quot;POS&quot;,&quot;purchaseUUID&quot;:&quot;tbqTsEEMEe2ogsPv0WABEQ&quot;,&quot;amount&quot;:-2668,&quot;vatAmount&quot;:0,&quot;taxAmount&quot;:0,&quot;country&quot;:&quot;GB&quot;,&quot;currency&quot;:&quot;GBP&quot;,&quot;timestamp&quot;:&quot;2022-09-30T22:10:40.919+0000&quot;,&quot;purchaseNumber&quot;:15437,&quot;globalPurchaseNumber&quot;:15437,&quot;userDisplayName&quot;:&quot;gb iZettle&quot;,&quot;userId&quot;:3193590,&quot;organizationId&quot;:34969296,&quot;products&quot;:[{&quot;quantity&quot;:&quot;-1&quot;,&quot;productUuid&quot;:&quot;8f8245d0-4473-11ec-bf7a-2d0f92eb1b4a&quot;,&quot;variantUuid&quot;:&quot;8f8245d1-4473-11ec-bf7a-2d0f92eb1b4a&quot;,&quot;vatPercentage&quot;:0.0,&quot;taxRates&quot;:[{&quot;percentage&quot;:0}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:999,&quot;costPrice&quot;:550,&quot;rowTaxableAmount&quot;:-999,&quot;name&quot;:&quot;EcoVibe Stain Removing Laundry Bleach&quot;,&quot;variantName&quot;:&quot;&quot;,&quot;sku&quot;:&quot;&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;0&quot;,&quot;type&quot;:&quot;PRODUCT&quot;,&quot;grossValue&quot;:-999,&quot;grossTax&quot;:0,&quot;details&quot;:{},&quot;libraryProduct&quot;:true},{&quot;quantity&quot;:&quot;-1&quot;,&quot;productUuid&quot;:&quot;b6fed7c0-97cc-11ec-8684-4f0b79ff1f78&quot;,&quot;variantUuid&quot;:&quot;b7020c10-97cc-11ec-8849-182c233c30e6&quot;,&quot;vatPercentage&quot;:0.0,&quot;taxRates&quot;:[{&quot;percentage&quot;:0}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:949,&quot;costPrice&quot;:0,&quot;rowTaxableAmount&quot;:-949,&quot;name&quot;:&quot;Hair Ties&quot;,&quot;variantName&quot;:&quot;&quot;,&quot;sku&quot;:&quot;&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;1&quot;,&quot;type&quot;:&quot;PRODUCT&quot;,&quot;grossValue&quot;:-949,&quot;grossTax&quot;:0,&quot;details&quot;:{},&quot;libraryProduct&quot;:true},{&quot;quantity&quot;:&quot;-1&quot;,&quot;productUuid&quot;:&quot;7e6e7ce0-1de1-11ec-bfc8-ec6019dc10ee&quot;,&quot;variantUuid&quot;:&quot;7e6fb560-1de1-11ec-8881-2be1d58c4a9c&quot;,&quot;vatPercentage&quot;:0.0,&quot;taxRates&quot;:[{&quot;percentage&quot;:0}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:720,&quot;costPrice&quot;:500,&quot;rowTaxableAmount&quot;:-720,&quot;name&quot;:&quot;scrub Powder fill refill&quot;,&quot;variantName&quot;:&quot;&quot;,&quot;sku&quot;:&quot;&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;2&quot;,&quot;type&quot;:&quot;PRODUCT&quot;,&quot;grossValue&quot;:-720,&quot;grossTax&quot;:0,&quot;details&quot;:{},&quot;libraryProduct&quot;:true}],&quot;discounts&quot;:[],&quot;payments&quot;:[{&quot;uuid&quot;:&quot;6db74cc7-4aa7-45d9-8216-23d2819faf46&quot;,&quot;amount&quot;:-2668,&quot;type&quot;:&quot;IZETTLE_CASH&quot;,&quot;references&quot;:{&quot;refundsPayment&quot;:&quot;126df97c-40b7-11ed-ae89-676d8159b54d&quot;},&quot;attributes&quot;:{&quot;changeAmount&quot;:0,&quot;handedAmount&quot;:-2668}}],&quot;refundsPurchaseUUID&quot;:&quot;D2zI8kC3Ee2viGZsgFi0TA&quot;,&quot;receiptCopyAllowed&quot;:true,&quot;references&quot;:{&quot;checkoutUUID&quot;:&quot;b5ba93b0-410c-11ed-aa80-c1edd3620313&quot;},&quot;taxationMode&quot;:&quot;INCLUSIVE&quot;,&quot;taxationType&quot;:&quot;VAT&quot;,&quot;taxValues&quot;:[{&quot;label&quot;:null,&quot;taxValue&quot;:0,&quot;taxAmount&quot;:0,&quot;totalAmount&quot;:-2668,&quot;taxableAmount&quot;:-2668}],&quot;created&quot;:&quot;2022-09-30T22:10:40.919+0000&quot;,&quot;refundsPurchaseUUID1&quot;:&quot;0f6cc8f2-40b7-11ed-af88-666c8058b44c&quot;,&quot;purchaseUUID1&quot;:&quot;b5ba93b0-410c-11ed-a882-c3efd1600111&quot;,&quot;groupedVatAmounts&quot;:{&quot;0.0&quot;:-2668},&quot;refunded&quot;:false,&quot;refund&quot;:true},{&quot;source&quot;:&quot;POS&quot;,&quot;purchaseUUID&quot;:&quot;D2zI8kC3Ee2viGZsgFi0TA&quot;,&quot;amount&quot;:2668,&quot;vatAmount&quot;:0,&quot;taxAmount&quot;:0,&quot;country&quot;:&quot;GB&quot;,&quot;currency&quot;:&quot;GBP&quot;,&quot;timestamp&quot;:&quot;2022-09-30T11:57:35.703+0000&quot;,&quot;gpsCoordinates&quot;:{&quot;longitude&quot;:18.066399254614904,&quot;latitude&quot;:59.335296630859375,&quot;accuracyMeters&quot;:35.0},&quot;purchaseNumber&quot;:15436,&quot;globalPurchaseNumber&quot;:15436,&quot;userDisplayName&quot;:&quot;gb iZettle&quot;,&quot;userId&quot;:3193590,&quot;organizationId&quot;:34969296,&quot;products&quot;:[{&quot;quantity&quot;:&quot;1&quot;,&quot;productUuid&quot;:&quot;8f8245d0-4473-11ec-bf7a-2d0f92eb1b4a&quot;,&quot;variantUuid&quot;:&quot;8f8245d1-4473-11ec-bf7a-2d0f92eb1b4a&quot;,&quot;vatPercentage&quot;:0.0,&quot;taxRates&quot;:[{&quot;percentage&quot;:0}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:999,&quot;costPrice&quot;:550,&quot;rowTaxableAmount&quot;:999,&quot;name&quot;:&quot;EcoVibe Stain Removing Laundry Bleach&quot;,&quot;variantName&quot;:&quot;&quot;,&quot;sku&quot;:&quot;&quot;,&quot;fromLocationUuid&quot;:&quot;8d772d4a-111d-11ea-9ee7-141cd50f3f99&quot;,&quot;toLocationUuid&quot;:&quot;8d772dc2-111d-11ea-8d3f-2b02be2863a8&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;0&quot;,&quot;type&quot;:&quot;PRODUCT&quot;,&quot;grossValue&quot;:999,&quot;grossTax&quot;:0,&quot;details&quot;:{},&quot;libraryProduct&quot;:true},{&quot;quantity&quot;:&quot;1&quot;,&quot;productUuid&quot;:&quot;b6fed7c0-97cc-11ec-8684-4f0b79ff1f78&quot;,&quot;variantUuid&quot;:&quot;b7020c10-97cc-11ec-8849-182c233c30e6&quot;,&quot;vatPercentage&quot;:0.0,&quot;taxRates&quot;:[{&quot;percentage&quot;:0}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:949,&quot;costPrice&quot;:0,&quot;rowTaxableAmount&quot;:949,&quot;name&quot;:&quot;Hair Ties&quot;,&quot;variantName&quot;:&quot;&quot;,&quot;sku&quot;:&quot;&quot;,&quot;fromLocationUuid&quot;:&quot;8d772d4a-111d-11ea-9ee7-141cd50f3f99&quot;,&quot;toLocationUuid&quot;:&quot;8d772dc2-111d-11ea-8d3f-2b02be2863a8&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;1&quot;,&quot;type&quot;:&quot;PRODUCT&quot;,&quot;grossValue&quot;:949,&quot;grossTax&quot;:0,&quot;details&quot;:{},&quot;libraryProduct&quot;:true},{&quot;quantity&quot;:&quot;1&quot;,&quot;productUuid&quot;:&quot;7e6e7ce0-1de1-11ec-bfc8-ec6019dc10ee&quot;,&quot;variantUuid&quot;:&quot;7e6fb560-1de1-11ec-8881-2be1d58c4a9c&quot;,&quot;vatPercentage&quot;:0.0,&quot;taxRates&quot;:[{&quot;percentage&quot;:0}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:720,&quot;costPrice&quot;:500,&quot;rowTaxableAmount&quot;:720,&quot;name&quot;:&quot;scrub Powder fill refill&quot;,&quot;variantName&quot;:&quot;&quot;,&quot;sku&quot;:&quot;&quot;,&quot;fromLocationUuid&quot;:&quot;8d772d4a-111d-11ea-9ee7-141cd50f3f99&quot;,&quot;toLocationUuid&quot;:&quot;8d772dc2-111d-11ea-8d3f-2b02be2863a8&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;2&quot;,&quot;type&quot;:&quot;PRODUCT&quot;,&quot;grossValue&quot;:720,&quot;grossTax&quot;:0,&quot;details&quot;:{},&quot;libraryProduct&quot;:true}],&quot;discounts&quot;:[],&quot;payments&quot;:[{&quot;uuid&quot;:&quot;126df97c-40b7-11ed-ae89-676d8159b54d&quot;,&quot;amount&quot;:2668,&quot;type&quot;:&quot;IZETTLE_CASH&quot;,&quot;country&quot;:&quot;GB&quot;,&quot;attributes&quot;:{&quot;changeAmount&quot;:10012,&quot;handedAmount&quot;:12680}}],&quot;refundedByPurchaseUUIDs&quot;:[&quot;tbqTsEEMEe2ogsPv0WABEQ&quot;],&quot;receiptCopyAllowed&quot;:true,&quot;references&quot;:{&quot;shoppingCartUuid&quot;:&quot;08008400-40B7-11ED-AE89-676D8159B54D&quot;,&quot;checkoutUUID&quot;:&quot;0f6cc8f2-40b7-11ed-ae89-676d8159b54d&quot;},&quot;taxationMode&quot;:&quot;INCLUSIVE&quot;,&quot;taxationType&quot;:&quot;VAT&quot;,&quot;taxValues&quot;:[{&quot;label&quot;:null,&quot;taxValue&quot;:0,&quot;taxAmount&quot;:0,&quot;totalAmount&quot;:2668,&quot;taxableAmount&quot;:2668}],&quot;customAmountSale&quot;:false,&quot;created&quot;:&quot;2022-09-30T11:57:35.703+0000&quot;,&quot;purchaseUUID1&quot;:&quot;0f6cc8f2-40b7-11ed-af88-666c8058b44c&quot;,&quot;refundedByPurchaseUUIDs1&quot;:[&quot;b5ba93b0-410c-11ed-a882-c3efd1600111&quot;],&quot;groupedVatAmounts&quot;:{&quot;0.0&quot;:2668},&quot;refunded&quot;:true,&quot;refund&quot;:false},{&quot;source&quot;:&quot;POS&quot;,&quot;purchaseUUID&quot;:&quot;7nkbRNT-RK6hOvFcqc024w&quot;,&quot;amount&quot;:800,&quot;vatAmount&quot;:133,&quot;taxAmount&quot;:133,&quot;country&quot;:&quot;GB&quot;,&quot;currency&quot;:&quot;GBP&quot;,&quot;timestamp&quot;:&quot;2022-09-29T14:40:52.610+0000&quot;,&quot;gpsCoordinates&quot;:{&quot;longitude&quot;:18.06,&quot;latitude&quot;:59.32,&quot;accuracyMeters&quot;:2.0},&quot;purchaseNumber&quot;:15435,&quot;globalPurchaseNumber&quot;:15435,&quot;userDisplayName&quot;:&quot;gb iZettle&quot;,&quot;userId&quot;:3193590,&quot;organizationId&quot;:34969296,&quot;products&quot;:[{&quot;quantity&quot;:&quot;1&quot;,&quot;vatPercentage&quot;:20.0,&quot;taxRates&quot;:[{&quot;percentage&quot;:20}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:1000,&quot;rowTaxableAmount&quot;:667,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;1&quot;,&quot;type&quot;:&quot;CUSTOM_AMOUNT&quot;,&quot;grossValue&quot;:1000,&quot;grossTax&quot;:167,&quot;libraryProduct&quot;:false}],&quot;discounts&quot;:[{&quot;amount&quot;:200,&quot;quantity&quot;:1,&quot;value&quot;:200}],&quot;payments&quot;:[{&quot;uuid&quot;:&quot;77154230-e4e1-434a-b79d-e6e974ed421a&quot;,&quot;amount&quot;:800,&quot;type&quot;:&quot;IZETTLE_CASH&quot;,&quot;country&quot;:&quot;GB&quot;,&quot;attributes&quot;:{&quot;changeAmount&quot;:0,&quot;handedAmount&quot;:800}}],&quot;refundedByPurchaseUUIDs&quot;:[&quot;y5PgAEG3Ee2L8GdFCBPIPA&quot;],&quot;receiptCopyAllowed&quot;:true,&quot;references&quot;:{&quot;checkoutUUID&quot;:&quot;ef781a45-d5ff-45af-a03b-f05da8cc37e2&quot;},&quot;taxationMode&quot;:&quot;INCLUSIVE&quot;,&quot;taxationType&quot;:&quot;VAT&quot;,&quot;taxValues&quot;:[{&quot;label&quot;:null,&quot;taxValue&quot;:20,&quot;taxAmount&quot;:133,&quot;totalAmount&quot;:800,&quot;taxableAmount&quot;:667}],&quot;customAmountSale&quot;:true,&quot;created&quot;:&quot;2022-09-29T14:40:52.610+0000&quot;,&quot;purchaseUUID1&quot;:&quot;ee791b44-d4fe-44ae-a13a-f15ca9cd36e3&quot;,&quot;refundedByPurchaseUUIDs1&quot;:[&quot;cb93e000-41b7-11ed-8bf0-67450813c83c&quot;],&quot;groupedVatAmounts&quot;:{&quot;20.0&quot;:800},&quot;refunded&quot;:true,&quot;refund&quot;:false},{&quot;source&quot;:&quot;POS&quot;,&quot;purchaseUUID&quot;:&quot;elGYP9QOT8-rb38INmAWpA&quot;,&quot;amount&quot;:9087,&quot;vatAmount&quot;:433,&quot;taxAmount&quot;:433,&quot;country&quot;:&quot;GB&quot;,&quot;currency&quot;:&quot;GBP&quot;,&quot;timestamp&quot;:&quot;2022-09-28T14:44:18.054+0000&quot;,&quot;gpsCoordinates&quot;:{&quot;longitude&quot;:18.0666943,&quot;latitude&quot;:59.3352391,&quot;accuracyMeters&quot;:17.490999221801758},&quot;purchaseNumber&quot;:15434,&quot;globalPurchaseNumber&quot;:15434,&quot;userDisplayName&quot;:&quot;gb iZettle&quot;,&quot;userId&quot;:3193590,&quot;organizationId&quot;:34969296,&quot;products&quot;:[{&quot;quantity&quot;:&quot;1&quot;,&quot;productUuid&quot;:&quot;adaac630-179c-11ec-a9f6-fd0931e170f2&quot;,&quot;variantUuid&quot;:&quot;cd3321a0-179c-11ec-9d27-72a214137388&quot;,&quot;vatPercentage&quot;:5.0,&quot;taxRates&quot;:[{&quot;percentage&quot;:5}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:9087,&quot;rowTaxableAmount&quot;:8654,&quot;name&quot;:&quot;myLSA&quot;,&quot;description&quot;:&quot;&quot;,&quot;variantName&quot;:&quot;Kekr, Eyey&quot;,&quot;sku&quot;:&quot;0987&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;7&quot;,&quot;type&quot;:&quot;PRODUCT&quot;,&quot;grossValue&quot;:9087,&quot;grossTax&quot;:433,&quot;libraryProduct&quot;:true}],&quot;discounts&quot;:[],&quot;payments&quot;:[{&quot;uuid&quot;:&quot;071d0015-3f3c-11ed-b9f3-94d0db8ce0b8&quot;,&quot;amount&quot;:9087,&quot;type&quot;:&quot;IZETTLE_CARD&quot;,&quot;createdAt&quot;:&quot;2022-09-28T15:44:09.000+0000&quot;,&quot;attributes&quot;:{&quot;cardHolderVerificationMethod&quot;:&quot;None&quot;,&quot;maskedPan&quot;:&quot;476173******0119&quot;,&quot;cardPaymentEntryMode&quot;:&quot;CONTACTLESS_EMV&quot;,&quot;referenceNumber&quot;:&quot;IVCN3CSEMN&quot;,&quot;authorizationCode&quot;:&quot;123456&quot;,&quot;cardType&quot;:&quot;VISA&quot;,&quot;terminalVerificationResults&quot;:&quot;0000000000&quot;,&quot;applicationIdentifier&quot;:&quot;A0000000031010&quot;,&quot;applicationName&quot;:&quot;VISA CREDIT&quot;,&quot;mxPaymentMethodCode&quot;:4}}],&quot;receiptCopyAllowed&quot;:true,&quot;references&quot;:{&quot;checkoutUUID&quot;:&quot;7b50993e-d50f-4ece-aa6e-7e09376117a5&quot;},&quot;taxationMode&quot;:&quot;INCLUSIVE&quot;,&quot;taxationType&quot;:&quot;VAT&quot;,&quot;taxValues&quot;:[{&quot;label&quot;:null,&quot;taxValue&quot;:5,&quot;taxAmount&quot;:433,&quot;totalAmount&quot;:9087,&quot;taxableAmount&quot;:8654}],&quot;customAmountSale&quot;:false,&quot;created&quot;:&quot;2022-09-28T14:44:18.054+0000&quot;,&quot;purchaseUUID1&quot;:&quot;7a51983f-d40e-4fcf-ab6f-7f08366016a4&quot;,&quot;groupedVatAmounts&quot;:{&quot;5.0&quot;:9087},&quot;refunded&quot;:false,&quot;refund&quot;:false},{&quot;source&quot;:&quot;POS&quot;,&quot;purchaseUUID&quot;:&quot;61HrcO14To-NFhHhOestOg&quot;,&quot;amount&quot;:2000,&quot;vatAmount&quot;:222,&quot;taxAmount&quot;:222,&quot;country&quot;:&quot;GB&quot;,&quot;currency&quot;:&quot;GBP&quot;,&quot;timestamp&quot;:&quot;2022-09-28T14:02:59.918+0000&quot;,&quot;gpsCoordinates&quot;:{&quot;longitude&quot;:17.937095486264734,&quot;latitude&quot;:59.34127111138953,&quot;accuracyMeters&quot;:12.0},&quot;purchaseNumber&quot;:15433,&quot;globalPurchaseNumber&quot;:15433,&quot;userDisplayName&quot;:&quot;gb iZettle&quot;,&quot;userId&quot;:3193590,&quot;organizationId&quot;:34969296,&quot;products&quot;:[{&quot;quantity&quot;:&quot;1&quot;,&quot;vatPercentage&quot;:12.5,&quot;taxRates&quot;:[{&quot;percentage&quot;:12.5}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:2000,&quot;rowTaxableAmount&quot;:1778,&quot;name&quot;:&quot;&quot;,&quot;description&quot;:&quot;&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;1&quot;,&quot;type&quot;:&quot;CUSTOM_AMOUNT&quot;,&quot;grossValue&quot;:2000,&quot;grossTax&quot;:222,&quot;libraryProduct&quot;:false}],&quot;discounts&quot;:[],&quot;payments&quot;:[{&quot;uuid&quot;:&quot;40eb1197-3f36-11ed-a218-bebfa489e97c&quot;,&quot;amount&quot;:2000,&quot;type&quot;:&quot;IZETTLE_CARD&quot;,&quot;gratuityAmount&quot;:0,&quot;country&quot;:&quot;GB&quot;,&quot;referenceNumber&quot;:&quot;3OFGNMYFKE&quot;,&quot;attributes&quot;:{&quot;cardHolderVerificationMethod&quot;:&quot;None&quot;,&quot;maskedPan&quot;:&quot;************0119&quot;,&quot;cardPaymentEntryMode&quot;:&quot;CONTACTLESS_EMV&quot;,&quot;referenceNumber&quot;:&quot;3OFGNMYFKE&quot;,&quot;authorizationCode&quot;:&quot;123456&quot;,&quot;installmentAmount&quot;:0,&quot;nrOfInstallments&quot;:0,&quot;cardType&quot;:&quot;VISA&quot;,&quot;terminalVerificationResults&quot;:&quot;0000000000&quot;,&quot;applicationIdentifier&quot;:&quot;A0000000031010&quot;}}],&quot;receiptCopyAllowed&quot;:true,&quot;gratuityAmount&quot;:0,&quot;references&quot;:{&quot;checkoutUUID&quot;:&quot;ea50ea71-ec79-4f8e-8c17-10e038ea2c3b&quot;},&quot;taxationMode&quot;:&quot;INCLUSIVE&quot;,&quot;taxationType&quot;:&quot;VAT&quot;,&quot;taxValues&quot;:[{&quot;label&quot;:null,&quot;taxValue&quot;:12.5,&quot;taxAmount&quot;:222,&quot;totalAmount&quot;:2000,&quot;taxableAmount&quot;:1778}],&quot;customAmountSale&quot;:true,&quot;created&quot;:&quot;2022-09-28T14:02:59.918+0000&quot;,&quot;purchaseUUID1&quot;:&quot;eb51eb70-ed78-4e8f-8d16-11e139eb2d3a&quot;,&quot;groupedVatAmounts&quot;:{&quot;12.5&quot;:2000},&quot;refunded&quot;:false,&quot;refund&quot;:false},{&quot;source&quot;:&quot;POS&quot;,&quot;purchaseUUID&quot;:&quot;EQ6dGAsmSNuE3JZ7v9iJug&quot;,&quot;amount&quot;:500,&quot;vatAmount&quot;:56,&quot;taxAmount&quot;:56,&quot;country&quot;:&quot;GB&quot;,&quot;currency&quot;:&quot;GBP&quot;,&quot;timestamp&quot;:&quot;2022-09-28T13:51:55.695+0000&quot;,&quot;gpsCoordinates&quot;:{&quot;longitude&quot;:17.9921136,&quot;latitude&quot;:59.2909909,&quot;accuracyMeters&quot;:15.086000442504883},&quot;purchaseNumber&quot;:15432,&quot;globalPurchaseNumber&quot;:15432,&quot;userDisplayName&quot;:&quot;gb iZettle&quot;,&quot;userId&quot;:3193590,&quot;organizationId&quot;:34969296,&quot;products&quot;:[{&quot;quantity&quot;:&quot;1&quot;,&quot;vatPercentage&quot;:12.5,&quot;taxRates&quot;:[{&quot;percentage&quot;:12.5}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:500,&quot;rowTaxableAmount&quot;:444,&quot;name&quot;:&quot;&quot;,&quot;description&quot;:&quot;&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;1&quot;,&quot;type&quot;:&quot;CUSTOM_AMOUNT&quot;,&quot;grossValue&quot;:500,&quot;grossTax&quot;:56,&quot;libraryProduct&quot;:false}],&quot;discounts&quot;:[],&quot;payments&quot;:[{&quot;uuid&quot;:&quot;b66c77ec-3f34-11ed-a6c7-6c6b34b96824&quot;,&quot;amount&quot;:500,&quot;type&quot;:&quot;IZETTLE_CARD&quot;,&quot;createdAt&quot;:&quot;2022-09-28T14:51:54.000+0000&quot;,&quot;attributes&quot;:{&quot;cardHolderVerificationMethod&quot;:&quot;None&quot;,&quot;maskedPan&quot;:&quot;541333******4111&quot;,&quot;cardPaymentEntryMode&quot;:&quot;CONTACTLESS_EMV&quot;,&quot;referenceNumber&quot;:&quot;P3ZCZFY5BL&quot;,&quot;authorizationCode&quot;:&quot;123456&quot;,&quot;cardType&quot;:&quot;MASTERCARD&quot;,&quot;terminalVerificationResults&quot;:&quot;0000008001&quot;,&quot;applicationIdentifier&quot;:&quot;A0000000041010&quot;,&quot;applicationName&quot;:&quot;MasterCardCredit&quot;,&quot;mxPaymentMethodCode&quot;:4}}],&quot;receiptCopyAllowed&quot;:true,&quot;references&quot;:{&quot;checkoutUUID&quot;:&quot;100f9c19-0a27-49da-85dd-977abed988bb&quot;},&quot;taxationMode&quot;:&quot;INCLUSIVE&quot;,&quot;taxationType&quot;:&quot;VAT&quot;,&quot;taxValues&quot;:[{&quot;label&quot;:null,&quot;taxValue&quot;:12.5,&quot;taxAmount&quot;:56,&quot;totalAmount&quot;:500,&quot;taxableAmount&quot;:444}],&quot;customAmountSale&quot;:true,&quot;created&quot;:&quot;2022-09-28T13:51:55.695+0000&quot;,&quot;purchaseUUID1&quot;:&quot;110e9d18-0b26-48db-84dc-967bbfd889ba&quot;,&quot;groupedVatAmounts&quot;:{&quot;12.5&quot;:500},&quot;refunded&quot;:false,&quot;refund&quot;:false},{&quot;source&quot;:&quot;POS&quot;,&quot;purchaseUUID&quot;:&quot;e_8WMD8zEe2dWkZh_Zmx1w&quot;,&quot;amount&quot;:3069,&quot;vatAmount&quot;:0,&quot;taxAmount&quot;:0,&quot;country&quot;:&quot;GB&quot;,&quot;currency&quot;:&quot;GBP&quot;,&quot;timestamp&quot;:&quot;2022-09-28T13:43:11.454+0000&quot;,&quot;gpsCoordinates&quot;:{&quot;longitude&quot;:17.94183411892444,&quot;latitude&quot;:59.4293212890625,&quot;accuracyMeters&quot;:806.6659289767205},&quot;purchaseNumber&quot;:15431,&quot;globalPurchaseNumber&quot;:15431,&quot;userDisplayName&quot;:&quot;gb iZettle&quot;,&quot;userId&quot;:3193590,&quot;organizationId&quot;:34969296,&quot;products&quot;:[{&quot;quantity&quot;:&quot;1&quot;,&quot;productUuid&quot;:&quot;aa1f7050-6bc1-11ec-8e44-a5ff0283d54e&quot;,&quot;variantUuid&quot;:&quot;aa211e00-6bc1-11ec-b2be-60a6d7d01a6e&quot;,&quot;vatPercentage&quot;:0.0,&quot;taxRates&quot;:[{&quot;percentage&quot;:0}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:1000,&quot;costPrice&quot;:200,&quot;rowTaxableAmount&quot;:1000,&quot;name&quot;:&quot;Simple Living Eco Laundry Sheets&quot;,&quot;variantName&quot;:&quot;&quot;,&quot;sku&quot;:&quot;000111&quot;,&quot;fromLocationUuid&quot;:&quot;8d772d4a-111d-11ea-9ee7-141cd50f3f99&quot;,&quot;toLocationUuid&quot;:&quot;8d772dc2-111d-11ea-8d3f-2b02be2863a8&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;0&quot;,&quot;type&quot;:&quot;PRODUCT&quot;,&quot;grossValue&quot;:1000,&quot;grossTax&quot;:0,&quot;details&quot;:{},&quot;libraryProduct&quot;:true},{&quot;quantity&quot;:&quot;1&quot;,&quot;productUuid&quot;:&quot;3fd99da0-1380-11eb-9cf5-8b6ed8fe5766&quot;,&quot;variantUuid&quot;:&quot;3fd99da1-1380-11eb-9cf5-8b6ed8fe5766&quot;,&quot;vatPercentage&quot;:0.0,&quot;taxRates&quot;:[{&quot;percentage&quot;:0}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:400,&quot;costPrice&quot;:199,&quot;rowTaxableAmount&quot;:400,&quot;name&quot;:&quot;Seedball Gift Boxes&quot;,&quot;variantName&quot;:&quot;&quot;,&quot;sku&quot;:&quot;&quot;,&quot;fromLocationUuid&quot;:&quot;8d772d4a-111d-11ea-9ee7-141cd50f3f99&quot;,&quot;toLocationUuid&quot;:&quot;8d772dc2-111d-11ea-8d3f-2b02be2863a8&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;1&quot;,&quot;type&quot;:&quot;PRODUCT&quot;,&quot;grossValue&quot;:400,&quot;grossTax&quot;:0,&quot;details&quot;:{},&quot;libraryProduct&quot;:true},{&quot;quantity&quot;:&quot;1&quot;,&quot;productUuid&quot;:&quot;b6fed7c0-97cc-11ec-8684-4f0b79ff1f78&quot;,&quot;variantUuid&quot;:&quot;b7020c10-97cc-11ec-8849-182c233c30e6&quot;,&quot;vatPercentage&quot;:0.0,&quot;taxRates&quot;:[{&quot;percentage&quot;:0}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:949,&quot;costPrice&quot;:0,&quot;rowTaxableAmount&quot;:949,&quot;name&quot;:&quot;Hair Ties&quot;,&quot;variantName&quot;:&quot;&quot;,&quot;sku&quot;:&quot;&quot;,&quot;fromLocationUuid&quot;:&quot;8d772d4a-111d-11ea-9ee7-141cd50f3f99&quot;,&quot;toLocationUuid&quot;:&quot;8d772dc2-111d-11ea-8d3f-2b02be2863a8&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;2&quot;,&quot;type&quot;:&quot;PRODUCT&quot;,&quot;grossValue&quot;:949,&quot;grossTax&quot;:0,&quot;details&quot;:{},&quot;libraryProduct&quot;:true},{&quot;quantity&quot;:&quot;1&quot;,&quot;productUuid&quot;:&quot;7e6e7ce0-1de1-11ec-bfc8-ec6019dc10ee&quot;,&quot;variantUuid&quot;:&quot;7e6fb560-1de1-11ec-8881-2be1d58c4a9c&quot;,&quot;vatPercentage&quot;:0.0,&quot;taxRates&quot;:[{&quot;percentage&quot;:0}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:720,&quot;costPrice&quot;:500,&quot;rowTaxableAmount&quot;:720,&quot;name&quot;:&quot;scrub Powder fill refill&quot;,&quot;variantName&quot;:&quot;&quot;,&quot;sku&quot;:&quot;&quot;,&quot;fromLocationUuid&quot;:&quot;8d772d4a-111d-11ea-9ee7-141cd50f3f99&quot;,&quot;toLocationUuid&quot;:&quot;8d772dc2-111d-11ea-8d3f-2b02be2863a8&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;3&quot;,&quot;type&quot;:&quot;PRODUCT&quot;,&quot;grossValue&quot;:720,&quot;grossTax&quot;:0,&quot;details&quot;:{},&quot;libraryProduct&quot;:true}],&quot;discounts&quot;:[],&quot;payments&quot;:[{&quot;uuid&quot;:&quot;7e4c2d24-3f33-11ed-9c5b-4760fc98b0d6&quot;,&quot;amount&quot;:3069,&quot;type&quot;:&quot;IZETTLE_CASH&quot;,&quot;country&quot;:&quot;GB&quot;,&quot;attributes&quot;:{&quot;changeAmount&quot;:1931,&quot;handedAmount&quot;:5000}}],&quot;receiptCopyAllowed&quot;:true,&quot;references&quot;:{&quot;shoppingCartUuid&quot;:&quot;52C338A0-3F33-11ED-9C5B-4760FC98B0D6&quot;,&quot;checkoutUUID&quot;:&quot;7bff1630-3f33-11ed-9c5b-4760fc98b0d6&quot;},&quot;taxationMode&quot;:&quot;INCLUSIVE&quot;,&quot;taxationType&quot;:&quot;VAT&quot;,&quot;taxValues&quot;:[{&quot;label&quot;:null,&quot;taxValue&quot;:0,&quot;taxAmount&quot;:0,&quot;totalAmount&quot;:3069,&quot;taxableAmount&quot;:3069}],&quot;customAmountSale&quot;:false,&quot;created&quot;:&quot;2022-09-28T13:43:11.454+0000&quot;,&quot;purchaseUUID1&quot;:&quot;7bff1630-3f33-11ed-9d5a-4661fd99b1d7&quot;,&quot;groupedVatAmounts&quot;:{&quot;0.0&quot;:3069},&quot;refunded&quot;:false,&quot;refund&quot;:false},{&quot;source&quot;:&quot;POS&quot;,&quot;purchaseUUID&quot;:&quot;anI29D8zEe2eWUVi_pqy1A&quot;,&quot;amount&quot;:-10,&quot;vatAmount&quot;:-1,&quot;taxAmount&quot;:-1,&quot;country&quot;:&quot;GB&quot;,&quot;currency&quot;:&quot;GBP&quot;,&quot;timestamp&quot;:&quot;2022-09-28T13:42:39.917+0000&quot;,&quot;gpsCoordinates&quot;:{&quot;longitude&quot;:17.944358870788115,&quot;latitude&quot;:59.429229736328125,&quot;accuracyMeters&quot;:65.0},&quot;purchaseNumber&quot;:15430,&quot;globalPurchaseNumber&quot;:15430,&quot;userDisplayName&quot;:&quot;gb iZettle&quot;,&quot;userId&quot;:3193590,&quot;organizationId&quot;:34969296,&quot;products&quot;:[{&quot;quantity&quot;:&quot;-1&quot;,&quot;productUuid&quot;:&quot;0ad2a330-3f30-11ed-b81b-b89b6980c352&quot;,&quot;variantUuid&quot;:&quot;0ad2a330-3f30-11ed-8a45-c865a69194b5&quot;,&quot;vatPercentage&quot;:12.5,&quot;taxRates&quot;:[{&quot;percentage&quot;:12.5}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:10,&quot;rowTaxableAmount&quot;:-9,&quot;name&quot;:&quot;Tap to Pay test amount&quot;,&quot;description&quot;:&quot;TAP-ON-PHONE-first-payment - custom payment for the minimum allowed amount after activating Tap on Phone feature&quot;,&quot;fromLocationUuid&quot;:&quot;8d772dc2-111d-11ea-8d3f-2b02be2863a8&quot;,&quot;toLocationUuid&quot;:&quot;8d772d4a-111d-11ea-9ee7-141cd50f3f99&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;TAP-ON-PHONE-first-payment&quot;,&quot;type&quot;:&quot;PRODUCT&quot;,&quot;grossValue&quot;:-10,&quot;grossTax&quot;:-1,&quot;libraryProduct&quot;:true}],&quot;discounts&quot;:[],&quot;payments&quot;:[{&quot;uuid&quot;:&quot;6b7c2fbd-3f33-11ed-b958-95f44d8857a6&quot;,&quot;amount&quot;:-10,&quot;type&quot;:&quot;IZETTLE_CARD&quot;,&quot;references&quot;:{&quot;refundsPayment&quot;:&quot;0c070c2f-3f30-11ed-90f0-caf1dafee777&quot;},&quot;attributes&quot;:{&quot;cardType&quot;:&quot;MASTERCARD&quot;,&quot;maskedPan&quot;:&quot;541333******4111&quot;,&quot;cardPaymentEntryMode&quot;:&quot;NONE&quot;,&quot;referenceNumber&quot;:&quot;6MXOPM5JXJ&quot;}}],&quot;refundsPurchaseUUID&quot;:&quot;BJIht9AuSReHYtDj3MfsMA&quot;,&quot;receiptCopyAllowed&quot;:true,&quot;references&quot;:{&quot;shoppingCartUuid&quot;:&quot;69CFE282-3F33-11ED-9C5B-4760FC98B0D6&quot;,&quot;checkoutUUID&quot;:&quot;6a7236f4-3f33-11ed-9c5b-4760fc98b0d6&quot;},&quot;taxationMode&quot;:&quot;INCLUSIVE&quot;,&quot;taxationType&quot;:&quot;VAT&quot;,&quot;taxValues&quot;:[{&quot;label&quot;:null,&quot;taxValue&quot;:12.5,&quot;taxAmount&quot;:-1,&quot;totalAmount&quot;:-10,&quot;taxableAmount&quot;:-9}],&quot;created&quot;:&quot;2022-09-28T13:42:39.917+0000&quot;,&quot;refundsPurchaseUUID1&quot;:&quot;049221b7-d02e-4917-8762-d0e3dcc7ec30&quot;,&quot;purchaseUUID1&quot;:&quot;6a7236f4-3f33-11ed-9e59-4562fe9ab2d4&quot;,&quot;groupedVatAmounts&quot;:{&quot;12.5&quot;:-10},&quot;refunded&quot;:false,&quot;refund&quot;:true},{&quot;source&quot;:&quot;POS&quot;,&quot;purchaseUUID&quot;:&quot;YRv70D8zEe2eWUVi_pqy1A&quot;,&quot;amount&quot;:-1400,&quot;vatAmount&quot;:0,&quot;taxAmount&quot;:0,&quot;country&quot;:&quot;GB&quot;,&quot;currency&quot;:&quot;GBP&quot;,&quot;timestamp&quot;:&quot;2022-09-28T13:42:23.920+0000&quot;,&quot;gpsCoordinates&quot;:{&quot;longitude&quot;:17.944377159304373,&quot;latitude&quot;:59.42926025390625,&quot;accuracyMeters&quot;:65.0},&quot;purchaseNumber&quot;:15429,&quot;globalPurchaseNumber&quot;:15429,&quot;userDisplayName&quot;:&quot;gb iZettle&quot;,&quot;userId&quot;:3193590,&quot;organizationId&quot;:34969296,&quot;products&quot;:[{&quot;quantity&quot;:&quot;-1&quot;,&quot;productUuid&quot;:&quot;aa1f7050-6bc1-11ec-8e44-a5ff0283d54e&quot;,&quot;variantUuid&quot;:&quot;aa211e00-6bc1-11ec-b2be-60a6d7d01a6e&quot;,&quot;vatPercentage&quot;:0.0,&quot;taxRates&quot;:[{&quot;percentage&quot;:0}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:1000,&quot;costPrice&quot;:200,&quot;rowTaxableAmount&quot;:-1000,&quot;name&quot;:&quot;Simple Living Eco Laundry Sheets&quot;,&quot;variantName&quot;:&quot;&quot;,&quot;sku&quot;:&quot;000111&quot;,&quot;fromLocationUuid&quot;:&quot;8d772dc2-111d-11ea-8d3f-2b02be2863a8&quot;,&quot;toLocationUuid&quot;:&quot;8d772d4a-111d-11ea-9ee7-141cd50f3f99&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;1&quot;,&quot;type&quot;:&quot;PRODUCT&quot;,&quot;grossValue&quot;:-1000,&quot;grossTax&quot;:0,&quot;details&quot;:{},&quot;libraryProduct&quot;:true},{&quot;quantity&quot;:&quot;-1&quot;,&quot;productUuid&quot;:&quot;3fd99da0-1380-11eb-9cf5-8b6ed8fe5766&quot;,&quot;variantUuid&quot;:&quot;3fd99da1-1380-11eb-9cf5-8b6ed8fe5766&quot;,&quot;vatPercentage&quot;:0.0,&quot;taxRates&quot;:[{&quot;percentage&quot;:0}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:400,&quot;costPrice&quot;:199,&quot;rowTaxableAmount&quot;:-400,&quot;name&quot;:&quot;Seedball Gift Boxes&quot;,&quot;variantName&quot;:&quot;&quot;,&quot;sku&quot;:&quot;&quot;,&quot;fromLocationUuid&quot;:&quot;8d772dc2-111d-11ea-8d3f-2b02be2863a8&quot;,&quot;toLocationUuid&quot;:&quot;8d772d4a-111d-11ea-9ee7-141cd50f3f99&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;2&quot;,&quot;type&quot;:&quot;PRODUCT&quot;,&quot;grossValue&quot;:-400,&quot;grossTax&quot;:0,&quot;details&quot;:{},&quot;libraryProduct&quot;:true}],&quot;discounts&quot;:[],&quot;payments&quot;:[{&quot;uuid&quot;:&quot;ef38891f-e878-414c-a8a7-1e10dfba9b89&quot;,&quot;amount&quot;:-1400,&quot;type&quot;:&quot;IZETTLE_CASH&quot;,&quot;references&quot;:{&quot;refundsPayment&quot;:&quot;52a3b2be-3f33-11ed-9c5b-4760fc98b0d6&quot;},&quot;attributes&quot;:{&quot;changeAmount&quot;:0,&quot;handedAmount&quot;:-1400}}],&quot;refundsPurchaseUUID&quot;:&quot;UL1ukD8zEe2dWkZh_Zmx1w&quot;,&quot;receiptCopyAllowed&quot;:true,&quot;references&quot;:{&quot;shoppingCartUuid&quot;:&quot;5FBE50B2-3F33-11ED-9C5B-4760FC98B0D6&quot;,&quot;checkoutUUID&quot;:&quot;611bfbd0-3f33-11ed-9c5b-4760fc98b0d6&quot;},&quot;taxationMode&quot;:&quot;INCLUSIVE&quot;,&quot;taxationType&quot;:&quot;VAT&quot;,&quot;taxValues&quot;:[{&quot;label&quot;:null,&quot;taxValue&quot;:0,&quot;taxAmount&quot;:0,&quot;totalAmount&quot;:-1400,&quot;taxableAmount&quot;:-1400}],&quot;created&quot;:&quot;2022-09-28T13:42:23.920+0000&quot;,&quot;refundsPurchaseUUID1&quot;:&quot;50bd6e90-3f33-11ed-9d5a-4661fd99b1d7&quot;,&quot;purchaseUUID1&quot;:&quot;611bfbd0-3f33-11ed-9e59-4562fe9ab2d4&quot;,&quot;groupedVatAmounts&quot;:{&quot;0.0&quot;:-1400},&quot;refunded&quot;:false,&quot;refund&quot;:true},{&quot;source&quot;:&quot;POS&quot;,&quot;purchaseUUID&quot;:&quot;WZqpED8zEe2eWUVi_pqy1A&quot;,&quot;amount&quot;:-499,&quot;vatAmount&quot;:-83,&quot;taxAmount&quot;:-83,&quot;country&quot;:&quot;GB&quot;,&quot;currency&quot;:&quot;GBP&quot;,&quot;timestamp&quot;:&quot;2022-09-28T13:42:12.764+0000&quot;,&quot;gpsCoordinates&quot;:{&quot;longitude&quot;:17.944349364274405,&quot;latitude&quot;:59.429229736328125,&quot;accuracyMeters&quot;:65.0},&quot;purchaseNumber&quot;:15428,&quot;globalPurchaseNumber&quot;:15428,&quot;userDisplayName&quot;:&quot;gb iZettle&quot;,&quot;userId&quot;:3193590,&quot;organizationId&quot;:34969296,&quot;products&quot;:[{&quot;quantity&quot;:&quot;-1&quot;,&quot;productUuid&quot;:&quot;fda73680-b574-11eb-a184-89e5d71660cf&quot;,&quot;variantUuid&quot;:&quot;fda75d90-b574-11eb-a184-89e5d71660cf&quot;,&quot;vatPercentage&quot;:20.0,&quot;taxRates&quot;:[{&quot;percentage&quot;:20}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:499,&quot;costPrice&quot;:0,&quot;rowTaxableAmount&quot;:-416,&quot;name&quot;:&quot;Tesa recycled plastic tape&quot;,&quot;variantName&quot;:&quot;&quot;,&quot;sku&quot;:&quot;SKU&quot;,&quot;barcode&quot;:&quot;8410793376138&quot;,&quot;category&quot;:{&quot;uuid&quot;:&quot;c2548630-0818-11ed-82ed-95a3e527ba9f&quot;,&quot;name&quot;:&quot;Ny kategori&quot;},&quot;fromLocationUuid&quot;:&quot;8d772dc2-111d-11ea-8d3f-2b02be2863a8&quot;,&quot;toLocationUuid&quot;:&quot;8d772d4a-111d-11ea-9ee7-141cd50f3f99&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;0&quot;,&quot;type&quot;:&quot;PRODUCT&quot;,&quot;grossValue&quot;:-499,&quot;grossTax&quot;:-83,&quot;details&quot;:{},&quot;libraryProduct&quot;:true}],&quot;discounts&quot;:[],&quot;payments&quot;:[{&quot;uuid&quot;:&quot;c36c910a-f71e-408a-8c4f-528ef0c8a189&quot;,&quot;amount&quot;:-499,&quot;type&quot;:&quot;IZETTLE_CASH&quot;,&quot;references&quot;:{&quot;refundsPayment&quot;:&quot;52a3b2be-3f33-11ed-9c5b-4760fc98b0d6&quot;},&quot;attributes&quot;:{&quot;changeAmount&quot;:0,&quot;handedAmount&quot;:-499}}],&quot;refundsPurchaseUUID&quot;:&quot;UL1ukD8zEe2dWkZh_Zmx1w&quot;,&quot;receiptCopyAllowed&quot;:true,&quot;references&quot;:{&quot;shoppingCartUuid&quot;:&quot;58616782-3F33-11ED-9C5B-4760FC98B0D6&quot;,&quot;checkoutUUID&quot;:&quot;599aa910-3f33-11ed-9c5b-4760fc98b0d6&quot;},&quot;taxationMode&quot;:&quot;INCLUSIVE&quot;,&quot;taxationType&quot;:&quot;VAT&quot;,&quot;taxValues&quot;:[{&quot;label&quot;:null,&quot;taxValue&quot;:20,&quot;taxAmount&quot;:-83,&quot;totalAmount&quot;:-499,&quot;taxableAmount&quot;:-416}],&quot;created&quot;:&quot;2022-09-28T13:42:12.764+0000&quot;,&quot;refundsPurchaseUUID1&quot;:&quot;50bd6e90-3f33-11ed-9d5a-4661fd99b1d7&quot;,&quot;purchaseUUID1&quot;:&quot;599aa910-3f33-11ed-9e59-4562fe9ab2d4&quot;,&quot;groupedVatAmounts&quot;:{&quot;20.0&quot;:-499},&quot;refunded&quot;:false,&quot;refund&quot;:true},{&quot;source&quot;:&quot;POS&quot;,&quot;purchaseUUID&quot;:&quot;UL1ukD8zEe2dWkZh_Zmx1w&quot;,&quot;amount&quot;:1899,&quot;vatAmount&quot;:83,&quot;taxAmount&quot;:83,&quot;country&quot;:&quot;GB&quot;,&quot;currency&quot;:&quot;GBP&quot;,&quot;timestamp&quot;:&quot;2022-09-28T13:41:58.202+0000&quot;,&quot;gpsCoordinates&quot;:{&quot;longitude&quot;:17.944439910689944,&quot;latitude&quot;:59.42926930051842,&quot;accuracyMeters&quot;:65.0},&quot;purchaseNumber&quot;:15427,&quot;globalPurchaseNumber&quot;:15427,&quot;userDisplayName&quot;:&quot;gb iZettle&quot;,&quot;userId&quot;:3193590,&quot;organizationId&quot;:34969296,&quot;products&quot;:[{&quot;quantity&quot;:&quot;1&quot;,&quot;productUuid&quot;:&quot;fda73680-b574-11eb-a184-89e5d71660cf&quot;,&quot;variantUuid&quot;:&quot;fda75d90-b574-11eb-a184-89e5d71660cf&quot;,&quot;vatPercentage&quot;:20.0,&quot;taxRates&quot;:[{&quot;percentage&quot;:20}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:499,&quot;costPrice&quot;:0,&quot;rowTaxableAmount&quot;:416,&quot;name&quot;:&quot;Tesa recycled plastic tape&quot;,&quot;variantName&quot;:&quot;&quot;,&quot;sku&quot;:&quot;SKU&quot;,&quot;barcode&quot;:&quot;8410793376138&quot;,&quot;category&quot;:{&quot;uuid&quot;:&quot;c2548630-0818-11ed-82ed-95a3e527ba9f&quot;,&quot;name&quot;:&quot;Ny kategori&quot;},&quot;fromLocationUuid&quot;:&quot;8d772d4a-111d-11ea-9ee7-141cd50f3f99&quot;,&quot;toLocationUuid&quot;:&quot;8d772dc2-111d-11ea-8d3f-2b02be2863a8&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;0&quot;,&quot;type&quot;:&quot;PRODUCT&quot;,&quot;grossValue&quot;:499,&quot;grossTax&quot;:83,&quot;details&quot;:{},&quot;libraryProduct&quot;:true},{&quot;quantity&quot;:&quot;1&quot;,&quot;productUuid&quot;:&quot;aa1f7050-6bc1-11ec-8e44-a5ff0283d54e&quot;,&quot;variantUuid&quot;:&quot;aa211e00-6bc1-11ec-b2be-60a6d7d01a6e&quot;,&quot;vatPercentage&quot;:0.0,&quot;taxRates&quot;:[{&quot;percentage&quot;:0}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:1000,&quot;costPrice&quot;:200,&quot;rowTaxableAmount&quot;:1000,&quot;name&quot;:&quot;Simple Living Eco Laundry Sheets&quot;,&quot;variantName&quot;:&quot;&quot;,&quot;sku&quot;:&quot;000111&quot;,&quot;fromLocationUuid&quot;:&quot;8d772d4a-111d-11ea-9ee7-141cd50f3f99&quot;,&quot;toLocationUuid&quot;:&quot;8d772dc2-111d-11ea-8d3f-2b02be2863a8&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;1&quot;,&quot;type&quot;:&quot;PRODUCT&quot;,&quot;grossValue&quot;:1000,&quot;grossTax&quot;:0,&quot;details&quot;:{},&quot;libraryProduct&quot;:true},{&quot;quantity&quot;:&quot;1&quot;,&quot;productUuid&quot;:&quot;3fd99da0-1380-11eb-9cf5-8b6ed8fe5766&quot;,&quot;variantUuid&quot;:&quot;3fd99da1-1380-11eb-9cf5-8b6ed8fe5766&quot;,&quot;vatPercentage&quot;:0.0,&quot;taxRates&quot;:[{&quot;percentage&quot;:0}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:400,&quot;costPrice&quot;:199,&quot;rowTaxableAmount&quot;:400,&quot;name&quot;:&quot;Seedball Gift Boxes&quot;,&quot;variantName&quot;:&quot;&quot;,&quot;sku&quot;:&quot;&quot;,&quot;fromLocationUuid&quot;:&quot;8d772d4a-111d-11ea-9ee7-141cd50f3f99&quot;,&quot;toLocationUuid&quot;:&quot;8d772dc2-111d-11ea-8d3f-2b02be2863a8&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;2&quot;,&quot;type&quot;:&quot;PRODUCT&quot;,&quot;grossValue&quot;:400,&quot;grossTax&quot;:0,&quot;details&quot;:{},&quot;libraryProduct&quot;:true}],&quot;discounts&quot;:[],&quot;payments&quot;:[{&quot;uuid&quot;:&quot;52a3b2be-3f33-11ed-9c5b-4760fc98b0d6&quot;,&quot;amount&quot;:1899,&quot;type&quot;:&quot;IZETTLE_CASH&quot;,&quot;country&quot;:&quot;GB&quot;,&quot;attributes&quot;:{&quot;changeAmount&quot;:101,&quot;handedAmount&quot;:2000}}],&quot;refundedByPurchaseUUIDs&quot;:[&quot;YRv70D8zEe2eWUVi_pqy1A&quot;,&quot;WZqpED8zEe2eWUVi_pqy1A&quot;],&quot;receiptCopyAllowed&quot;:true,&quot;references&quot;:{&quot;shoppingCartUuid&quot;:&quot;49809A58-3F33-11ED-9C5B-4760FC98B0D6&quot;,&quot;checkoutUUID&quot;:&quot;50bd6e90-3f33-11ed-9c5b-4760fc98b0d6&quot;},&quot;taxationMode&quot;:&quot;INCLUSIVE&quot;,&quot;taxationType&quot;:&quot;VAT&quot;,&quot;taxValues&quot;:[{&quot;label&quot;:null,&quot;taxValue&quot;:0,&quot;taxAmount&quot;:0,&quot;totalAmount&quot;:1400,&quot;taxableAmount&quot;:1400},{&quot;label&quot;:null,&quot;taxValue&quot;:20,&quot;taxAmount&quot;:83,&quot;totalAmount&quot;:499,&quot;taxableAmount&quot;:416}],&quot;customAmountSale&quot;:false,&quot;created&quot;:&quot;2022-09-28T13:41:58.202+0000&quot;,&quot;purchaseUUID1&quot;:&quot;50bd6e90-3f33-11ed-9d5a-4661fd99b1d7&quot;,&quot;refundedByPurchaseUUIDs1&quot;:[&quot;611bfbd0-3f33-11ed-9e59-4562fe9ab2d4&quot;,&quot;599aa910-3f33-11ed-9e59-4562fe9ab2d4&quot;],&quot;groupedVatAmounts&quot;:{&quot;0.0&quot;:1400,&quot;20.0&quot;:499},&quot;refunded&quot;:true,&quot;refund&quot;:false},{&quot;source&quot;:&quot;POS&quot;,&quot;purchaseUUID&quot;:&quot;BJIht9AuSReHYtDj3MfsMA&quot;,&quot;amount&quot;:10,&quot;vatAmount&quot;:1,&quot;taxAmount&quot;:1,&quot;country&quot;:&quot;GB&quot;,&quot;currency&quot;:&quot;GBP&quot;,&quot;timestamp&quot;:&quot;2022-09-28T13:18:32.448+0000&quot;,&quot;gpsCoordinates&quot;:{&quot;longitude&quot;:17.9921136,&quot;latitude&quot;:59.2909909,&quot;accuracyMeters&quot;:15.086000442504883},&quot;purchaseNumber&quot;:15426,&quot;globalPurchaseNumber&quot;:15426,&quot;userDisplayName&quot;:&quot;gb iZettle&quot;,&quot;userId&quot;:3193590,&quot;organizationId&quot;:34969296,&quot;products&quot;:[{&quot;quantity&quot;:&quot;1&quot;,&quot;productUuid&quot;:&quot;0ad2a330-3f30-11ed-b81b-b89b6980c352&quot;,&quot;variantUuid&quot;:&quot;0ad2a330-3f30-11ed-8a45-c865a69194b5&quot;,&quot;vatPercentage&quot;:12.5,&quot;taxRates&quot;:[{&quot;percentage&quot;:12.5}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:10,&quot;rowTaxableAmount&quot;:9,&quot;name&quot;:&quot;Tap to Pay test amount&quot;,&quot;description&quot;:&quot;TAP-ON-PHONE-first-payment - custom payment for the minimum allowed amount after activating Tap on Phone feature&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;TAP-ON-PHONE-first-payment&quot;,&quot;type&quot;:&quot;PRODUCT&quot;,&quot;grossValue&quot;:10,&quot;grossTax&quot;:1,&quot;libraryProduct&quot;:true}],&quot;discounts&quot;:[],&quot;payments&quot;:[{&quot;uuid&quot;:&quot;0c070c2f-3f30-11ed-90f0-caf1dafee777&quot;,&quot;amount&quot;:10,&quot;type&quot;:&quot;IZETTLE_CARD&quot;,&quot;createdAt&quot;:&quot;2022-09-28T14:18:31.000+0000&quot;,&quot;attributes&quot;:{&quot;cardHolderVerificationMethod&quot;:&quot;None&quot;,&quot;maskedPan&quot;:&quot;541333******4111&quot;,&quot;cardPaymentEntryMode&quot;:&quot;CONTACTLESS_EMV&quot;,&quot;referenceNumber&quot;:&quot;5SX67C6KTO&quot;,&quot;authorizationCode&quot;:&quot;123456&quot;,&quot;cardType&quot;:&quot;MASTERCARD&quot;,&quot;terminalVerificationResults&quot;:&quot;0000008001&quot;,&quot;applicationIdentifier&quot;:&quot;A0000000041010&quot;,&quot;applicationName&quot;:&quot;MasterCardCredit&quot;,&quot;mxPaymentMethodCode&quot;:4}}],&quot;refundedByPurchaseUUIDs&quot;:[&quot;anI29D8zEe2eWUVi_pqy1A&quot;],&quot;receiptCopyAllowed&quot;:true,&quot;references&quot;:{&quot;checkoutUUID&quot;:&quot;059320b6-d12f-4816-8663-d1e2ddc6ed31&quot;},&quot;taxationMode&quot;:&quot;INCLUSIVE&quot;,&quot;taxationType&quot;:&quot;VAT&quot;,&quot;taxValues&quot;:[{&quot;label&quot;:null,&quot;taxValue&quot;:12.5,&quot;taxAmount&quot;:1,&quot;totalAmount&quot;:10,&quot;taxableAmount&quot;:9}],&quot;customAmountSale&quot;:false,&quot;created&quot;:&quot;2022-09-28T13:18:32.448+0000&quot;,&quot;purchaseUUID1&quot;:&quot;049221b7-d02e-4917-8762-d0e3dcc7ec30&quot;,&quot;refundedByPurchaseUUIDs1&quot;:[&quot;6a7236f4-3f33-11ed-9e59-4562fe9ab2d4&quot;],&quot;groupedVatAmounts&quot;:{&quot;12.5&quot;:10},&quot;refunded&quot;:true,&quot;refund&quot;:false},{&quot;source&quot;:&quot;POS&quot;,&quot;purchaseUUID&quot;:&quot;vEwcsj8sEe2tc9i6OLWRew&quot;,&quot;amount&quot;:3338,&quot;vatAmount&quot;:0,&quot;taxAmount&quot;:0,&quot;country&quot;:&quot;GB&quot;,&quot;currency&quot;:&quot;GBP&quot;,&quot;timestamp&quot;:&quot;2022-09-28T12:54:50.866+0000&quot;,&quot;gpsCoordinates&quot;:{&quot;longitude&quot;:17.944232502158723,&quot;latitude&quot;:59.42926025390625,&quot;accuracyMeters&quot;:65.0},&quot;purchaseNumber&quot;:15425,&quot;globalPurchaseNumber&quot;:15425,&quot;userDisplayName&quot;:&quot;gb iZettle&quot;,&quot;userId&quot;:3193590,&quot;organizationId&quot;:34969296,&quot;products&quot;:[{&quot;quantity&quot;:&quot;2&quot;,&quot;productUuid&quot;:&quot;7e6e7ce0-1de1-11ec-bfc8-ec6019dc10ee&quot;,&quot;variantUuid&quot;:&quot;7e6fb560-1de1-11ec-8881-2be1d58c4a9c&quot;,&quot;vatPercentage&quot;:0.0,&quot;taxRates&quot;:[{&quot;percentage&quot;:0}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:720,&quot;costPrice&quot;:500,&quot;rowTaxableAmount&quot;:1440,&quot;name&quot;:&quot;scrub Powder fill refill&quot;,&quot;variantName&quot;:&quot;&quot;,&quot;sku&quot;:&quot;&quot;,&quot;fromLocationUuid&quot;:&quot;8d772d4a-111d-11ea-9ee7-141cd50f3f99&quot;,&quot;toLocationUuid&quot;:&quot;8d772dc2-111d-11ea-8d3f-2b02be2863a8&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;0&quot;,&quot;type&quot;:&quot;PRODUCT&quot;,&quot;grossValue&quot;:1440,&quot;grossTax&quot;:0,&quot;details&quot;:{},&quot;libraryProduct&quot;:true},{&quot;quantity&quot;:&quot;2&quot;,&quot;productUuid&quot;:&quot;b6fed7c0-97cc-11ec-8684-4f0b79ff1f78&quot;,&quot;variantUuid&quot;:&quot;b7020c10-97cc-11ec-8849-182c233c30e6&quot;,&quot;vatPercentage&quot;:0.0,&quot;taxRates&quot;:[{&quot;percentage&quot;:0}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:949,&quot;costPrice&quot;:0,&quot;rowTaxableAmount&quot;:1898,&quot;name&quot;:&quot;Hair Ties&quot;,&quot;variantName&quot;:&quot;&quot;,&quot;sku&quot;:&quot;&quot;,&quot;fromLocationUuid&quot;:&quot;8d772d4a-111d-11ea-9ee7-141cd50f3f99&quot;,&quot;toLocationUuid&quot;:&quot;8d772dc2-111d-11ea-8d3f-2b02be2863a8&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;1&quot;,&quot;type&quot;:&quot;PRODUCT&quot;,&quot;grossValue&quot;:1898,&quot;grossTax&quot;:0,&quot;details&quot;:{},&quot;libraryProduct&quot;:true}],&quot;discounts&quot;:[],&quot;payments&quot;:[{&quot;uuid&quot;:&quot;bd539900-3f2c-11ed-ac72-d9bb39b4907a&quot;,&quot;amount&quot;:1989,&quot;type&quot;:&quot;IZETTLE_CASH&quot;,&quot;country&quot;:&quot;GB&quot;,&quot;attributes&quot;:{&quot;changeAmount&quot;:11,&quot;handedAmount&quot;:2000}},{&quot;uuid&quot;:&quot;bc719e59-3f2c-11ed-82fb-7c70b451c976&quot;,&quot;amount&quot;:1349,&quot;type&quot;:&quot;STORE_CREDIT&quot;,&quot;attributes&quot;:{}}],&quot;receiptCopyAllowed&quot;:true,&quot;references&quot;:{&quot;shoppingCartUuid&quot;:&quot;B26679EA-3F2C-11ED-AC72-D9BB39B4907A&quot;,&quot;exchangeReturnReceiptUUID&quot;:&quot;bc4c1cb2-3f2c-11ed-ae70-dbb93bb69278&quot;,&quot;checkoutUUID&quot;:&quot;bc4c1cb2-3f2c-11ed-ac72-d9bb39b4907a&quot;},&quot;taxationMode&quot;:&quot;INCLUSIVE&quot;,&quot;taxationType&quot;:&quot;VAT&quot;,&quot;taxValues&quot;:[{&quot;label&quot;:null,&quot;taxValue&quot;:0,&quot;taxAmount&quot;:0,&quot;totalAmount&quot;:3338,&quot;taxableAmount&quot;:3338}],&quot;customAmountSale&quot;:false,&quot;created&quot;:&quot;2022-09-28T12:54:50.866+0000&quot;,&quot;purchaseUUID1&quot;:&quot;bc4c1cb2-3f2c-11ed-ad73-d8ba38b5917b&quot;,&quot;groupedVatAmounts&quot;:{&quot;0.0&quot;:3338},&quot;refunded&quot;:false,&quot;refund&quot;:false},{&quot;source&quot;:&quot;POS&quot;,&quot;purchaseUUID&quot;:&quot;vEwcsj8sEe2ucNu5O7aSeA&quot;,&quot;amount&quot;:-1349,&quot;vatAmount&quot;:0,&quot;taxAmount&quot;:0,&quot;country&quot;:&quot;GB&quot;,&quot;currency&quot;:&quot;GBP&quot;,&quot;timestamp&quot;:&quot;2022-09-28T12:54:50.793+0000&quot;,&quot;gpsCoordinates&quot;:{&quot;longitude&quot;:17.944232502158723,&quot;latitude&quot;:59.42926025390625,&quot;accuracyMeters&quot;:65.0},&quot;purchaseNumber&quot;:15424,&quot;globalPurchaseNumber&quot;:15424,&quot;userDisplayName&quot;:&quot;gb iZettle&quot;,&quot;userId&quot;:3193590,&quot;organizationId&quot;:34969296,&quot;products&quot;:[{&quot;quantity&quot;:&quot;-1&quot;,&quot;productUuid&quot;:&quot;3fd99da0-1380-11eb-9cf5-8b6ed8fe5766&quot;,&quot;variantUuid&quot;:&quot;3fd99da1-1380-11eb-9cf5-8b6ed8fe5766&quot;,&quot;vatPercentage&quot;:0.0,&quot;taxRates&quot;:[{&quot;percentage&quot;:0}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:400,&quot;costPrice&quot;:199,&quot;rowTaxableAmount&quot;:-400,&quot;name&quot;:&quot;Seedball Gift Boxes&quot;,&quot;variantName&quot;:&quot;&quot;,&quot;sku&quot;:&quot;&quot;,&quot;fromLocationUuid&quot;:&quot;8d772dc2-111d-11ea-8d3f-2b02be2863a8&quot;,&quot;toLocationUuid&quot;:&quot;8d772d4a-111d-11ea-9ee7-141cd50f3f99&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;0&quot;,&quot;type&quot;:&quot;PRODUCT&quot;,&quot;grossValue&quot;:-400,&quot;grossTax&quot;:0,&quot;details&quot;:{},&quot;libraryProduct&quot;:true},{&quot;quantity&quot;:&quot;-1&quot;,&quot;productUuid&quot;:&quot;b6fed7c0-97cc-11ec-8684-4f0b79ff1f78&quot;,&quot;variantUuid&quot;:&quot;b7020c10-97cc-11ec-8849-182c233c30e6&quot;,&quot;vatPercentage&quot;:0.0,&quot;taxRates&quot;:[{&quot;percentage&quot;:0}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:949,&quot;costPrice&quot;:0,&quot;rowTaxableAmount&quot;:-949,&quot;name&quot;:&quot;Hair Ties&quot;,&quot;variantName&quot;:&quot;&quot;,&quot;sku&quot;:&quot;&quot;,&quot;fromLocationUuid&quot;:&quot;8d772dc2-111d-11ea-8d3f-2b02be2863a8&quot;,&quot;toLocationUuid&quot;:&quot;8d772d4a-111d-11ea-9ee7-141cd50f3f99&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;1&quot;,&quot;type&quot;:&quot;PRODUCT&quot;,&quot;grossValue&quot;:-949,&quot;grossTax&quot;:0,&quot;details&quot;:{},&quot;libraryProduct&quot;:true}],&quot;discounts&quot;:[],&quot;payments&quot;:[{&quot;uuid&quot;:&quot;bc719ed5-3f2c-11ed-bf8d-f232956a2cc0&quot;,&quot;amount&quot;:-1349,&quot;type&quot;:&quot;STORE_CREDIT&quot;,&quot;attributes&quot;:{}}],&quot;refundsPurchaseUUID&quot;:&quot;sPKz5D8sEe2tc9i6OLWRew&quot;,&quot;receiptCopyAllowed&quot;:true,&quot;references&quot;:{&quot;shoppingCartUuid&quot;:&quot;B26679EA-3F2C-11ED-AC72-D9BB39B4907A&quot;,&quot;checkoutUUID&quot;:&quot;bc4c1cb2-3f2c-11ed-ac72-d9bb39b4907a&quot;},&quot;taxationMode&quot;:&quot;INCLUSIVE&quot;,&quot;taxationType&quot;:&quot;VAT&quot;,&quot;taxValues&quot;:[{&quot;label&quot;:null,&quot;taxValue&quot;:0,&quot;taxAmount&quot;:0,&quot;totalAmount&quot;:-1349,&quot;taxableAmount&quot;:-1349}],&quot;created&quot;:&quot;2022-09-28T12:54:50.793+0000&quot;,&quot;refundsPurchaseUUID1&quot;:&quot;b0f2b3e4-3f2c-11ed-ad73-d8ba38b5917b&quot;,&quot;purchaseUUID1&quot;:&quot;bc4c1cb2-3f2c-11ed-ae70-dbb93bb69278&quot;,&quot;groupedVatAmounts&quot;:{&quot;0.0&quot;:-1349},&quot;refunded&quot;:false,&quot;refund&quot;:true},{&quot;source&quot;:&quot;POS&quot;,&quot;purchaseUUID&quot;:&quot;sPKz5D8sEe2tc9i6OLWRew&quot;,&quot;amount&quot;:1349,&quot;vatAmount&quot;:0,&quot;taxAmount&quot;:0,&quot;country&quot;:&quot;GB&quot;,&quot;currency&quot;:&quot;GBP&quot;,&quot;timestamp&quot;:&quot;2022-09-28T12:54:32.230+0000&quot;,&quot;gpsCoordinates&quot;:{&quot;longitude&quot;:17.944356556360166,&quot;latitude&quot;:59.429290771484375,&quot;accuracyMeters&quot;:65.0},&quot;purchaseNumber&quot;:15423,&quot;globalPurchaseNumber&quot;:15423,&quot;userDisplayName&quot;:&quot;gb iZettle&quot;,&quot;userId&quot;:3193590,&quot;organizationId&quot;:34969296,&quot;products&quot;:[{&quot;quantity&quot;:&quot;1&quot;,&quot;productUuid&quot;:&quot;3fd99da0-1380-11eb-9cf5-8b6ed8fe5766&quot;,&quot;variantUuid&quot;:&quot;3fd99da1-1380-11eb-9cf5-8b6ed8fe5766&quot;,&quot;vatPercentage&quot;:0.0,&quot;taxRates&quot;:[{&quot;percentage&quot;:0}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:400,&quot;costPrice&quot;:199,&quot;rowTaxableAmount&quot;:400,&quot;name&quot;:&quot;Seedball Gift Boxes&quot;,&quot;variantName&quot;:&quot;&quot;,&quot;sku&quot;:&quot;&quot;,&quot;fromLocationUuid&quot;:&quot;8d772d4a-111d-11ea-9ee7-141cd50f3f99&quot;,&quot;toLocationUuid&quot;:&quot;8d772dc2-111d-11ea-8d3f-2b02be2863a8&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;0&quot;,&quot;type&quot;:&quot;PRODUCT&quot;,&quot;grossValue&quot;:400,&quot;grossTax&quot;:0,&quot;details&quot;:{},&quot;libraryProduct&quot;:true},{&quot;quantity&quot;:&quot;1&quot;,&quot;productUuid&quot;:&quot;b6fed7c0-97cc-11ec-8684-4f0b79ff1f78&quot;,&quot;variantUuid&quot;:&quot;b7020c10-97cc-11ec-8849-182c233c30e6&quot;,&quot;vatPercentage&quot;:0.0,&quot;taxRates&quot;:[{&quot;percentage&quot;:0}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:949,&quot;costPrice&quot;:0,&quot;rowTaxableAmount&quot;:949,&quot;name&quot;:&quot;Hair Ties&quot;,&quot;variantName&quot;:&quot;&quot;,&quot;sku&quot;:&quot;&quot;,&quot;fromLocationUuid&quot;:&quot;8d772d4a-111d-11ea-9ee7-141cd50f3f99&quot;,&quot;toLocationUuid&quot;:&quot;8d772dc2-111d-11ea-8d3f-2b02be2863a8&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;1&quot;,&quot;type&quot;:&quot;PRODUCT&quot;,&quot;grossValue&quot;:949,&quot;grossTax&quot;:0,&quot;details&quot;:{},&quot;libraryProduct&quot;:true}],&quot;discounts&quot;:[],&quot;payments&quot;:[{&quot;uuid&quot;:&quot;b23de8a4-3f2c-11ed-ac72-d9bb39b4907a&quot;,&quot;amount&quot;:1349,&quot;type&quot;:&quot;IZETTLE_CASH&quot;,&quot;country&quot;:&quot;GB&quot;,&quot;attributes&quot;:{&quot;changeAmount&quot;:51,&quot;handedAmount&quot;:1400}}],&quot;refundedByPurchaseUUIDs&quot;:[&quot;vEwcsj8sEe2ucNu5O7aSeA&quot;],&quot;receiptCopyAllowed&quot;:true,&quot;references&quot;:{&quot;shoppingCartUuid&quot;:&quot;2F4A5A28-3F26-11ED-AC72-D9BB39B4907A&quot;,&quot;checkoutUUID&quot;:&quot;b0f2b3e4-3f2c-11ed-ac72-d9bb39b4907a&quot;},&quot;taxationMode&quot;:&quot;INCLUSIVE&quot;,&quot;taxationType&quot;:&quot;VAT&quot;,&quot;taxValues&quot;:[{&quot;label&quot;:null,&quot;taxValue&quot;:0,&quot;taxAmount&quot;:0,&quot;totalAmount&quot;:1349,&quot;taxableAmount&quot;:1349}],&quot;customAmountSale&quot;:false,&quot;created&quot;:&quot;2022-09-28T12:54:32.230+0000&quot;,&quot;purchaseUUID1&quot;:&quot;b0f2b3e4-3f2c-11ed-ad73-d8ba38b5917b&quot;,&quot;refundedByPurchaseUUIDs1&quot;:[&quot;bc4c1cb2-3f2c-11ed-ae70-dbb93bb69278&quot;],&quot;groupedVatAmounts&quot;:{&quot;0.0&quot;:1349},&quot;refunded&quot;:true,&quot;refund&quot;:false},{&quot;source&quot;:&quot;POS&quot;,&quot;purchaseUUID&quot;:&quot;JzQ6SD8mEe2tc9i6OLWRew&quot;,&quot;amount&quot;:4000,&quot;vatAmount&quot;:0,&quot;taxAmount&quot;:0,&quot;country&quot;:&quot;GB&quot;,&quot;currency&quot;:&quot;GBP&quot;,&quot;timestamp&quot;:&quot;2022-09-28T12:07:55.286+0000&quot;,&quot;gpsCoordinates&quot;:{&quot;longitude&quot;:17.94431819555541,&quot;latitude&quot;:59.429290771484375,&quot;accuracyMeters&quot;:65.0},&quot;purchaseNumber&quot;:15422,&quot;globalPurchaseNumber&quot;:15422,&quot;userDisplayName&quot;:&quot;gb iZettle&quot;,&quot;userId&quot;:3193590,&quot;organizationId&quot;:34969296,&quot;products&quot;:[{&quot;quantity&quot;:&quot;4&quot;,&quot;productUuid&quot;:&quot;aa1f7050-6bc1-11ec-8e44-a5ff0283d54e&quot;,&quot;variantUuid&quot;:&quot;aa211e00-6bc1-11ec-b2be-60a6d7d01a6e&quot;,&quot;vatPercentage&quot;:0.0,&quot;taxRates&quot;:[{&quot;percentage&quot;:0}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:1000,&quot;costPrice&quot;:200,&quot;rowTaxableAmount&quot;:4000,&quot;name&quot;:&quot;Simple Living Eco Laundry Sheets&quot;,&quot;variantName&quot;:&quot;&quot;,&quot;sku&quot;:&quot;000111&quot;,&quot;fromLocationUuid&quot;:&quot;8d772d4a-111d-11ea-9ee7-141cd50f3f99&quot;,&quot;toLocationUuid&quot;:&quot;8d772dc2-111d-11ea-8d3f-2b02be2863a8&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;0&quot;,&quot;type&quot;:&quot;PRODUCT&quot;,&quot;grossValue&quot;:4000,&quot;grossTax&quot;:0,&quot;details&quot;:{},&quot;libraryProduct&quot;:true}],&quot;discounts&quot;:[],&quot;payments&quot;:[{&quot;uuid&quot;:&quot;2c706a47-3f26-11ed-b576-2ecfcc6f207f&quot;,&quot;receiverOrganization&quot;:&quot;d1217020-4c12-11e5-a3fd-0cbfa84bdeb7&quot;,&quot;amount&quot;:2500,&quot;type&quot;:&quot;GIFTCARD&quot;,&quot;currency&quot;:&quot;GBP&quot;,&quot;country&quot;:&quot;GB&quot;,&quot;references&quot;:{&quot;checkoutUUID&quot;:&quot;27343a48-3f26-11ed-ac72-d9bb39b4907a&quot;},&quot;createdAt&quot;:&quot;2022-09-28T12:07:50.524+0000&quot;,&quot;details&quot;:{&quot;checkoutUUID&quot;:&quot;27343a48-3f26-11ed-ac72-d9bb39b4907a&quot;,&quot;giftcardUuid&quot;:&quot;0d6df6f8-3f26-11ed-ac72-d9bb39b4907a&quot;},&quot;attributes&quot;:{}},{&quot;uuid&quot;:&quot;2f169c42-3f26-11ed-ac72-d9bb39b4907a&quot;,&quot;amount&quot;:1400,&quot;type&quot;:&quot;IZETTLE_CASH&quot;,&quot;country&quot;:&quot;GB&quot;,&quot;attributes&quot;:{&quot;changeAmount&quot;:100,&quot;handedAmount&quot;:1500}},{&quot;uuid&quot;:&quot;27500389-3f26-11ed-9be8-8b83846eef31&quot;,&quot;amount&quot;:100,&quot;type&quot;:&quot;STORE_CREDIT&quot;,&quot;attributes&quot;:{}}],&quot;receiptCopyAllowed&quot;:true,&quot;references&quot;:{&quot;shoppingCartUuid&quot;:&quot;10E862E6-3F26-11ED-AC72-D9BB39B4907A&quot;,&quot;exchangeReturnReceiptUUID&quot;:&quot;27343a48-3f26-11ed-ae70-dbb93bb69278&quot;,&quot;checkoutUUID&quot;:&quot;27343a48-3f26-11ed-ac72-d9bb39b4907a&quot;},&quot;taxationMode&quot;:&quot;INCLUSIVE&quot;,&quot;taxationType&quot;:&quot;VAT&quot;,&quot;taxValues&quot;:[{&quot;label&quot;:null,&quot;taxValue&quot;:0,&quot;taxAmount&quot;:0,&quot;totalAmount&quot;:4000,&quot;taxableAmount&quot;:4000}],&quot;customAmountSale&quot;:false,&quot;created&quot;:&quot;2022-09-28T12:07:55.286+0000&quot;,&quot;purchaseUUID1&quot;:&quot;27343a48-3f26-11ed-ad73-d8ba38b5917b&quot;,&quot;groupedVatAmounts&quot;:{&quot;0.0&quot;:4000},&quot;refunded&quot;:false,&quot;refund&quot;:false},{&quot;source&quot;:&quot;POS&quot;,&quot;purchaseUUID&quot;:&quot;JzQ6SD8mEe2ucNu5O7aSeA&quot;,&quot;amount&quot;:-100,&quot;vatAmount&quot;:0,&quot;taxAmount&quot;:0,&quot;country&quot;:&quot;GB&quot;,&quot;currency&quot;:&quot;GBP&quot;,&quot;timestamp&quot;:&quot;2022-09-28T12:07:55.147+0000&quot;,&quot;gpsCoordinates&quot;:{&quot;longitude&quot;:17.94431819555541,&quot;latitude&quot;:59.429290771484375,&quot;accuracyMeters&quot;:65.0},&quot;purchaseNumber&quot;:15421,&quot;globalPurchaseNumber&quot;:15421,&quot;userDisplayName&quot;:&quot;gb iZettle&quot;,&quot;userId&quot;:3193590,&quot;organizationId&quot;:34969296,&quot;products&quot;:[{&quot;quantity&quot;:&quot;-1&quot;,&quot;productUuid&quot;:&quot;599d5700-c8de-11ea-895a-fd28f0fd0f36&quot;,&quot;variantUuid&quot;:&quot;599d5701-c8de-11ea-895a-fd28f0fd0f36&quot;,&quot;vatPercentage&quot;:0.0,&quot;taxRates&quot;:[{&quot;percentage&quot;:0}],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:100,&quot;costPrice&quot;:295,&quot;rowTaxableAmount&quot;:-100,&quot;name&quot;:&quot;Georganics Dental Floss&quot;,&quot;description&quot;:&quot;&quot;,&quot;sku&quot;:&quot;&quot;,&quot;barcode&quot;:&quot;&quot;,&quot;fromLocationUuid&quot;:&quot;8d772dc2-111d-11ea-8d3f-2b02be2863a8&quot;,&quot;toLocationUuid&quot;:&quot;8d772d4a-111d-11ea-9ee7-141cd50f3f99&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;6&quot;,&quot;type&quot;:&quot;PRODUCT&quot;,&quot;grossValue&quot;:-100,&quot;grossTax&quot;:0,&quot;libraryProduct&quot;:true}],&quot;discounts&quot;:[],&quot;payments&quot;:[{&quot;uuid&quot;:&quot;2750041a-3f26-11ed-8ae7-f0062d5005d2&quot;,&quot;amount&quot;:-100,&quot;type&quot;:&quot;STORE_CREDIT&quot;,&quot;attributes&quot;:{}}],&quot;refundsPurchaseUUID&quot;:&quot;msUXE4bwRFqWdOtZ8msbtw&quot;,&quot;receiptCopyAllowed&quot;:true,&quot;references&quot;:{&quot;shoppingCartUuid&quot;:&quot;10E862E6-3F26-11ED-AC72-D9BB39B4907A&quot;,&quot;checkoutUUID&quot;:&quot;27343a48-3f26-11ed-ac72-d9bb39b4907a&quot;},&quot;taxationMode&quot;:&quot;INCLUSIVE&quot;,&quot;taxationType&quot;:&quot;VAT&quot;,&quot;taxValues&quot;:[{&quot;label&quot;:null,&quot;taxValue&quot;:0,&quot;taxAmount&quot;:0,&quot;totalAmount&quot;:-100,&quot;taxableAmount&quot;:-100}],&quot;created&quot;:&quot;2022-09-28T12:07:55.147+0000&quot;,&quot;refundsPurchaseUUID1&quot;:&quot;9ac51713-86f0-445a-9674-eb59f26b1bb7&quot;,&quot;purchaseUUID1&quot;:&quot;27343a48-3f26-11ed-ae70-dbb93bb69278&quot;,&quot;groupedVatAmounts&quot;:{&quot;0.0&quot;:-100},&quot;refunded&quot;:false,&quot;refund&quot;:true},{&quot;source&quot;:&quot;POS&quot;,&quot;purchaseUUID&quot;:&quot;DsjzQD8mEe2tc9i6OLWRew&quot;,&quot;amount&quot;:2500,&quot;country&quot;:&quot;GB&quot;,&quot;currency&quot;:&quot;GBP&quot;,&quot;timestamp&quot;:&quot;2022-09-28T12:07:04.293+0000&quot;,&quot;gpsCoordinates&quot;:{&quot;longitude&quot;:17.944365863563675,&quot;latitude&quot;:59.429229736328125,&quot;accuracyMeters&quot;:65.0},&quot;purchaseNumber&quot;:15420,&quot;globalPurchaseNumber&quot;:15420,&quot;userDisplayName&quot;:&quot;gb iZettle&quot;,&quot;userId&quot;:3193590,&quot;organizationId&quot;:34969296,&quot;products&quot;:[{&quot;quantity&quot;:&quot;1&quot;,&quot;productUuid&quot;:&quot;0d6df6f8-3f26-11ed-ac72-d9bb39b4907a&quot;,&quot;variantUuid&quot;:&quot;0d6df6f8-3f26-11ed-ac72-d9bb39b4907a&quot;,&quot;taxRates&quot;:[],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:2500,&quot;rowTaxableAmount&quot;:2500,&quot;name&quot;:&quot;Gift card&quot;,&quot;fromLocationUuid&quot;:&quot;8d772d4a-111d-11ea-9ee7-141cd50f3f99&quot;,&quot;toLocationUuid&quot;:&quot;8d772dc2-111d-11ea-8d3f-2b02be2863a8&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;0&quot;,&quot;type&quot;:&quot;GIFTCARD&quot;,&quot;grossValue&quot;:2500,&quot;details&quot;:{&quot;giftcardUuid&quot;:&quot;0D6DF6F8-3F26-11ED-AC72-D9BB39B4907A&quot;},&quot;libraryProduct&quot;:true}],&quot;discounts&quot;:[],&quot;payments&quot;:[{&quot;uuid&quot;:&quot;10c74dd6-3f26-11ed-ac72-d9bb39b4907a&quot;,&quot;amount&quot;:2500,&quot;type&quot;:&quot;IZETTLE_CASH&quot;,&quot;country&quot;:&quot;GB&quot;,&quot;attributes&quot;:{&quot;changeAmount&quot;:0,&quot;handedAmount&quot;:2500}}],&quot;receiptCopyAllowed&quot;:true,&quot;references&quot;:{&quot;shoppingCartUuid&quot;:&quot;03EA4DCA-3F26-11ED-AC72-D9BB39B4907A&quot;,&quot;checkoutUUID&quot;:&quot;0ec8f340-3f26-11ed-ac72-d9bb39b4907a&quot;},&quot;taxationMode&quot;:&quot;INCLUSIVE&quot;,&quot;taxationType&quot;:&quot;VAT&quot;,&quot;taxValues&quot;:[],&quot;customAmountSale&quot;:false,&quot;created&quot;:&quot;2022-09-28T12:07:04.293+0000&quot;,&quot;purchaseUUID1&quot;:&quot;0ec8f340-3f26-11ed-ad73-d8ba38b5917b&quot;,&quot;groupedVatAmounts&quot;:{},&quot;refunded&quot;:false,&quot;refund&quot;:false},{&quot;source&quot;:&quot;POS&quot;,&quot;purchaseUUID&quot;:&quot;FGw-oj8lEe2tc9i6OLWRew&quot;,&quot;amount&quot;:2500,&quot;country&quot;:&quot;GB&quot;,&quot;currency&quot;:&quot;GBP&quot;,&quot;timestamp&quot;:&quot;2022-09-28T12:00:03.475+0000&quot;,&quot;gpsCoordinates&quot;:{&quot;longitude&quot;:17.944254678496705,&quot;latitude&quot;:59.42926025390625,&quot;accuracyMeters&quot;:65.0},&quot;purchaseNumber&quot;:15419,&quot;globalPurchaseNumber&quot;:15419,&quot;userDisplayName&quot;:&quot;gb iZettle&quot;,&quot;userId&quot;:3193590,&quot;organizationId&quot;:34969296,&quot;products&quot;:[{&quot;quantity&quot;:&quot;1&quot;,&quot;productUuid&quot;:&quot;f870b386-3f24-11ed-ac72-d9bb39b4907a&quot;,&quot;variantUuid&quot;:&quot;f870b386-3f24-11ed-ac72-d9bb39b4907a&quot;,&quot;taxRates&quot;:[],&quot;taxExempt&quot;:false,&quot;unitPrice&quot;:2500,&quot;rowTaxableAmount&quot;:2500,&quot;name&quot;:&quot;Gift card&quot;,&quot;fromLocationUuid&quot;:&quot;8d772d4a-111d-11ea-9ee7-141cd50f3f99&quot;,&quot;toLocationUuid&quot;:&quot;8d772dc2-111d-11ea-8d3f-2b02be2863a8&quot;,&quot;autoGenerated&quot;:false,&quot;id&quot;:&quot;0&quot;,&quot;type&quot;:&quot;GIFTCARD&quot;,&quot;grossValue&quot;:2500,&quot;details&quot;:{&quot;giftcardUuid&quot;:&quot;F870B386-3F24-11ED-AC72-D9BB39B4907A&quot;},&quot;libraryProduct&quot;:true}],&quot;discounts&quot;:[],&quot;payments&quot;:[{&quot;uuid&quot;:&quot;15bb17c4-3f25-11ed-ac72-d9bb39b4907a&quot;,&quot;amount&quot;:1777,&quot;type&quot;:&quot;IZETTLE_CASH&quot;,&quot;country&quot;:&quot;GB&quot;,&quot;attributes&quot;:{&quot;changeAmount&quot;:223,&quot;handedAmount&quot;:2000}},{&quot;uuid&quot;:&quot;14a0ebe9-3f25-11ed-ab2c-0c2e7886ca3b&quot;,&quot;amount&quot;:723,&quot;type&quot;:&quot;STORE_CREDIT&quot;,&quot;attributes&quot;:{}}],&quot;receiptCopyAllowed&quot;:true,&quot;references&quot;:{&quot;shoppingCartUuid&quot;:&quot;DEE00ACA-3F24-11ED-AC72-D9BB39B4907A&quot;,&quot;exchangeReturnReceiptUUID&quot;:&quot;146c3ea2-3f25-11ed-ae70-dbb93bb69278&quot;,&quot;checkoutUUID&quot;:&quot;146c3ea2-3f25-11ed-ac72-d9bb39b4907a&quot;},&quot;taxationMode&quot;:&quot;INCLUSIVE&quot;,&quot;taxationType&quot;:&quot;VAT&quot;,&quot;taxValues&quot;:[],&quot;customAmountSale&quot;:false,&quot;created&quot;:&quot;2022-09-28T12:00:03.475+0000&quot;,&quot;purchaseUUID1&quot;:&quot;146c3ea2-3f25-11ed-ad73-d8ba38b5917b&quot;,&quot;groupedVatAmounts&quot;:{},&quot;refunded&quot;:false,&quot;refund&quot;:false}],&quot;firstPurchaseHash&quot;:&quot;1664649360174y5PgAEG3Ee2L8GdFCBPIPA&quot;,&quot;lastPurchaseHash&quot;:&quot;1664366403475FGw-oj8lEe2tc9i6OLWRew&quot;,&quot;linkUrls&quot;:[&quot;&lt;https://purchase.izettletest.com/purchases/v2?limit=20&amp;descending=true&amp;lastPurchaseHash=1664366403475FGw-oj8lEe2tc9i6OLWRew&gt;; rel=\&quot;next\&quot;&quot;]}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
