@@ -2,6 +2,7 @@ Feature: Tests for the HomePage
 
   Background: Define URL
     Given url apiUrl
+    * def timeValidator = read('classpath:helpers/timeValidator.js')
 
   Scenario: Get all tags
     Given path 'tags'
@@ -12,18 +13,21 @@ Feature: Tests for the HomePage
     * match response.tags !contains ['trucks']
     # Assert response is of Array type
     * match response.tags == "#array"
+
     # Assert response is of String type
     * match each response.tags == "#string"
+
     # This match will pass if one or more of the values is in the tags array
     * match response.tags contains any ['welcome', 'dragons', 'fish']
+
     # Assertion passes ONLY if the provided values are all that contains in the array, no less or more
    # * match response.tags contains only ['']
     * match each response.tags == "#string"
+
     * def firstTag = response.tags[0]
     * print("First tag in the list: " + firstTag)
 
   Scenario: Get 10 articles from the page
-    * def timeValidator = read('classpath:helpers/timeValidator.js')
 #    Given param limit = 10
 #    Given param offset = 0
     Given params {limit: 10, offset: 0}
@@ -75,3 +79,22 @@ Feature: Tests for the HomePage
               }
           }
     """
+
+  Scenario: Conditiona logic
+    Given path 'articles/Consider-Phlebas-644/'
+    When method Get
+    Then status 200
+    * def favoritesCount = response.article.favoritesCount
+
+    # if favoritesCount equals 0, then call AddLikes.feature and return likesCount variable, otherwise assign favoritesCount to Results var
+    * def result = favoritesCount == 0 ? karate.call('classpath:helpers/AddLikes.feature').likesCount : favoritesCount
+
+    # Other type of conditional logic in Karate
+    #* if (favoritesCount == 0) karate.call('classpath:helpers/AddLikes.feature')
+
+    Given path 'articles/Consider-Phlebas-644/'
+    When method Get
+    Then status 200
+    * print 'Response favoritesCount: ' + response.article.favoritesCount
+    And match response.article.favoritesCount == result
+
